@@ -1,17 +1,21 @@
-import { StrictMode } from 'react';
-import * as ReactDOM from 'react-dom/client';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
-import './polyfills';
-
+import { RecoilRoot } from 'recoil'; // Import RecoilRoot
+import './styles.css';
 import { App } from './app/app';
+import { Buffer } from 'buffer';
+window.Buffer = window.Buffer || Buffer;
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
+
+const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
+
 root.render(
-  <StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </StrictMode>
+  <React.StrictMode>
+    <RecoilRoot>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </RecoilRoot>
+  </React.StrictMode>
 );
