@@ -1,49 +1,69 @@
-import React, { useEffect, useState } from "react";
-import { atom, useRecoilState } from "recoil";
-import { View, Text, FlatList, StyleSheet, Button } from "react-native";
-import { Connection, PublicKey } from '@solana/web3.js';
+import React, { useState, useEffect } from 'react';
+import { useWallet, useConnection } from '@solana/wallet-adapter-react';
+import { getWalletBalance } from './utils/wallet';
+import { PublicKey } from '@solana/web3.js';
 
-const LAMPORTS_PER_SOL = 1000000000; // Number of lamports in one SOL
-
-interface LeaderboardItem {
+interface LeaderboardEntry {
   signer: string;
   total_points: number;
   total_cards: number;
-  entry_rate: string; // New field
-  streak: number; // New field
+  entry_rate: string;
+  streak: number;
 }
 
-interface EntryItem {
+interface UserEntry {
   seed: string;
   points: number;
   cards_collected: number;
-  date: string; // New field
+  date: string;
 }
 
-const poolState = atom<number>({
-  key: 'poolState',
-  default: 0,
-});
+interface UserEntries {
+  entries: UserEntry[];
+}
 
-export function LeaderboardScreens(): JSX.Element {
-  const [leaderboardData, setLeaderboardData] = useState<LeaderboardItem[]>([]);
-  const [userEntries, setUserEntries] = useState<EntryItem[]>([]);
-  const [balance, setBalance] = useRecoilState(poolState);
-  const [showingMyEntries, setShowingMyEntries] = useState(false);
-
-  const userPublicKey = "mpSDUxUmbWixs9TfJS5JUj7KRWMiVEqsSU3zdKVvSyHq";
+export function LeaderboardScreen() {
+  const { publicKey, signTransaction } = useWallet();
+  const { connection } = useConnection();
+  const [leaderboardData, setLeaderboardData] = useState<LeaderboardEntry[]>([]);
+  const [userEntries, setUserEntries] = useState<UserEntry[]>([]);
+  const [balance, setBalance] = useState(0);
+  const [prizePool, setPrizePool] = useState(0);
+  const [showUserEntries, setShowUserEntries] = useState(false);
 
   useEffect(() => {
     fetchLeaderboardData();
-    if (userPublicKey) {
-      fetchUserEntries(userPublicKey);
+    fetchPrizePool();
+  }, [publicKey]);
+
+  const fetchPrizePool = async () => {
+    try {
+      const response = await fetch('https://radial-tame-snow.solana-mainnet.quiknode.pro/f02bf8d532bcad89e4758a5e5540fb988debdcd2/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          jsonrpc: '2.0',
+          id: 1,
+          method: 'getTokenAccountBalance',
+          params: ['HREEjMtEiYEDzoFuDhMD4U833UcKbnS8FABFAtNdcNnS'],
+        }),
+      });
+
+      const data = await response.json();
+      const bonkAmount = data.result.value.uiAmount / 1; // Convert from lamports to BONK
+      setPrizePool(bonkAmount);
+    } catch (error) {
+      console.error('Error fetching prize pool:', error);
     }
-  }, [userPublicKey]);
+  };
 
   const fetchLeaderboardData = async () => {
     try {
       const response = await fetch('https://solanagetaccount.info/leaderboard');
       const data = await response.json();
+      console.log('Leaderboard data:', data);
       setLeaderboardData(data.leaderboard);
     } catch (error) {
       console.error('Failed to fetch leaderboard data:', error);
@@ -53,162 +73,95 @@ export function LeaderboardScreens(): JSX.Element {
   const fetchUserEntries = async (publicKey: string) => {
     try {
       const response = await fetch(`https://solanagetaccount.info/entries/${publicKey}`);
-      const data = await response.json();
-      setUserEntries(data.entries); // Assuming the API returns an array of entries
+      const data: UserEntries = await response.json();
+      setUserEntries(data.entries || []);
     } catch (error) {
       console.error('Failed to fetch user entries:', error);
     }
   };
 
-  useEffect(() => {
-    const connection = new Connection('https://damp-fabled-panorama.solana-mainnet.quiknode.pro/186133957d30cece76e7cd8b04bce0c5795c164e/');
-    const prizePoolPublicKey = new PublicKey('crushpRpFZ7r36fNfCMKHFN4SDvc7eyXfHehVu34ecW');
-
-    async function fetchBalance() {
-      try {
-        const lamports = await connection.getBalance(prizePoolPublicKey);
-        const sol = lamports / LAMPORTS_PER_SOL;
-        setBalance(sol);
-      } catch (error) {
-        console.error('Error fetching balance', error);
+  const fetchWalletData = async () => {
+    try {
+      if (publicKey) {
+        const balance = await getWalletBalance(connection, publicKey);
+        setBalance(balance);
       }
+    } catch (error) {
+      console.error('Error fetching wallet data:', error);
     }
-
-    fetchBalance();
-  }, []);
-
-  const handleShowMyEntries = () => {
-    setShowingMyEntries(!showingMyEntries);
   };
 
-  const truncateString = (str: string): string => {
-    return str.substring(0, 4) + "..";
-  };
-
-  const LeaderboardHeader = (): JSX.Element => (
-    <View style={styles.leaderboardHeader}>
-      <Text style={styles.headerText}>Rank</Text>
-      <Text style={styles.headerText}>Key</Text>
-      <Text style={styles.headerText}>Points</Text>
-      <Text style={styles.headerText}>Cards</Text>
-      <Text style={styles.headerText}>Entry Rate</Text> {/* New */}
-      <Text style={styles.headerText}>Streak</Text> {/* New */}
-    </View>
-  );
-
-  const renderLeaderboardItem = ({ item, index }: { item: LeaderboardItem; index: number }): JSX.Element => (
-    <View style={styles.leaderboardItem}>
-      <Text style={styles.itemText}>{index + 1}</Text>
-      <Text style={styles.itemText}>{truncateString(item.signer)}</Text>
-      <Text style={styles.itemText}>{item.total_points}</Text>
-      <Text style={styles.itemText}>{item.total_cards}</Text>
-      <Text style={styles.itemText}>{item.entry_rate}</Text> {/* New */}
-      <Text style={styles.itemText}>{item.streak}</Text> {/* New */}
-    </View>
-  );
-
-  const renderUserEntries = (): JSX.Element => {
-    if (userEntries.length === 0) {
-      return <Text>No entries found for this user.</Text>;
+  const toggleView = () => {
+    if (!showUserEntries && publicKey) {
+      fetchUserEntries(publicKey.toString());
     }
-
-    return (
-      <>
-        <LeaderboardHeader />
-        {userEntries.map((item, index) => (
-          <View key={index} style={styles.leaderboardItem}>
-            <Text style={styles.itemText}>{index + 1}</Text>
-            <Text style={styles.itemText}>{truncateString(item.seed)}</Text>
-            <Text style={styles.itemText}>{item.points}</Text>
-            <Text style={styles.itemText}>{item.cards_collected}</Text>
-            <Text style={styles.itemText}>{item.date}</Text> {/* New */}
-          </View>
-        ))}
-      </>
-    );
+    setShowUserEntries(!showUserEntries);
   };
+
+  const formatSigner = (signer: string) => {
+    if (!signer) return '';
+    return `${signer.slice(0, 4)}...${signer.slice(-4)}`;
+  };
+
+  const dataToDisplay = showUserEntries ? userEntries : leaderboardData;
 
   return (
-    <View style={styles.container}>
-      {/* Display Prize Pool Balance */}
-      <View style={styles.prizePoolContainer}>
-        <Text style={styles.prizeTitle}>Prize Pool Balance: {balance.toFixed(2)} SOL</Text>
-      </View>
-      {/* Existing UI elements remain unchanged */}
-      <Button
-        title={showingMyEntries ? "Show All Entries" : "Show Just My Entries"}
-        onPress={handleShowMyEntries}
-      />
-      {!showingMyEntries ? (
-        <>
-          <LeaderboardHeader />
-          <FlatList
-            data={leaderboardData}
-            renderItem={renderLeaderboardItem}
-            keyExtractor={(item, index) => 'leaderboard' + item.signer + index}
-          />
-        </>
-      ) : (
-        renderUserEntries()
-      )}
-      <Button title="Refresh Leaderboard" onPress={fetchLeaderboardData} />
-    </View>
+    <div className="bg-black flex flex-col items-center justify-center min-h-screen text-white p-4">
+      <div className="bg-gray-800 p-6 rounded-lg w-full max-w-4xl">
+        <h2 className="text-2xl font-bold mb-4">BONK Prize Pool: {prizePool.toLocaleString()} BONK</h2>
+        <table className="min-w-full bg-gray-800">
+          <thead>
+            <tr>
+              <th className="py-2 px-4">Rank</th>
+              <th className="py-2 px-4">Signer</th>
+              <th className="py-2 px-4">Total Points</th>
+              <th className="py-2 px-4">Total Cards</th>
+              <th className="py-2 px-4">Entry Rate</th>
+              <th className="py-2 px-4">Streak</th>
+            </tr>
+          </thead>
+          <tbody>
+            {!showUserEntries ? (
+              leaderboardData.map((entry, index) => (
+                <tr key={entry.signer} className="bg-gray-700 even:bg-gray-600">
+                  <td className="py-2 px-4">{index + 1}</td>
+                  <td className="py-2 px-4 break-all">{formatSigner(entry.signer)}</td>
+                  <td className="py-2 px-4">{entry.total_points}</td>
+                  <td className="py-2 px-4">{entry.total_cards}</td>
+                  <td className="py-2 px-4">{entry.entry_rate}</td>
+                  <td className="py-2 px-4">{entry.streak}</td>
+                </tr>
+              ))
+            ) : (
+              userEntries.map((entry, index) => (
+                <tr key={entry.seed} className="bg-gray-700 even:bg-gray-600">
+                  <td className="py-2 px-4">{index + 1}</td>
+                  <td className="py-2 px-4 break-all">{formatSigner(entry.seed)}</td>
+                  <td className="py-2 px-4">{entry.points}</td>
+                  <td className="py-2 px-4">{entry.cards_collected}</td>
+                  <td className="py-2 px-4">{entry.date}</td>
+                </tr>
+              ))
+            )}
+          </tbody>
+        </table>
+      </div>
+
+      <button
+        onClick={fetchLeaderboardData}
+        className="btn-large bg-gold text-black rounded-full font-bold border-2 border-gold hover:bg-black hover:text-gold transition-colors duration-300 mt-8 px-6 py-3"
+      >
+        Refresh Leaderboard
+      </button>
+
+      <button
+        onClick={toggleView}
+        className="btn-large bg-gold text-black rounded-full font-bold border-2 border-gold hover:bg-black hover:text-gold transition-colors duration-300 mt-4 px-6 py-3"
+      >
+        {showUserEntries ? 'Show Leaderboard' : 'Show My Entries'}
+      </button>
+    </div>
   );
 }
 
-// Adjusted styles to include the leaderboard header and column alignment
-const styles = StyleSheet.create({
-  leaderboardHeader: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    paddingHorizontal: 20,
-    paddingBottom: 10,
-  },
-  leaderboardItem: {
-    flexDirection: "row",
-    justifyContent: "space-evenly",
-    alignItems: "center",
-    paddingVertical: 10,
-    paddingHorizontal: 20,
-    borderBottomWidth: 1,
-    borderBottomColor: "#ccc",
-  },
-  headerText: {
-    fontSize: 16,
-    fontWeight: "bold",
-    flex: 1, // Ensures equal spacing
-  },
-  itemText: {
-    fontSize: 16,
-    flex: 2, // Ensures alignment with headers
-  },
-  container: {
-    flex: 1,
-    marginTop: 20,
-  },
-  headerRow: {
-    flexDirection: "row",
-    justifyContent: "space-evenly",
-    paddingBottom: 10,
-    borderBottomWidth: 1,
-    borderBottomColor: "#ccc",
-  },
-  header: {
-    fontWeight: "bold",
-    flex: 1,
-    textAlign: 'center', // Ensure text is centered within each column
-  },
-  column: {
-    flex: 1,
-    textAlign: 'center', // Ensure text is centered, improving alignment
-  },
-  prizePoolContainer: {
-    padding: 5,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  prizeTitle: {
-    fontSize: 15,
-    fontWeight: 'bold',
-  },
-});
+export default LeaderboardScreen;

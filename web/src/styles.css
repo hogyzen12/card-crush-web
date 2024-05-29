@@ -17,20 +17,26 @@ body,
 @tailwind utilities;
 
 /* Custom styles */
-.bg-gold {
-  background-color: #d4af37; /* Gold color */
-}
+@layer utilities {
+  .bg-gold {
+    background-color: #d4af37; /* Gold color */
+  }
 
-.border-gold {
-  border-color: #d4af37; /* Gold color */
-}
+  .border-gold {
+    border-color: #d4af37; /* Gold color */
+  }
 
-.hover\:bg-black:hover {
-  background-color: #000; /* Black on hover */
-}
+  .hover\:bg-black:hover {
+    background-color: #000; /* Black on hover */
+  }
 
-.hover\:text-gold:hover {
-  color: #d4af37; /* Gold text on hover */
+  .hover\:text-gold:hover {
+    color: #d4af37; /* Gold text on hover */
+  }
+
+  .text-gold {
+    color: #d4af37; /* Gold color */
+  }
 }
 
 /* Ensure the buttons are clearly visible */
@@ -48,4 +54,18 @@ button:disabled {
   width: 175px;
   height: 50px;
   font-size: 1.25rem;
+}
+
+/* New custom button styles */
+.button-primary {
+  @apply bg-yellow-400 text-black font-bold px-6 py-2 rounded-full;
+}
+
+.button-primary:hover {
+  @apply bg-yellow-500;
+}
+
+/* Prize pool display styles */
+.prize-pool-display {
+  @apply bg-gray-900 text-gold font-bold px-4 py-2 rounded-full;
 }
