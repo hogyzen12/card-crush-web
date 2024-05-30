@@ -4,6 +4,7 @@ import { Connection, PublicKey, SystemProgram, Transaction, TransactionInstructi
 import { useWallet, useConnection } from '@solana/wallet-adapter-react';
 import { getWalletBalance } from './utils/wallet';
 import { createPaymentTx } from './transaction';
+import axios from 'axios';
 
 const connection = new Connection('https://damp-fabled-panorama.solana-mainnet.quiknode.pro/186133957d30cece76e7cd8b04bce0c5795c164e/');
 
@@ -36,6 +37,16 @@ const generateBoardFromSeed = (currentSeed: string): number[][] => {
   }
   return board;
 };
+
+const transactionStatusState = atom({
+  key: 'transactionStatusState',
+  default: 'Idle',
+});
+
+const transactionProcessingState = atom({
+  key: 'transactionProcessingState',
+  default: false,
+});
 
 const boardState = atom({
   key: 'boardState',
@@ -84,6 +95,8 @@ const currentSeedState = atom({
 
 export function GameScreen() {
   const { publicKey, signTransaction } = useWallet();
+  const [transactionStatus, setTransactionStatus] = useRecoilState(transactionStatusState);
+  const [transactionProcessing, setTransactionProcessing] = useRecoilState(transactionProcessingState);
   const [board, setBoard] = useRecoilState(boardState);
   const [matchCount, setMatchCount] = useRecoilState(matchCountState);
   const [cardCollectedCount, setcardCollectedCount] = useRecoilState(cardCollectedState);
@@ -137,6 +150,7 @@ export function GameScreen() {
 
   const generateSeedBoard = () => {
     const newBoard = generateBoardFromSeed(currentSeed);
+    setTransactionStatus('Idle')
     setBoard(newBoard);
     setMatchCount(0);
     setcardCollectedCount(0);
@@ -312,6 +326,8 @@ export function GameScreen() {
     }
   
     try {
+      setTransactionStatus('Creating transaction...');
+      setTransactionProcessing(true); // Set transaction processing to true
       const txid = await createPaymentTx(
         0.0042, // Amount in SOL
         receiver.toString(),
@@ -322,13 +338,53 @@ export function GameScreen() {
       );
   
       console.log("Transaction ID:", txid);
+      setSignature(txid); // Set the signature state with the transaction ID
+      setTransactionStatus('Transaction created. Waiting for confirmation...');
+  
+      const QUICKNODE_URL = "https://radial-tame-snow.solana-mainnet.quiknode.pro/f02bf8d532bcad89e4758a5e5540fb988debdcd2/";
+  
+      async function getTransactionStatus(txid: string): Promise<any> {
+        const payload = {
+          jsonrpc: "2.0",
+          id: 1,
+          method: "getTransaction",
+          params: [txid, { encoding: "jsonParsed", maxSupportedTransactionVersion: 0 }]
+        };
+  
+        try {
+          const response = await axios.post(QUICKNODE_URL, payload, {
+            headers: { "Content-Type": "application/json" },
+          });
+          return response.data.result;
+        } catch (error) {
+          console.error("Error:", error);
+          throw new Error("Cannot get transaction status!");
+        }
+      }
+  
+      // Poll for transaction status
+      let status;
+      for (let i = 0; i < 10; i++) {
+        await new Promise(resolve => setTimeout(resolve, 2500)); // Wait for 5 seconds before each check
+        setTransactionStatus(`Checking transaction status... (attempt ${i + 1})`);
+        status = await getTransactionStatus(txid);
+        console.log(status);
+        if (status) {
+          setTransactionStatus(`TX confirmed! Explorer link: <a href="https://solscan.io/tx/${txid}" target="_blank" rel="noopener noreferrer"> TX Link</a>`);
+          setTransactionProcessing(false); // Set transaction processing to false
+          break;
+        }
+      }
+  
+      if (!status) {
+        setTransactionStatus('Transaction not confirmed after multiple attempts.');
+        setTransactionProcessing(false); // Set transaction processing to false
+      }
     } catch (error) {
       console.error("Error submitting entry:", error);
+      setTransactionStatus('Error submitting transaction.');
+      setTransactionProcessing(false); // Set transaction processing to false
     }
-  };
-
-  const truncateTX = (str: string) => {
-    return str.substring(0, 4) + "..." + str.substring(str.length - 4);
   };
 
   return (
@@ -357,10 +413,7 @@ export function GameScreen() {
       </div>
       <div className="flex justify-center items-center mt-8 space-x-8">
         {turnCount > 23 && !signature && (
-          <span className="text-green-500 text-center mt-2">Move limit reached. You can now submit your score!</span>
-        )}
-        {signature && turnCount > 23 && (
-          <span className="text-blue-500 text-center mt-2">TX submitted: {truncateTX(signature)}</span>
+          <span className="text-green-500 text-center mt-2">You can now submit!</span>
         )}
         <button 
           onClick={generateSeedBoard} 
@@ -371,11 +424,17 @@ export function GameScreen() {
         <button 
           onClick={entrySubmit} 
           className="btn-large bg-gold text-black rounded-full font-bold border-2 border-gold hover:bg-black hover:text-gold transition-colors duration-300" 
-          disabled={turnCount < 2 || !!signature}
+          disabled={turnCount < 23 || !!signature}
         >
           Submit
         </button>
       </div>
+      <div className="text-white mb-4" dangerouslySetInnerHTML={{ __html: transactionStatus }}></div>
+      {transactionProcessing && (
+        <div className="flex justify-center items-center">
+          <img src={"assets/load.gif"} alt="Loading..." />
+        </div>
+      )}
     </div>
   );  
 }

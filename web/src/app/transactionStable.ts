@@ -1,13 +1,4 @@
-import {
-  Connection,
-  PublicKey,
-  TransactionMessage,
-  VersionedTransaction,
-  ComputeBudgetProgram,
-  SystemProgram,
-  LAMPORTS_PER_SOL,
-  TransactionInstruction
-} from '@solana/web3.js';
+import { Connection, PublicKey, TransactionMessage, VersionedTransaction, ComputeBudgetProgram, SystemProgram, LAMPORTS_PER_SOL, TransactionInstruction } from '@solana/web3.js';
 import axios from 'axios';
 import bs58 from 'bs58';
 import { Buffer } from 'buffer';
@@ -58,6 +49,7 @@ export async function createPaymentTx(
 
   const instructions = [
     ComputeBudgetProgram.setComputeUnitPrice({ microLamports: config.microLamports }),
+    //ComputeBudgetProgram.setComputeUnitLimit({ units: config.units }),
     SystemProgram.transfer({
       fromPubkey: senderPublicKey,
       toPubkey: toAccount,
@@ -97,7 +89,5 @@ export async function createPaymentTx(
   const signedTransaction = await signTransaction(transaction);
   const rawTransaction = signedTransaction.serialize();
 
-  const txid = await sendTransactionJito(rawTransaction);
-
-  return txid;
+  return await sendTransactionJito(rawTransaction);
 }
