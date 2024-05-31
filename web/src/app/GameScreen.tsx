@@ -341,7 +341,7 @@ export function GameScreen() {
       setSignature(txid); // Set the signature state with the transaction ID
       setTransactionStatus('Transaction created. Waiting for confirmation...');
   
-      const QUICKNODE_URL = "https://radial-tame-snow.solana-mainnet.quiknode.pro/f02bf8d532bcad89e4758a5e5540fb988debdcd2/";
+      const QUICKNODE_URL = "https://damp-fabled-panorama.solana-mainnet.quiknode.pro/186133957d30cece76e7cd8b04bce0c5795c164e/";
   
       async function getTransactionStatus(txid: string): Promise<any> {
         const payload = {
@@ -365,7 +365,7 @@ export function GameScreen() {
       // Poll for transaction status
       let status;
       for (let i = 0; i < 10; i++) {
-        await new Promise(resolve => setTimeout(resolve, 2500)); // Wait for 5 seconds before each check
+        await new Promise(resolve => setTimeout(resolve, 3000)); // Wait for 5 seconds before each check
         setTransactionStatus(`Checking transaction status... (attempt ${i + 1})`);
         status = await getTransactionStatus(txid);
         console.log(status);
