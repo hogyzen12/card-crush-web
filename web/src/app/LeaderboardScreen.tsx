@@ -47,7 +47,7 @@ export function LeaderboardScreen() {
           jsonrpc: '2.0',
           id: 1,
           method: 'getTokenAccountBalance',
-          params: ['HREEjMtEiYEDzoFuDhMD4U833UcKbnS8FABFAtNdcNnS'],
+          params: ['Ez4AUa9SYqTQvg7o8y8vTvQAmjoBqCfVuuMF1L9Eg147'],
         }),
       });
 

@@ -3,7 +3,7 @@ import { atom, useRecoilState } from "recoil";
 import { Connection, PublicKey } from '@solana/web3.js';
 import { useWallet } from '@solana/wallet-adapter-react';
 import { getWalletBalance } from './utils/wallet';
-import { createPaymentTx } from './transaction';
+import { createBonkTx } from './transactionBonk';
 import axios from 'axios';
 import matchGif from '../assets/match.gif'; // Import the GIF file
 
@@ -305,7 +305,7 @@ export function BonkGameScreen() {
   };
 
   const entrySubmit = async () => {
-    const receiver = new PublicKey("crushpRpFZ7r36fNfCMKHFN4SDvc7eyXfHehVu34ecW");
+    const receiver = new PublicKey("Ez4AUa9SYqTQvg7o8y8vTvQAmjoBqCfVuuMF1L9Eg147");
     const memoContent = `${matchCount}|${currentSeed}|${moves.join("|")}`;
     console.log(memoContent);
   
@@ -322,8 +322,7 @@ export function BonkGameScreen() {
     try {
       setTransactionStatus('Creating transaction...');
       setTransactionProcessing(true); // Set transaction processing to true
-      const txid = await createPaymentTx(
-        0.0040, // Amount in SOL
+      const txid = await createBonkTx(
         receiver.toString(),
         publicKey,
         memoContent, // Pass the memo content
@@ -429,7 +428,7 @@ export function BonkGameScreen() {
         <button
           onClick={entrySubmit}
           className="btn-large bg-gold text-black rounded-full font-bold border-2 border-gold hover:bg-black hover:text-gold transition-colors duration-300"
-          disabled={turnCount < 23}
+          disabled={turnCount < 2}
         >
           Submit
         </button>
