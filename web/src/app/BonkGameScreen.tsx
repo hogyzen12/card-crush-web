@@ -143,7 +143,7 @@ export function BonkGameScreen() {
   useEffect(() => {
     const fetchCurrentSeed = async () => {
       try {
-        const response = await fetch('https://solanagetaccount.info/current_seed', {
+        const response = await fetch('https://solanagetaccount.info/bonk_current_seed', {
           method: 'GET',
           headers: {
             accept: 'application/json',
