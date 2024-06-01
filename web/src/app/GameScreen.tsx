@@ -5,6 +5,7 @@ import { useWallet, useConnection } from '@solana/wallet-adapter-react';
 import { getWalletBalance } from './utils/wallet';
 import { createPaymentTx } from './transaction';
 import axios from 'axios';
+import matchGif from 'assets/match.gif'; // Import the GIF file
 
 const connection = new Connection('https://damp-fabled-panorama.solana-mainnet.quiknode.pro/186133957d30cece76e7cd8b04bce0c5795c164e/');
 
@@ -45,6 +46,11 @@ const transactionStatusState = atom({
 
 const transactionProcessingState = atom({
   key: 'transactionProcessingState',
+  default: false,
+});
+
+const showNotificationState = atom({
+  key: 'showNotificationState',
   default: false,
 });
 
@@ -97,6 +103,7 @@ export function GameScreen() {
   const { publicKey, signTransaction } = useWallet();
   const [transactionStatus, setTransactionStatus] = useRecoilState(transactionStatusState);
   const [transactionProcessing, setTransactionProcessing] = useRecoilState(transactionProcessingState);
+  const [showNotification, setShowNotification] = useRecoilState(showNotificationState);
   const [board, setBoard] = useRecoilState(boardState);
   const [matchCount, setMatchCount] = useRecoilState(matchCountState);
   const [cardCollectedCount, setcardCollectedCount] = useRecoilState(cardCollectedState);
@@ -123,6 +130,14 @@ export function GameScreen() {
       console.error('Error fetching wallet data:', error);
     }
   };
+
+  useEffect(() => {
+    if (turnCount > 2) {
+      setShowNotification(true);
+      const timer = setTimeout(() => setShowNotification(false), 2500);
+      return () => clearTimeout(timer);
+    }
+  }, [turnCount]);
 
   useEffect(() => {
     const fetchCurrentSeed = async () => {
@@ -207,8 +222,6 @@ export function GameScreen() {
         newBoard[row + (len - 1) * rowInc][col + (len - 1) * colInc] = indices[2];
       }
     };
-
-
 
     const matchAndReplace = (row: number, col: number, rowInc: number, colInc: number, len: number) => {
       let baseValue = newBoard[row][col];
@@ -388,8 +401,8 @@ export function GameScreen() {
   };
 
   return (
-    <div className="bg-black flex flex-col items-center justify-center min-h-screen p-4">
-      <div className="w-full flex justify-around text-white mb-4">
+    <div className="centered-container bg-black min-h-screen p-4">
+      <div className="w-full flex flex-col items-center text-white mb-4">
         <span className="text-lg font-bold">Turn: {turnCount}/24</span>
         <span className="text-lg font-bold">Cards: {cardCollectedCount}</span>
         <span className="text-lg font-bold">Points: {matchCount}</span>
@@ -402,29 +415,41 @@ export function GameScreen() {
                 <button
                   key={colIndex}
                   onClick={() => handleTilePress(rowIndex, colIndex)}
-                  className={`w-16 h-16 md:w-20 md:h-20 ${selectedTile && selectedTile.row === rowIndex && selectedTile.col === colIndex ? "opacity-50" : ""}`}
+                  className={`w-16 h-16 md:w-20 md:h-20 ${
+                    selectedTile &&
+                    selectedTile.row === rowIndex &&
+                    selectedTile.col === colIndex
+                      ? "opacity-50"
+                      : ""
+                  }`}
                 >
-                  <img src={candyImages[candyIndex]} alt={`Candy ${candyIndex}`} className="w-full h-full object-cover" />
+                  <img
+                    src={candyImages[candyIndex]}
+                    alt={`Candy ${candyIndex}`}
+                    className="w-full h-full object-cover"
+                  />
                 </button>
               ))}
             </div>
           ))}
         </div>
       </div>
-      <div className="flex justify-center items-center mt-8 space-x-8">
-        {turnCount > 23 && !signature && (
-          <span className="text-green-500 text-center mt-2">You can now submit!</span>
-        )}
-        <button 
-          onClick={generateSeedBoard} 
+      {showNotification && (
+        <div className="fixed top-4 left-1/2 transform -translate-x-1/2 bg-green-500 text-white px-4 py-2 rounded">
+          You can now submit!
+        </div>
+      )}
+      <div className="flex flex-col items-center mt-8 space-y-4">
+        <button
+          onClick={generateSeedBoard}
           className="btn-large bg-gold text-black rounded-full font-bold border-2 border-gold hover:bg-black hover:text-gold transition-colors duration-300"
         >
           Reset
         </button>
-        <button 
-          onClick={entrySubmit} 
-          className="btn-large bg-gold text-black rounded-full font-bold border-2 border-gold hover:bg-black hover:text-gold transition-colors duration-300" 
-          disabled={turnCount < 23 || !!signature}
+        <button
+          onClick={entrySubmit}
+          className="btn-large bg-gold text-black rounded-full font-bold border-2 border-gold hover:bg-black hover:text-gold transition-colors duration-300"
+          disabled={turnCount < 2}
         >
           Submit
         </button>
@@ -436,5 +461,5 @@ export function GameScreen() {
         </div>
       )}
     </div>
-  );  
-}
+  );
+};
