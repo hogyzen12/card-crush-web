@@ -6,9 +6,13 @@ module.exports = composePlugins(withNx(), withReact(), (config) => {
   // Update the webpack config as needed here.
   // e.g. `config.plugins.push(new MyPlugin())`
   config.ignoreWarnings = [/Failed to parse source map/];
+  
+  // Add your existing fallbacks and the new vm-browserify fallback
   config.resolve.fallback = {
+    ...config.resolve.fallback,
     crypto: require.resolve('crypto-browserify'),
     stream: require.resolve('stream-browserify'),
+    vm: require.resolve('vm-browserify')
   };
 
   return config;
