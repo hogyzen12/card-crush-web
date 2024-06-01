@@ -1,19 +1,21 @@
 import React, { useEffect } from "react";
 import { atom, useRecoilState } from "recoil";
-import { Connection, PublicKey, SystemProgram, Transaction, TransactionInstruction, LAMPORTS_PER_SOL } from '@solana/web3.js';
-import { useWallet, useConnection } from '@solana/wallet-adapter-react';
+import { Connection, PublicKey } from '@solana/web3.js';
+import { useWallet } from '@solana/wallet-adapter-react';
 import { getWalletBalance } from './utils/wallet';
 import { createPaymentTx } from './transaction';
 import axios from 'axios';
+import matchGif from '../assets/match.gif'; // Import the GIF file
 
 const connection = new Connection('https://damp-fabled-panorama.solana-mainnet.quiknode.pro/186133957d30cece76e7cd8b04bce0c5795c164e/');
 
 const deepCopyBoard = (originalBoard: number[][]): number[][] => {
-  return originalBoard.map(row => row.slice());
+  return originalBoard.map(row => [...row]);
 };
 
 const gridRows = 5;
 const gridCols = 5;
+const matchGifIndex = 42;
 
 const candyImages = [
   "assets/backpack.png",
@@ -22,7 +24,7 @@ const candyImages = [
   "assets/nyla.png",
   "assets/otter.png",
   "assets/tetsu.png",
-  "assets/metame.gif"
+  matchGif
 ];
 
 let currentSeed = "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL";
@@ -63,11 +65,6 @@ const matchCountState = atom({
   default: 0,
 });
 
-const cardCollectedState = atom({
-  key: 'cardCollectedState',
-  default: 0,
-});
-
 const turnCountState = atom({
   key: 'turnCountState',
   default: 0,
@@ -98,20 +95,25 @@ const currentSeedState = atom({
   default: currentSeed,
 });
 
-export function GameScreen() {
+const animationBoardState = atom({
+  key: 'animationBoardState',
+  default: generateBoardFromSeed(currentSeed),
+});
+
+export function BonkGameScreen() {
   const { publicKey, signTransaction } = useWallet();
   const [transactionStatus, setTransactionStatus] = useRecoilState(transactionStatusState);
   const [transactionProcessing, setTransactionProcessing] = useRecoilState(transactionProcessingState);
   const [showNotification, setShowNotification] = useRecoilState(showNotificationState);
   const [board, setBoard] = useRecoilState(boardState);
   const [matchCount, setMatchCount] = useRecoilState(matchCountState);
-  const [cardCollectedCount, setcardCollectedCount] = useRecoilState(cardCollectedState);
   const [turnCount, setTurnCount] = useRecoilState(turnCountState);
   const [selectedTile, setSelectedTile] = useRecoilState(selectedTileState);
   const [moves, setMoves] = useRecoilState(movesState);
   const [balance, setBalance] = useRecoilState(balanceState);
   const [signature, setSignature] = useRecoilState(signatureState);
   const [currentSeed, setCurrentSeed] = useRecoilState(currentSeedState);
+  const [animationBoard, setAnimationBoard] = useRecoilState(animationBoardState);
 
   useEffect(() => {
     if (publicKey) {
@@ -131,10 +133,10 @@ export function GameScreen() {
   };
 
   useEffect(() => {
-    if (turnCount > 23) {
+    if (turnCount >= 23) {
       setShowNotification(true);
-      const timer = setTimeout(() => setShowNotification(false), 2500);
-      return () => clearTimeout(timer);
+    } else {
+      setShowNotification(false);
     }
   }, [turnCount]);
 
@@ -153,6 +155,7 @@ export function GameScreen() {
           setCurrentSeed(data.current_seed);
           const newBoard = generateBoardFromSeed(data.current_seed);
           setBoard(newBoard);
+          setAnimationBoard(newBoard); // Initialize animation board
         }
       } catch (error) {
         console.error('Error fetching current seed:', error);
@@ -160,87 +163,68 @@ export function GameScreen() {
     };
 
     fetchCurrentSeed();
-  }, [setCurrentSeed, setBoard]);
+  }, [setCurrentSeed, setBoard, setAnimationBoard]);
 
   const generateSeedBoard = () => {
     const newBoard = generateBoardFromSeed(currentSeed);
     setTransactionStatus('Idle')
     setBoard(newBoard);
+    setAnimationBoard(newBoard);
     setMatchCount(0);
-    setcardCollectedCount(0);
     setTurnCount(0);
     setMoves([]);
   };
 
-  const getReplacementIndices = (matchedIndex: number, totalMatches: number): number[] => {
-    if (matchedIndex < 0 || matchedIndex >= candyImages.length - 1) {
-      throw new Error('Invalid candy index');
-    }
-
-    if (matchedIndex === candyImages.length - 1) {
-      if (totalMatches % 2 === 0) {
-        return [0, 1, 2];
-      } else {
-        return [3, 4, 5];
-      }
-    }
-
+  const getReplacementIndices = (matchedIndex: number): number[] => {
     const previousIndex = matchedIndex - 1 < 0 ? candyImages.length - 2 : matchedIndex - 1;
     const nextIndex = (matchedIndex + 1) % (candyImages.length - 1);
 
-    return [previousIndex, candyImages.length - 1, nextIndex];
+    return [previousIndex, candyImages.length - 2, nextIndex];
   };
 
   const detectAndReplaceMatches = (newBoard: number[][]) => {
     let matches = 0;
-    let cardMatches = 0;
-    let specialCardMatches = 0;
 
-    const replaceCandies = (row: number, col: number, rowInc: number, colInc: number, len: number, matchedType: number) => {
-      let indices;
-      if (matchedType === candyImages.length - 1 && len === 3) {
-        if (colInc !== 0) {
-          newBoard[row][col] = 0;
-          newBoard[row][col + colInc] = 1;
-          newBoard[row][col + 2 * colInc] = 2;
-        } else {
-          newBoard[row][col] = 5;
-          newBoard[row + rowInc][col] = 4;
-          newBoard[row + 2 * rowInc][col] = 3;
-        }
-        cardMatches += len;
-        specialCardMatches += len;
-        console.log("cardMatches: " + cardMatches);
-        console.log("specialCardMatches: " + specialCardMatches);
-      } else {
-        indices = getReplacementIndices(matchedType, cardMatches);
-        newBoard[row][col] = indices[0];
-        for (let i = 1; i < len - 1; i++) {
-          newBoard[row + i * rowInc][col + i * colInc] = indices[1];
-        }
-        newBoard[row + (len - 1) * rowInc][col + (len - 1) * colInc] = indices[2];
+    const replaceCandies = (mutableBoard: number[][], row: number, col: number, rowInc: number, colInc: number, len: number, matchedType: number) => {
+      let indices = getReplacementIndices(matchedType);
+      mutableBoard[row][col] = indices[0];
+      for (let i = 1; i < len - 1; i++) {
+        mutableBoard[row + i * rowInc][col + i * colInc] = indices[1];
       }
+      mutableBoard[row + (len - 1) * rowInc][col + (len - 1) * colInc] = indices[2];
     };
 
-    const matchAndReplace = (row: number, col: number, rowInc: number, colInc: number, len: number) => {
-      let baseValue = newBoard[row][col];
-      let replace = false;
+  const matchAndReplace = (row: number, col: number, rowInc: number, colInc: number, len: number) => {
+    let baseValue = newBoard[row][col];
+    let replace = false;
 
-      for (let i = 1; i < len; i++) {
-        if (newBoard[row + i * rowInc][col + i * colInc] !== baseValue) {
-          replace = false;
-          break;
+    for (let i = 1; i < len; i++) {
+      if (newBoard[row + i * rowInc][col + i * colInc] !== baseValue) {
+        replace = false;
+        break;
+      }
+      replace = true;
+    }
+
+    if (replace) {
+      matches += len;
+      setAnimationBoard(prevAnimationBoard => {
+        const updatedAnimationBoard = deepCopyBoard(prevAnimationBoard);
+        for (let i = 0; i < len; i++) {
+          updatedAnimationBoard[row + i * rowInc][col + i * colInc] = matchGifIndex;
         }
-        replace = true;
-      }
+        return updatedAnimationBoard;
+      });
+      setTimeout(() => {
+        const mutableBoard = deepCopyBoard(newBoard);
+        replaceCandies(mutableBoard, row, col, rowInc, colInc, len, baseValue);
+        setBoard(mutableBoard);
+        setAnimationBoard(mutableBoard);
+      }, 790); // Delay in milliseconds for animation
+    }
 
-      if (replace) {
-        matches += len;
-        replaceCandies(row, col, rowInc, colInc, len, baseValue);
-      }
-
-      return replace;
-    };
+    return replace;
+  };
 
     for (let row = 0; row < gridRows; row++) {
       for (let col = 0; col < gridCols; col++) {
@@ -252,8 +236,7 @@ export function GameScreen() {
     }
 
     return {
-      matches: matches,
-      specialMatches: specialCardMatches
+      matches: matches
     };
   };
 
@@ -286,19 +269,18 @@ export function GameScreen() {
         newBoard[rowIndex][colIndex] = newBoard[selectedTile.row][selectedTile.col];
         newBoard[selectedTile.row][selectedTile.col] = temp;
 
+        setBoard(newBoard); // Set the board first to show the swap
+        setAnimationBoard(newBoard);
+
         const matchesFound = detectAndReplaceMatches(newBoard);
         const matchCount = matchesFound.matches;
 
         if (matchCount > 0) {
           setMatchCount(prevCount => prevCount + matchCount);
+        } else {
+          setBoard(newBoard); // Update the board even if no match is found
         }
 
-        const cardCollectedCount = matchesFound.specialMatches;
-        if (cardCollectedCount > 0) {
-          setcardCollectedCount(prevCount => prevCount + cardCollectedCount);
-        }
-
-        setBoard(newBoard);
         setTurnCount(prevTurnCount => prevTurnCount + 1);
 
         if (isAdjacentHorizontally) {
@@ -324,7 +306,7 @@ export function GameScreen() {
 
   const entrySubmit = async () => {
     const receiver = new PublicKey("crushpRpFZ7r36fNfCMKHFN4SDvc7eyXfHehVu34ecW");
-    const memoContent = `${matchCount}|${cardCollectedCount}|${currentSeed}|${moves.join("|")}`;
+    const memoContent = `${matchCount}|${currentSeed}|${moves.join("|")}`;
     console.log(memoContent);
   
     if (!publicKey) {
@@ -403,12 +385,11 @@ export function GameScreen() {
     <div className="centered-container bg-black min-h-screen p-4">
       <div className="w-full flex flex-col items-center text-white mb-4">
         <span className="text-lg font-bold">Turn: {turnCount}/24</span>
-        <span className="text-lg font-bold">Cards: {cardCollectedCount}</span>
         <span className="text-lg font-bold">Points: {matchCount}</span>
       </div>
       <div className="flex justify-center items-center flex-1">
         <div className="grid grid-cols-5 gap-2">
-          {board.map((row, rowIndex) => (
+          {animationBoard.map((row, rowIndex) => (
             <div key={rowIndex} className="flex flex-col">
               {row.map((candyIndex, colIndex) => (
                 <button
@@ -423,7 +404,7 @@ export function GameScreen() {
                   }`}
                 >
                   <img
-                    src={candyImages[candyIndex]}
+                    src={candyIndex === matchGifIndex ? matchGif : candyImages[candyIndex]}
                     alt={`Candy ${candyIndex}`}
                     className="w-full h-full object-cover"
                   />
@@ -448,7 +429,7 @@ export function GameScreen() {
         <button
           onClick={entrySubmit}
           className="btn-large bg-gold text-black rounded-full font-bold border-2 border-gold hover:bg-black hover:text-gold transition-colors duration-300"
-          disabled={turnCount < 2}
+          disabled={turnCount < 23}
         >
           Submit
         </button>
