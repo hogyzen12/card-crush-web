@@ -106,3 +106,22 @@ button:disabled {
   align-items: center;
   min-height: 50vh;
 }
+
+.selected-tile {
+  position: relative;
+  transition: box-shadow 0.3s ease;
+}
+
+.selected-tile::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid #FFD700; /* Gold color for the border */
+  pointer-events: none; /* Ensure the border doesn't interfere with clicking */
+  box-shadow: 0 0 10px #FFD700; /* Optional: add some glow effect */
+  z-index: 1; /* Ensure the pseudo-element is on top */
+  border-radius: 4px; /* Adjust if you need rounded corners */
+}
