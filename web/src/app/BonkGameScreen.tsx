@@ -5,6 +5,7 @@ import { useWallet } from '@solana/wallet-adapter-react';
 import { getWalletBalance } from './utils/wallet';
 import { createBonkTx } from './transactionBonk';
 import axios from 'axios';
+import { CSSProperties } from 'react';
 
 const connection = new Connection('https://damp-fabled-panorama.solana-mainnet.quiknode.pro/186133957d30cece76e7cd8b04bce0c5795c164e/');
 
@@ -12,8 +13,8 @@ const deepCopyBoard = (originalBoard: number[][]): number[][] => {
   return originalBoard.map(row => [...row]);
 };
 
-const gridRows = 6;
-const gridCols = 6;
+const gridRows = 9;
+const gridCols = 9;
 const matchGifIndex = 42;
 const initialTurnLimit = 24;
 
@@ -23,21 +24,31 @@ const candyImages = [
   "assets/jules.png",
   "assets/nyla.png",
   "assets/otter.png",
-  "assets/tetsu.png"
+  "assets/tetsu.png",
+  "assets/newcards/a.png",
+  "assets/newcards/b.png",
+  "assets/newcards/f.png",
+  "assets/newcards/j.png",
+  "assets/newcards/t.png"
 ];
 
 const candyGifs = [
-  "assets/match.gif",
-  "assets/electric.gif",
-  "assets/metame.gif",
-  "assets/match.gif",
-  "assets/electric.gif",
-  "assets/metame.gif"
+  "assets/animations/match.gif",
+  "assets/animations/electric.gif",
+  "assets/animations/metame.gif",
+  "assets/animations/match.gif",
+  "assets/animations/electric.gif",
+  "assets/animations/metame.gif",
+  "assets/animations/match.gif",
+  "assets/animations/electric.gif",
+  "assets/animations/metame.gif",
+  "assets/animations/match.gif",
+  "assets/animations/electric.gif"
 ];
 
-const activateSound = new Audio("assets/activate.mp3");
-const framexSound = new Audio("assets/framex.mp3");
-const fireSound = new Audio("assets/fire.mp3");
+const activateSound = new Audio("assets/audio/activate.mp3");
+const framexSound = new Audio("assets/audio/framex.mp3");
+const fireSound = new Audio("assets/audio/fire.mp3");
 const backgroundMusic = new Audio("assets/backing.mp3");
 backgroundMusic.loop = true;
 
@@ -47,7 +58,8 @@ const generateBoardFromSeed = (currentSeed: string): number[][] => {
   let board = Array.from({ length: gridRows }, () => Array(gridCols).fill(0));
   for (let i = 0; i < gridRows; i++) {
     for (let j = 0; j < gridCols; j++) {
-      const seedChar = currentSeed[i * gridRows + j];
+      //const seedChar = currentSeed[i * gridRows + j];
+      const seedChar = currentSeed[(i * gridRows + j) % currentSeed.length];
       board[i][j] = seedChar.charCodeAt(0) % candyImages.length;
     }
   }
@@ -284,6 +296,16 @@ export function BonkGameScreen() {
           fireSound.play();
         } else if (baseValue === 6) {
           fireSound.play();
+        } else if (baseValue === 7) {
+          fireSound.play();
+        } else if (baseValue === 8) {
+          fireSound.play();
+        } else if (baseValue === 9) {
+          fireSound.play();
+        } else if (baseValue === 10) {
+          fireSound.play();
+        } else if (baseValue === 11) {
+          fireSound.play();
         }
 
 
@@ -452,38 +474,38 @@ export function BonkGameScreen() {
     }
   };
 
+  const boardSize = animationBoard.length;
+  const gameBoardStyle: CSSProperties = {
+    '--board-size': boardSize,
+  } as React.CSSProperties;
+
   return (
     <div className="centered-container bg-black min-h-screen p-4">
       <div className="w-full flex flex-col items-center text-white mb-4">
         <span className="text-lg font-bold">Turn: {turnCount}/{turnLimit}</span>
         <span className="text-lg font-bold">Points: {matchCount}</span>
       </div>
-      <div className="flex justify-center items-center flex-1">
-        <div className="grid grid-cols-7 gap-2">
-          {animationBoard.map((row, rowIndex) => (
-            <div key={rowIndex} className="flex flex-col">
-              {row.map((candyIndex, colIndex) => (
-                <button
-                  key={colIndex}
-                  onClick={() => handleTilePress(rowIndex, colIndex)}
-                  className={`w-16 h-16 md:w-20 md:h-20 ${
-                    selectedTile &&
-                    selectedTile.row === rowIndex &&
-                    selectedTile.col === colIndex
-                      ? "selected-tile" // Apply custom CSS class
-                      : ""
-                  }`}
-                >
-                  <img
-                    src={candyIndex === matchGifIndex ? candyGifs[board[rowIndex][colIndex]] : candyImages[candyIndex]}
-                    alt={`Candy ${candyIndex}`}
-                    className="w-full h-full object-cover"
-                  />
-                </button>
-              ))}
-            </div>
-          ))}
-        </div>
+      <div className="game-board" style={gameBoardStyle}>
+        {animationBoard.map((row, rowIndex) => (
+          row.map((candyIndex, colIndex) => (
+            <button
+              key={`${rowIndex}-${colIndex}`}
+              onClick={() => handleTilePress(rowIndex, colIndex)}
+              className={`game-tile ${
+                selectedTile &&
+                selectedTile.row === rowIndex &&
+                selectedTile.col === colIndex
+                  ? "selected-tile"
+                  : ""
+              }`}
+            >
+              <img
+                src={candyIndex === matchGifIndex ? candyGifs[board[rowIndex][colIndex]] : candyImages[candyIndex]}
+                alt={`Candy ${candyIndex}`}
+              />
+            </button>
+          ))
+        ))}
       </div>
       {showNotification && (
         <div className="fixed top-4 left-1/2 transform -translate-x-1/2 bg-green-500 text-white px-4 py-2 rounded">
