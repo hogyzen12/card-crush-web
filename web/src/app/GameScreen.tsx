@@ -22,7 +22,7 @@ const candyImages = [
   "assets/nyla.png",
   "assets/otter.png",
   "assets/tetsu.png",
-  "assets/metame.gif"
+  "assets/animations/metame.gif"
 ];
 
 let currentSeed = "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL";

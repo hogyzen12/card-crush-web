@@ -13,8 +13,8 @@ const deepCopyBoard = (originalBoard: number[][]): number[][] => {
   return originalBoard.map(row => [...row]);
 };
 
-const gridRows = 9;
-const gridCols = 9;
+const gridRows = 12;
+const gridCols = 12;
 const matchGifIndex = 42;
 const initialTurnLimit = 24;
 
@@ -29,7 +29,8 @@ const candyImages = [
   "assets/newcards/b.png",
   "assets/newcards/f.png",
   "assets/newcards/j.png",
-  "assets/newcards/t.png"
+  "assets/newcards/t.png",
+  "assets/newcards/w.png"
 ];
 
 const candyGifs = [
@@ -43,11 +44,11 @@ const candyGifs = [
   "assets/animations/electric.gif",
   "assets/animations/metame.gif",
   "assets/animations/match.gif",
+  "assets/animations/electric.gif",
   "assets/animations/electric.gif"
 ];
 
 const activateSound = new Audio("assets/audio/activate.mp3");
-const framexSound = new Audio("assets/audio/framex.mp3");
 const fireSound = new Audio("assets/audio/fire.mp3");
 const backgroundMusic = new Audio("assets/backing.mp3");
 backgroundMusic.loop = true;
@@ -235,8 +236,8 @@ export function BonkGameScreen() {
     }
     mutableBoard[row + (len - 1) * rowInc][col + (len - 1) * colInc] = indices[2];
 
-    // Apply special rules within the replaceCandies function
-    if (matchedType === 1) {
+    //bonk card - update row/column
+    if (matchedType === 7) {
       // Special rule for bonk.png (index 1)
       if (rowInc === 0) {
         // Match in a row
@@ -249,9 +250,82 @@ export function BonkGameScreen() {
           mutableBoard[i][col] = i;
         }
       }
-    } else if (matchedType === 0) {
-      // Special rule for backpack.png (index 0)
+    } else if (matchedType === 9) {
+      //Jito card - add one more turn
       setTurnLimit(prevLimit => prevLimit + 1);
+    } else if (matchedType === 8) {
+      //Fire card - burn all cards within one
+      const burnRadius = 1;
+      const startRow = Math.max(0, row - burnRadius);
+      const endRow = Math.min(mutableBoard.length - 1, row + (len - 1) * rowInc + burnRadius);
+      const startCol = Math.max(0, col - burnRadius);
+      const endCol = Math.min(mutableBoard[0].length - 1, col + (len - 1) * colInc + burnRadius);
+  
+      for (let r = startRow; r <= endRow; r++) {
+        for (let c = startCol; c <= endCol; c++) {
+          if (r >= 0 && r < mutableBoard.length && c >= 0 && c < mutableBoard[0].length) {
+            mutableBoard[r][c] = c; // Update or burn the card. Here, -1 is used as a placeholder for burning.
+          }
+        }
+      }
+    } else if (matchedType === 10) {
+      //thunder card - update any touching t cards on match
+      const updateSurrounding = (r: number, c: number, type: number) => {
+        const directions = [
+          [0, 1], [1, 0], [0, -1], [-1, 0], // horizontal and vertical
+          [-1, -1], [-1, 1], [1, -1], [1, 1] // diagonals
+        ];
+        mutableBoard[r][c] = r; // Update the card. Here, -1 is used as a placeholder for updated cards.
+  
+        for (let [dr, dc] of directions) {
+          const newRow = r + dr;
+          const newCol = c + dc;
+  
+          if (
+            newRow >= 0 && newRow < mutableBoard.length &&
+            newCol >= 0 && newCol < mutableBoard[0].length &&
+            mutableBoard[newRow][newCol] === type
+          ) {
+            updateSurrounding(newRow, newCol, type);
+          }
+        }
+      };
+  
+      const startRow = Math.max(0, row - 1);
+      const endRow = Math.min(mutableBoard.length - 1, row + 1);
+      const startCol = Math.max(0, col - 1);
+      const endCol = Math.min(mutableBoard[0].length - 1, col + len + 1);
+  
+      for (let r = startRow; r <= endRow; r++) {
+        for (let c = startCol; c <= endCol; c++) {
+          if (
+            r >= 0 && r < mutableBoard.length &&
+            c >= 0 && c < mutableBoard[0].length &&
+            mutableBoard[r][c] === 10 // Assuming the matchedType is 3
+          ) {
+            updateSurrounding(r, c, 10);
+          }
+        }
+      }
+    } else if (matchedType === 11) {
+      //Water card - update water cards below match
+      const updateBelow = (startRow: number, col: number, type: number) => {
+        for (let r = startRow; r < mutableBoard.length; r++) {
+          if (mutableBoard[r][col] === type) {
+            mutableBoard[r][col] = r; // Update the card. Here, -1 is used as a placeholder for updated cards.
+          }
+        }
+      };
+  
+      if (rowInc === 0) {
+        // Horizontal match
+        for (let c = col; c < col + len; c++) {
+          updateBelow(row + 1, c, 4);
+        }
+      } else if (colInc === 0) {
+        // Vertical match
+        updateBelow(row + len, col, 4);
+      }
     }
   };
 
@@ -305,6 +379,8 @@ export function BonkGameScreen() {
         } else if (baseValue === 10) {
           fireSound.play();
         } else if (baseValue === 11) {
+          fireSound.play();
+        } else if (baseValue === 12) {
           fireSound.play();
         }
 
