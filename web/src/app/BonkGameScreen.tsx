@@ -13,8 +13,8 @@ const deepCopyBoard = (originalBoard: number[][]): number[][] => {
   return originalBoard.map(row => [...row]);
 };
 
-const gridRows = 12;
-const gridCols = 12;
+const gridRows = 9;
+const gridCols = 9;
 const matchGifIndex = 42;
 const initialTurnLimit = 24;
 
@@ -264,7 +264,7 @@ export function BonkGameScreen() {
       for (let r = startRow; r <= endRow; r++) {
         for (let c = startCol; c <= endCol; c++) {
           if (r >= 0 && r < mutableBoard.length && c >= 0 && c < mutableBoard[0].length) {
-            mutableBoard[r][c] = c; // Update or burn the card. Here, -1 is used as a placeholder for burning.
+            mutableBoard[r][c] = c;
           }
         }
       }
@@ -275,7 +275,7 @@ export function BonkGameScreen() {
           [0, 1], [1, 0], [0, -1], [-1, 0], // horizontal and vertical
           [-1, -1], [-1, 1], [1, -1], [1, 1] // diagonals
         ];
-        mutableBoard[r][c] = r; // Update the card. Here, -1 is used as a placeholder for updated cards.
+        mutableBoard[r][c] = r;
   
         for (let [dr, dc] of directions) {
           const newRow = r + dr;
@@ -312,7 +312,7 @@ export function BonkGameScreen() {
       const updateBelow = (startRow: number, col: number, type: number) => {
         for (let r = startRow; r < mutableBoard.length; r++) {
           if (mutableBoard[r][col] === type) {
-            mutableBoard[r][col] = r; // Update the card. Here, -1 is used as a placeholder for updated cards.
+            mutableBoard[r][col] = r;
           }
         }
       };
@@ -326,16 +326,36 @@ export function BonkGameScreen() {
         // Vertical match
         updateBelow(row + len, col, 4);
       }
+    } else if (matchedType === 6) {
+      //Air card - update air cards above match
+      const updateAbove = (endRow: number, col: number, type: number) => {
+        for (let r = endRow; r >= 0; r--) {
+          if (mutableBoard[r][col] === type) {
+            mutableBoard[r][col] = r; 
+          }
+        }
+      };
+    
+      if (rowInc === 0) {
+        // Horizontal match
+        for (let c = col; c < col + len; c++) {
+          updateAbove(row - 1, c, 6);
+        }
+      } else if (colInc === 0) {
+        // Vertical match
+        updateAbove(row - 1, col, 6);
+      }
     }
   };
 
   const detectAndReplaceMatches = (newBoard: number[][]) => {
     let matches = 0;
-
+    let affectedTiles: { row: number, col: number }[] = [];
+  
     const matchAndReplace = (row: number, col: number, rowInc: number, colInc: number, len: number) => {
       let baseValue = newBoard[row][col];
       let replace = false;
-
+  
       for (let i = 1; i < len; i++) {
         if (newBoard[row + i * rowInc][col + i * colInc] !== baseValue) {
           replace = false;
@@ -343,59 +363,31 @@ export function BonkGameScreen() {
         }
         replace = true;
       }
-
+  
       if (replace) {
         matches += len;
-
-        setAnimationBoard(prevAnimationBoard => {
-          const updatedAnimationBoard = deepCopyBoard(prevAnimationBoard);
-          for (let i = 0; i < len; i++) {
-            updatedAnimationBoard[row + i * rowInc][col + i * colInc] = matchGifIndex;
-          }
-          return updatedAnimationBoard;
-        });
-
-        // Play sound effect based on match type
-        if (baseValue === 0) {
-          activateSound.play();
-        } else if (baseValue === 1) {
-          fireSound.play();
-        } else if (baseValue === 2) {
-          fireSound.play();
-        } else if (baseValue === 3) {
-          fireSound.play();
-        } else if (baseValue === 4) {
-          fireSound.play();
-        } else if (baseValue === 5) {
-          fireSound.play();
-        } else if (baseValue === 6) {
-          fireSound.play();
-        } else if (baseValue === 7) {
-          fireSound.play();
-        } else if (baseValue === 8) {
-          fireSound.play();
-        } else if (baseValue === 9) {
-          fireSound.play();
-        } else if (baseValue === 10) {
-          fireSound.play();
-        } else if (baseValue === 11) {
-          fireSound.play();
-        } else if (baseValue === 12) {
-          fireSound.play();
+  
+        for (let i = 0; i < len; i++) {
+          affectedTiles.push({ row: row + i * rowInc, col: col + i * colInc });
         }
-
-
-        setTimeout(() => {
-          const mutableBoard = deepCopyBoard(newBoard);
-          replaceCandies(mutableBoard, row, col, rowInc, colInc, len, baseValue);
-          setBoard(mutableBoard);
-          setAnimationBoard(mutableBoard);
-        }, 790); // Delay in milliseconds for animation
+  
+        // Apply special rules and collect additional affected tiles
+        const mutableBoard = deepCopyBoard(newBoard);
+        replaceCandies(mutableBoard, row, col, rowInc, colInc, len, baseValue);
+        for (let i = 0; i < gridRows; i++) {
+          for (let j = 0; j < gridCols; j++) {
+            if (mutableBoard[i][j] !== newBoard[i][j]) {
+              affectedTiles.push({ row: i, col: j });
+            }
+          }
+        }
+        // Reflect changes back to newBoard
+        newBoard = mutableBoard;
       }
-
+  
       return replace;
     };
-
+  
     for (let row = 0; row < gridRows; row++) {
       for (let col = 0; col < gridCols; col++) {
         for (let len = gridCols; len >= 3; len--) {
@@ -404,18 +396,48 @@ export function BonkGameScreen() {
         }
       }
     }
-
+  
+    if (affectedTiles.length > 0) {
+      // Update animation board with all affected tiles
+      setAnimationBoard(prevAnimationBoard => {
+        const updatedAnimationBoard = deepCopyBoard(prevAnimationBoard);
+        affectedTiles.forEach(({ row, col }) => {
+          updatedAnimationBoard[row][col] = matchGifIndex;
+        });
+        return updatedAnimationBoard;
+      });
+  
+      // Play sound effects
+      affectedTiles.forEach(({ row, col }) => {
+        const baseValue = newBoard[row][col];
+        if (baseValue === 0) {
+          fireSound.play();
+        } else {
+          fireSound.play();
+        }
+      });
+  
+      setTimeout(() => {
+        setBoard(newBoard);
+        setAnimationBoard(newBoard);
+      }, 790); // Delay in milliseconds for animation
+    } else {
+      // Update the board immediately if no matches found
+      setBoard(newBoard);
+      setAnimationBoard(newBoard);
+    }
+  
     return {
       matches: matches
     };
   };
-
+  
   const handleTilePress = (rowIndex: number, colIndex: number) => {
     if (turnCount >= turnLimit) {
       console.log("Turn limit reached. No more moves allowed.");
       return;
     }
-
+  
     const recordMove = (startTile: { row: number, col: number }, direction: string) => {
       const colLetter = String.fromCharCode(97 + startTile.col);
       const move = `${colLetter}${startTile.row + 1}${direction}`;
@@ -425,34 +447,25 @@ export function BonkGameScreen() {
         return updatedMoves;
       });
     };
-
+  
     if (selectedTile) {
       const rowDiff = Math.abs(rowIndex - selectedTile.row);
       const colDiff = Math.abs(colIndex - selectedTile.col);
-
+  
       const isAdjacentHorizontally = (rowDiff === 0 && colDiff === 1);
       const isAdjacentVertically = (colDiff === 0 && rowDiff === 1);
-
+  
       if (isAdjacentHorizontally || isAdjacentVertically) {
         const newBoard = deepCopyBoard(board);
         const temp = newBoard[rowIndex][colIndex];
         newBoard[rowIndex][colIndex] = newBoard[selectedTile.row][selectedTile.col];
         newBoard[selectedTile.row][selectedTile.col] = temp;
-
-        setBoard(newBoard); // Set the board first to show the swap
+  
+        // Show the user's move immediately
+        setBoard(newBoard);
         setAnimationBoard(newBoard);
-
-        const matchesFound = detectAndReplaceMatches(newBoard);
-        const matchCount = matchesFound.matches;
-
-        if (matchCount > 0) {
-          setMatchCount(prevCount => prevCount + matchCount);
-        } else {
-          setBoard(newBoard); // Update the board even if no match is found
-        }
-
-        setTurnCount(prevTurnCount => prevTurnCount + 1);
-
+  
+        // Record the move
         if (isAdjacentHorizontally) {
           if (colIndex > selectedTile.col) {
             recordMove(selectedTile, 'r');
@@ -466,13 +479,29 @@ export function BonkGameScreen() {
             recordMove(selectedTile, 'n');
           }
         }
+  
+        setTimeout(() => {
+          const matchesFound = detectAndReplaceMatches(newBoard);
+          const matchCount = matchesFound.matches;
+  
+          if (matchCount > 0) {
+            setMatchCount(prevCount => prevCount + matchCount);
+          }
+  
+          setTurnCount(prevTurnCount => prevTurnCount + 1);
+        }, 10); // Slight delay to process matches
       }
-
+  
       setSelectedTile(null);
     } else {
       setSelectedTile({ row: rowIndex, col: colIndex });
     }
   };
+  
+  
+  
+  
+  
 
   const entrySubmit = async () => {
     const receiver = new PublicKey("Ez4AUa9SYqTQvg7o8y8vTvQAmjoBqCfVuuMF1L9Eg147");
