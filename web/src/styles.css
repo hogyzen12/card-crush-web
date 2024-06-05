@@ -12,6 +12,7 @@ body,
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
+/* Tailwind CSS base styles */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -126,10 +127,6 @@ button:disabled {
   border-radius: 4px; /* Adjust if you need rounded corners */
 }
 
-/* ... (previous styles) */
-
-/* ... (previous styles) */
-
 /* Responsive game board */
 .game-board {
   display: grid;
@@ -166,4 +163,96 @@ button:disabled {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 16px;
   }
+}
+
+/* Animated change for turn and points */
+@keyframes change {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+.animate-change {
+  animation: change 0.5s ease-in-out;
+}
+
+/* Status item styles */
+.status-item {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 5px 10px;
+  background: #333;
+  border-radius: 8px;
+  color: #d4af37;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Center status container */
+.status-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+/* Center status items */
+.status-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+/* Volume button and slider container */
+.volume-control-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* Volume button */
+.volume-button {
+  background: none;
+  border: none;
+  color: #d4af37;
+  font-size: 1.5rem;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Volume icon */
+.volume-icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Volume slider */
+.volume-control-container .slider {
+  width: 100px;
+  margin-left: 10px;
+  background-color: #d4af37; /* Gold color for the slider */
+  position: absolute;
+  top: 0;
+  left: 30px;
+  display: none;
+}
+
+.volume-control-container:hover .slider {
+  display: block;
+}
+
+/* Footer container to center buttons */
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
 }

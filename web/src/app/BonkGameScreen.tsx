@@ -13,8 +13,8 @@ const deepCopyBoard = (originalBoard: number[][]): number[][] => {
   return originalBoard.map(row => [...row]);
 };
 
-const gridRows = 9;
-const gridCols = 9;
+const gridRows = 8;
+const gridCols = 8;
 const matchGifIndex = 42;
 const initialTurnLimit = 24;
 
@@ -50,8 +50,10 @@ const candyGifs = [
 
 const activateSound = new Audio("assets/audio/activate.mp3");
 const fireSound = new Audio("assets/audio/fire.mp3");
-const backgroundMusic = new Audio("assets/backing.mp3");
+const backgroundMusic = new Audio("assets/audio/backing.mp3");
 backgroundMusic.loop = true;
+const muteIcon = "assets/mute.png"
+const unmuteIcon = "assets/unmute.png"
 
 let currentSeed = "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL";
 
@@ -148,7 +150,32 @@ export function BonkGameScreen() {
   const [currentSeed, setCurrentSeed] = useRecoilState(currentSeedState);
   const [animationBoard, setAnimationBoard] = useRecoilState(animationBoardState);
   const [isMuted, setIsMuted] = useState(false);
+  const [showVolumeSlider, setShowVolumeSlider] = useState(false);
   const [volume, setVolume] = useState(0.5);
+  const [animateTurn, setAnimateTurn] = useState(false);
+  const [animatePoints, setAnimatePoints] = useState(false);
+
+  useEffect(() => {
+    if (animateTurn) {
+      const timeout = setTimeout(() => setAnimateTurn(false), 500);
+      return () => clearTimeout(timeout);
+    }
+  }, [animateTurn]);
+
+  useEffect(() => {
+    if (animatePoints) {
+      const timeout = setTimeout(() => setAnimatePoints(false), 500);
+      return () => clearTimeout(timeout);
+    }
+  }, [animatePoints]);
+
+  useEffect(() => {
+    // Apply volume to audio elements
+    const audioElements = document.querySelectorAll('audio');
+    audioElements.forEach((audio) => {
+      audio.volume = volume;
+    });
+  }, [volume]);
 
   useEffect(() => {
     if (publicKey) {
@@ -178,7 +205,7 @@ export function BonkGameScreen() {
   };
 
   useEffect(() => {
-    if (turnCount >= turnLimit - 1) {
+    if (turnCount >= turnLimit) {
       setShowNotification(true);
     } else {
       setShowNotification(false);
@@ -420,7 +447,7 @@ export function BonkGameScreen() {
       setTimeout(() => {
         setBoard(newBoard);
         setAnimationBoard(newBoard);
-      }, 790); // Delay in milliseconds for animation
+      }, 500); // Delay in milliseconds for animation
     } else {
       // Update the board immediately if no matches found
       setBoard(newBoard);
@@ -489,19 +516,14 @@ export function BonkGameScreen() {
           }
   
           setTurnCount(prevTurnCount => prevTurnCount + 1);
-        }, 10); // Slight delay to process matches
+        }, 8); // Slight delay to process matches
       }
   
       setSelectedTile(null);
     } else {
       setSelectedTile({ row: rowIndex, col: colIndex });
     }
-  };
-  
-  
-  
-  
-  
+  };  
 
   const entrySubmit = async () => {
     const receiver = new PublicKey("Ez4AUa9SYqTQvg7o8y8vTvQAmjoBqCfVuuMF1L9Eg147");
@@ -579,17 +601,45 @@ export function BonkGameScreen() {
     }
   };
 
+  const toggleMute = () => {
+    setIsMuted(!isMuted);
+    setShowVolumeSlider(!showVolumeSlider);
+  };
+
   const boardSize = animationBoard.length;
   const gameBoardStyle: CSSProperties = {
     '--board-size': boardSize,
   } as React.CSSProperties;
 
   return (
-    <div className="centered-container bg-black min-h-screen p-4">
-      <div className="w-full flex flex-col items-center text-white mb-4">
-        <span className="text-lg font-bold">Turn: {turnCount}/{turnLimit}</span>
-        <span className="text-lg font-bold">Points: {matchCount}</span>
-      </div>
+    <div className="game-container">
+      <header className="game-header">
+        <div className="status-container">
+          <div className="status-items">
+            <div className={`status-item ${animateTurn ? 'animate-change' : ''}`}>
+              Turn: {turnCount}/{turnLimit}
+            </div>
+            <div className={`status-item ${animatePoints ? 'animate-change' : ''}`}>
+              Points: {matchCount}
+            </div>
+          </div>
+          <div className="volume-control-container">
+            <button className="volume-button" onClick={toggleMute}>
+              <img src={isMuted ? muteIcon : unmuteIcon} alt="Volume Icon" className="volume-icon" />
+            </button>
+            <input
+              type="range"
+              min="0"
+              max="1"
+              step="0.01"
+              value={volume}
+              onChange={(e) => setVolume(parseFloat(e.target.value))}
+              className="slider"
+              style={{ display: isMuted ? 'none' : 'block' }}
+            />
+          </div>
+        </div>
+      </header>
       <div className="game-board" style={gameBoardStyle}>
         {animationBoard.map((row, rowIndex) => (
           row.map((candyIndex, colIndex) => (
@@ -617,36 +667,25 @@ export function BonkGameScreen() {
           You can now submit!
         </div>
       )}
-      <div className="flex flex-col items-center mt-8 space-y-4">
-        <button
-          onClick={generateSeedBoard}
-          className="btn-large bg-gold text-black rounded-full font-bold border-2 border-gold hover:bg-black hover:text-gold transition-colors duration-300"
-        >
-          Reset
-        </button>
-        <button
-          onClick={entrySubmit}
-          className="btn-large bg-gold text-black rounded-full font-bold border-2 border-gold hover:bg-black hover:text-gold transition-colors duration-300"
-          disabled={turnCount < turnLimit}
-        >
-          Submit
-        </button>
-        <button
-          onClick={() => setIsMuted(!isMuted)}
-          className="btn-large bg-gray-700 text-white rounded-full font-bold border-2 border-gray-700 hover:bg-black hover:text-gray-300 transition-colors duration-300"
-        >
-          {isMuted ? 'Unmute' : 'Mute'}
-        </button>
-        <input
-          type="range"
-          min="0"
-          max="1"
-          step="0.01"
-          value={volume}
-          onChange={(e) => setVolume(parseFloat(e.target.value))}
-          className="w-full"
-        />
-      </div>
+      <footer className="game-footer">
+        <div className="footer-container">
+          <div className="button-container">
+            <button
+              onClick={generateSeedBoard}
+              className="btn-large button-primary"
+            >
+              Reset
+            </button>
+            <button
+              onClick={entrySubmit}
+              className="btn-large button-primary"
+              disabled={turnCount < turnLimit}
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </footer>
       <div className="text-white mb-4" dangerouslySetInnerHTML={{ __html: transactionStatus }}></div>
       {transactionProcessing && (
         <div className="flex justify-center items-center">
