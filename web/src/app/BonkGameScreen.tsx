@@ -13,8 +13,8 @@ const deepCopyBoard = (originalBoard: number[][]): number[][] => {
   return originalBoard.map(row => [...row]);
 };
 
-const gridRows = 13;
-const gridCols = 13;
+const gridRows = 9;
+const gridCols = 9;
 const matchGifIndex = 42;
 const initialTurnLimit = 24;
 
@@ -448,7 +448,7 @@ export function BonkGameScreen() {
       setTimeout(() => {
         setBoard(newBoard);
         setAnimationBoard(newBoard);
-      }, 500); // Delay in milliseconds for animation
+      }, 650); // Delay in milliseconds for animation
     } else {
       // Update the board immediately if no matches found
       setBoard(newBoard);
@@ -517,7 +517,7 @@ export function BonkGameScreen() {
           }
   
           setTurnCount(prevTurnCount => prevTurnCount + 1);
-        }, 8); // Slight delay to process matches
+        }, 10); // Slight delay to process matches
       }
   
       setSelectedTile(null);
