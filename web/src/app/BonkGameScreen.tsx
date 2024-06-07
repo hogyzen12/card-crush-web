@@ -13,43 +13,44 @@ const deepCopyBoard = (originalBoard: number[][]): number[][] => {
   return originalBoard.map(row => [...row]);
 };
 
-const gridRows = 8;
-const gridCols = 8;
+const gridRows = 13;
+const gridCols = 13;
 const matchGifIndex = 42;
 const initialTurnLimit = 24;
 
 const candyImages = [
-  "assets/backpack.png",
-  "assets/bonk.png",
-  "assets/jules.png",
-  "assets/nyla.png",
-  "assets/otter.png",
-  "assets/tetsu.png",
-  "assets/newcards/a.png",
-  "assets/newcards/b.png",
-  "assets/newcards/f.png",
-  "assets/newcards/j.png",
-  "assets/newcards/t.png",
-  "assets/newcards/w.png"
+  "assets/newcards/air.PNG",
+  "assets/newcards/bck.PNG",
+  "assets/newcards/bnk.PNG",
+  "assets/newcards/fre.PNG",
+  "assets/newcards/inu.PNG",
+  "assets/newcards/jls.PNG",
+  "assets/newcards/jto.PNG",
+  "assets/newcards/nyl.PNG",
+  "assets/newcards/ott.PNG",
+  "assets/newcards/thn.PNG",
+  "assets/newcards/tts.PNG",
+  "assets/newcards/unr.PNG",
+  "assets/newcards/wtr.PNG"
 ];
 
 const candyGifs = [
-  "assets/animations/match.gif",
-  "assets/animations/electric.gif",
-  "assets/animations/metame.gif",
-  "assets/animations/match.gif",
-  "assets/animations/electric.gif",
-  "assets/animations/metame.gif",
-  "assets/animations/match.gif",
-  "assets/animations/electric.gif",
-  "assets/animations/metame.gif",
-  "assets/animations/match.gif",
-  "assets/animations/electric.gif",
-  "assets/animations/electric.gif"
+  "assets/animations/burn.gif",
+  "assets/animations/burn.gif",
+  "assets/animations/burn.gif",
+  "assets/animations/burn.gif",
+  "assets/animations/burn.gif",
+  "assets/animations/burn.gif",
+  "assets/animations/burn.gif",
+  "assets/animations/burn.gif",
+  "assets/animations/burn.gif",
+  "assets/animations/burn.gif",
+  "assets/animations/burn.gif",
+  "assets/animations/burn.gif",
+  "assets/animations/burn.gif"
 ];
 
 const activateSound = new Audio("assets/audio/activate.mp3");
-const fireSound = new Audio("assets/audio/fire.mp3");
 const backgroundMusic = new Audio("assets/audio/backing.mp3");
 backgroundMusic.loop = true;
 const muteIcon = "assets/mute.png"
@@ -264,7 +265,7 @@ export function BonkGameScreen() {
     mutableBoard[row + (len - 1) * rowInc][col + (len - 1) * colInc] = indices[2];
 
     //bonk card - update row/column
-    if (matchedType === 7) {
+    if (matchedType === 2) {
       // Special rule for bonk.png (index 1)
       if (rowInc === 0) {
         // Match in a row
@@ -277,10 +278,10 @@ export function BonkGameScreen() {
           mutableBoard[i][col] = i;
         }
       }
-    } else if (matchedType === 9) {
+    } else if (matchedType === 6) {
       //Jito card - add one more turn
       setTurnLimit(prevLimit => prevLimit + 1);
-    } else if (matchedType === 8) {
+    } else if (matchedType === 3) {
       //Fire card - burn all cards within one
       const burnRadius = 1;
       const startRow = Math.max(0, row - burnRadius);
@@ -295,7 +296,7 @@ export function BonkGameScreen() {
           }
         }
       }
-    } else if (matchedType === 10) {
+    } else if (matchedType === 9) {
       //thunder card - update any touching t cards on match
       const updateSurrounding = (r: number, c: number, type: number) => {
         const directions = [
@@ -328,13 +329,13 @@ export function BonkGameScreen() {
           if (
             r >= 0 && r < mutableBoard.length &&
             c >= 0 && c < mutableBoard[0].length &&
-            mutableBoard[r][c] === 10 // Assuming the matchedType is 3
+            mutableBoard[r][c] === 9 // Assuming the matchedType is 3
           ) {
-            updateSurrounding(r, c, 10);
+            updateSurrounding(r, c, 9);
           }
         }
       }
-    } else if (matchedType === 11) {
+    } else if (matchedType === 12) {
       //Water card - update water cards below match
       const updateBelow = (startRow: number, col: number, type: number) => {
         for (let r = startRow; r < mutableBoard.length; r++) {
@@ -347,13 +348,13 @@ export function BonkGameScreen() {
       if (rowInc === 0) {
         // Horizontal match
         for (let c = col; c < col + len; c++) {
-          updateBelow(row + 1, c, 4);
+          updateBelow(row + 1, c, 12);
         }
       } else if (colInc === 0) {
         // Vertical match
-        updateBelow(row + len, col, 4);
+        updateBelow(row + len, col, 12);
       }
-    } else if (matchedType === 6) {
+    } else if (matchedType === 0) {
       //Air card - update air cards above match
       const updateAbove = (endRow: number, col: number, type: number) => {
         for (let r = endRow; r >= 0; r--) {
@@ -366,11 +367,11 @@ export function BonkGameScreen() {
       if (rowInc === 0) {
         // Horizontal match
         for (let c = col; c < col + len; c++) {
-          updateAbove(row - 1, c, 6);
+          updateAbove(row - 1, c, 0);
         }
       } else if (colInc === 0) {
         // Vertical match
-        updateAbove(row - 1, col, 6);
+        updateAbove(row - 1, col, 0);
       }
     }
   };
@@ -438,9 +439,9 @@ export function BonkGameScreen() {
       affectedTiles.forEach(({ row, col }) => {
         const baseValue = newBoard[row][col];
         if (baseValue === 0) {
-          fireSound.play();
+          activateSound.play();
         } else {
-          fireSound.play();
+          activateSound.play();
         }
       });
   
