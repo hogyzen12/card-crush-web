@@ -132,7 +132,7 @@ button:disabled {
   display: grid;
   grid-template-columns: repeat(var(--board-size), 1fr);
   grid-template-rows: repeat(var(--board-size), 1fr);
-  gap: 8px;
+  gap: 1px;
   max-width: 90vh;
   max-height: 90vh;
   margin: 0 auto;
@@ -151,19 +151,13 @@ button:disabled {
 }
 
 /* Media queries for different screen sizes */
-@media (min-width: 768px) {
+@media (min-width: 3000px) {
   .game-board {
-    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-    gap: 12px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 2px;
   }
 }
 
-@media (min-width: 1024px) {
-  .game-board {
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 16px;
-  }
-}
 
 /* Animated change for turn and points */
 @keyframes change {
