@@ -47,7 +47,7 @@ export function HomeScreen() {
       </div>
 
       <img
-        src="/assets/intro.webp" // Path to the new generated image
+        src="/assets/homepage.webp" // Path to the new generated image
         alt="Anime Character and Shiba Inu"
         className="w-full h-auto mb-8"
       />

@@ -79,7 +79,7 @@ export function HowToPlay() {
           <img src={candyImages[9]} alt="Electric Card" />
           <div>
             <h3>Electric Card</h3>
-            <p>Burns all cards it is connected to.</p>
+            <p>Crushes all electric cards it can touch.</p>
           </div>
         </div>
         <div className="special-card">
@@ -87,6 +87,13 @@ export function HowToPlay() {
           <div>
             <h3>Water Card</h3>
             <p>Flows downwards removing water cards.</p>
+          </div>
+        </div>
+        <div className="special-card">
+          <img src={candyImages[0]} alt="Air Card" />
+          <div>
+            <h3>Air Card</h3>
+            <p>Flows upwards removing air cards.</p>
           </div>
         </div>
         <div className="special-card">

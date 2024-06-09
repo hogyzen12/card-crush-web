@@ -13,8 +13,8 @@ const deepCopyBoard = (originalBoard: number[][]): number[][] => {
   return originalBoard.map(row => [...row]);
 };
 
-const gridRows = 9;
-const gridCols = 9;
+const gridRows = 7;
+const gridCols = 7;
 const matchGifIndex = 42;
 const initialTurnLimit = 24;
 
