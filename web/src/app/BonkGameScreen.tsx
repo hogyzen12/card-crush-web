@@ -670,7 +670,7 @@ export function BonkGameScreen() {
       )}
       <footer className="game-footer">
         <div className="footer-container">
-          <div className="button-container">
+          <div className="button-container-bonk">
             <button
               onClick={generateSeedBoard}
               className="btn-large button-primary"

@@ -65,7 +65,7 @@ export function HowToPlay() {
           <img src={candyImages[2]} alt="Bonk Card" />
           <div>
             <h3>Bonk Card</h3>
-            <p>Replaces a row or column.</p>
+            <p>Crushes a whole row or column.</p>
           </div>
         </div>
         <div className="special-card">
@@ -86,21 +86,21 @@ export function HowToPlay() {
           <img src={candyImages[12]} alt="Water Card" />
           <div>
             <h3>Water Card</h3>
-            <p>Flows downwards removing water cards.</p>
+            <p>Flows downwards crushing water cards.</p>
           </div>
         </div>
         <div className="special-card">
           <img src={candyImages[0]} alt="Air Card" />
           <div>
             <h3>Air Card</h3>
-            <p>Flows upwards removing air cards.</p>
+            <p>Flows upwards crushing air cards.</p>
           </div>
         </div>
         <div className="special-card">
           <img src={candyImages[3]} alt="Fire Card" />
           <div>
             <h3>Fire Card</h3>
-            <p>Burns surrounding cards by 1.</p>
+            <p>Crushes surrounding cards 1 grid position away.</p>
           </div>
         </div>
       </section>

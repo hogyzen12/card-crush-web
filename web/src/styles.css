@@ -105,7 +105,18 @@ button:disabled {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 100vh;text-align: center;
+  padding-top: 10px; /* Adjust this value to reduce the top gap */
+}
+
+/* Button container */
+.button-container-top {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0; /* Ensure the buttons are at the top */
+  width: 100%; /* Make sure it takes full width */
 }
 
 .selected-tile {
@@ -133,7 +144,7 @@ button:disabled {
   grid-template-columns: repeat(var(--board-size), 1fr);
   grid-template-rows: repeat(var(--board-size), 1fr);
   gap: 1px;
-  max-width: 90vh;
+  max-width: 600px;
   max-height: 90vh;
   margin: 0 auto;
 }
@@ -151,10 +162,10 @@ button:disabled {
 }
 
 /* Media queries for different screen sizes */
-@media (min-width: 3000px) {
+@media (min-width: 4200px) {
   .game-board {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 2px;
+    gap: 1px;
   }
 }
 
@@ -246,11 +257,6 @@ button:disabled {
   padding: 20px 0;
 }
 
-.button-container {
-  display: flex;
-  gap: 20px;
-}
-
 /* Additional styles for HowToPlay component */
 .how-to-play {
   padding: 20px;
@@ -324,8 +330,34 @@ button:disabled {
   }
 }
 
-@media (min-width: 900px) {
-  .special-cards {
-    grid-template-columns: repeat(3, 1fr);
+/* Button container */
+.button-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button-container-bonk {
+  display: flex;
+  gap: 10px;
+}
+
+/* Responsive button styles */
+@media (max-width: 600px) {
+  .button-container-top {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 0; /* Ensure the buttons are at the top */
+    padding-top: 10px; /* Ensure padding at the top is consistent */
+  }
+
+  .button-primary {
+    width: 100%;
+  }
+
+  .centered-container {
+    padding-top: 0; /* Remove any padding that causes extra space */
+    justify-content: flex-start; /* Align items to the top */
   }
 }

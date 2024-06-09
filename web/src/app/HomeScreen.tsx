@@ -37,24 +37,20 @@ export function HomeScreen() {
   };
 
   return (
-    <div className="bg-black flex flex-col items-center justify-center min-h-screen text-white">
-      {/* Navigation Bar */}
-      <div className="w-full flex justify-around items-center bg-gray-800 py-4">
+    <div className="centered-container">
+      <div className="button-container-top">
         <button onClick={() => handlePress('/how-to-play')} className="button-primary">How to Play</button>
-        <button onClick={() => handlePress('/bonkgame')} className="button-primary">BONK Game!</button>
+        <button onClick={() => handlePress('/bonkgame')} className="button-primary">BONKATHON Game!</button>
         <button onClick={() => handlePress('/leaderboard')} className="button-primary">Leaderboard</button>
-        <div className="prize-pool-display ml-4">BONK Prize Pool: {prizePool.toLocaleString()} BONK</div>
       </div>
-
+      <div className="prize-pool-display">BONK Prize Pool: {prizePool.toLocaleString()} BONK</div>
       <img
         src="/assets/homepage.webp" // Path to the new generated image
         alt="Anime Character and Shiba Inu"
-        className="w-full h-auto mb-8"
+        className="w-full h-auto mt-8"
       />
     </div>
   );
-}
+};
 
 export default HomeScreen;
-
-/*<button onClick={() => handlePress('/game')} className="button-primary">Game</button>*/
