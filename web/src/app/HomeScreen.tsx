@@ -41,8 +41,7 @@ export function HomeScreen() {
       {/* Navigation Bar */}
       <div className="w-full flex justify-around items-center bg-gray-800 py-4">
         <button onClick={() => handlePress('/how-to-play')} className="button-primary">How to Play</button>
-        <button onClick={() => handlePress('/game')} className="button-primary">Game</button>
-        <button onClick={() => handlePress('/bonkgame')} className="button-primary">BONK Mode!</button>
+        <button onClick={() => handlePress('/bonkgame')} className="button-primary">BONK Game!</button>
         <button onClick={() => handlePress('/leaderboard')} className="button-primary">Leaderboard</button>
         <div className="prize-pool-display ml-4">BONK Prize Pool: {prizePool.toLocaleString()} BONK</div>
       </div>
@@ -57,3 +56,5 @@ export function HomeScreen() {
 }
 
 export default HomeScreen;
+
+/*<button onClick={() => handlePress('/game')} className="button-primary">Game</button>*/

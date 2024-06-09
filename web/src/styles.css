@@ -250,3 +250,82 @@ button:disabled {
   display: flex;
   gap: 20px;
 }
+
+/* Additional styles for HowToPlay component */
+.how-to-play {
+  padding: 20px;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.how-to-play .title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #d4af37;
+}
+
+.how-to-play .instructions, .special-cards, .bonk-rewards {
+  margin-bottom: 20px;
+}
+
+.instruction-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.instruction-item img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.instruction-item h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #d4af37;
+}
+
+.instruction-item p {
+  margin: 0;
+}
+
+.special-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.special-card {
+  display: flex;
+  align-items: center;
+}
+
+.special-card img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.special-card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #d4af37;
+}
+
+.special-card p {
+  margin: 0;
+}
+
+@media (min-width: 600px) {
+  .special-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .special-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

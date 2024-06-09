@@ -1,47 +1,103 @@
 import React from 'react';
 
+const candyImages = [
+  "assets/newcards/air.PNG",
+  "assets/newcards/bck.PNG",
+  "assets/newcards/bnk.PNG",
+  "assets/newcards/fre.PNG",
+  "assets/newcards/inu.PNG",
+  "assets/newcards/jls.PNG",
+  "assets/newcards/jto.PNG",
+  "assets/newcards/nyl.PNG",
+  "assets/newcards/ott.PNG",
+  "assets/newcards/thn.PNG",
+  "assets/newcards/tts.PNG",
+  "assets/newcards/unr.PNG",
+  "assets/newcards/wtr.PNG"
+];
+
+const matchGif = "assets/animations/burn.gif";
+const catGif = "assets/CAT.gif";
+const successGif = "assets/SUCCESS.gif";
+const bonkPNG = "assets/BONKlogo.png";
+
 export function HowToPlay() {
   return (
-    <div className="bg-black flex flex-col items-center justify-center min-h-screen text-white p-4">
-      <h1 className="text-4xl font-bold mt-4 mb-6">How to Play</h1>
-      
-      <div className="max-w-3xl w-full">
-        <div className="bg-gray-800 p-6 rounded-lg mb-6">
-          <h2 className="text-3xl font-bold mb-4">Match Cards</h2>
-          <p className="text-lg">Combine three or more cards of the same type to unlock special cards.</p>
-        </div>
-
-        <div className="bg-gray-800 p-6 rounded-lg mb-6">
-          <h2 className="text-3xl font-bold mb-4">Collect Cards</h2>
-          <p className="text-lg">Gather as many cards and special cards as you can to win.</p>
-        </div>
-
-        <div className="bg-gray-800 p-6 rounded-lg mb-6">
-          <h2 className="text-3xl font-bold mb-4">Submit Scores</h2>
-          <p className="text-lg">Submit your scores on the blockchain to get rewarded with BONK.</p>
-        </div>
-
-        <div className="bg-yellow-500 p-6 rounded-lg text-black">
-          <h2 className="text-3xl font-bold mb-4">What's New?</h2>
-
-          <div className="mb-4">
-            <h3 className="text-2xl font-bold">BONK Rewards</h3>
-            <p className="text-lg">We purchased 100 Million BONK to reward players. Rewards are based on the formula: BONK received = total points x streak + cards x entry rate.</p>
-          </div>
-
-          <div className="mb-4">
-            <h3 className="text-2xl font-bold">Daily Play</h3>
-            <p className="text-lg">A new layout goes live every day at midnight UTC.</p>
-          </div>
-
+    <div className="how-to-play">      
+      <section className="instructions">
+        <div className="instruction-item">
+          <img src={matchGif} alt="Match Cards" />
           <div>
-            <h3 className="text-2xl font-bold">Streak Mechanic</h3>
-            <p className="text-lg">Show up daily to build a streak. Consistent players get the most points, highest streak, and highest rewards.</p>
+            <h2>Match Cards</h2>
+            <p>Combine three or more cards of the same type in a row or column to crush them and get a point per card crushed. Special cards can be matched, and when crushed apply special rules as shown below!</p>
           </div>
         </div>
-      </div>
+
+        <div className="instruction-item">
+          <img src={catGif} alt="Submit Scores" />
+          <div>
+            <h2>Submit Scores</h2>
+            <p>Submit your scores on-chain to get rewarded with BONK. Rewards distributed directly to your entry wallet. The BONKATHON game will run until the end of the hackathon - expected to be the 10th of July.</p>
+          </div>
+        </div>
+
+        <div className="instruction-item">
+          <img src={successGif} alt="Daily Play & Streak Mechanic" />
+          <div>
+            <h2>Daily Play & Streak Mechanic</h2>
+            <p>A new initial board goes live every day at midnight (00:00 UTC). Show up daily to build a streak. Compete daily to get the most points, highest streak, and the most BONK in rewards!</p>
+          </div>
+        </div>
+
+        <div className="instruction-item">
+          <img src={bonkPNG} alt="BONK Rewards" />
+          <div>
+            <h2>BONK Rewards</h2>
+            <p>We have purchased 100 Million BONK to reward players. Rewards are based on the formula:</p>
+            <p><strong>BONK received = total points × streak.</strong></p>
+          </div>
+        </div>
+      </section>
+
+      <section className="special-cards">
+        <h2>Special Cards</h2>
+        <div className="special-card">
+          <img src={candyImages[2]} alt="Bonk Card" />
+          <div>
+            <h3>Bonk Card</h3>
+            <p>Replaces a row or column.</p>
+          </div>
+        </div>
+        <div className="special-card">
+          <img src={candyImages[6]} alt="Jito Card" />
+          <div>
+            <h3>Jito Card</h3>
+            <p>Grants an extra turn.</p>
+          </div>
+        </div>
+        <div className="special-card">
+          <img src={candyImages[9]} alt="Electric Card" />
+          <div>
+            <h3>Electric Card</h3>
+            <p>Burns all cards it is connected to.</p>
+          </div>
+        </div>
+        <div className="special-card">
+          <img src={candyImages[12]} alt="Water Card" />
+          <div>
+            <h3>Water Card</h3>
+            <p>Flows downwards removing water cards.</p>
+          </div>
+        </div>
+        <div className="special-card">
+          <img src={candyImages[3]} alt="Fire Card" />
+          <div>
+            <h3>Fire Card</h3>
+            <p>Burns surrounding cards by 1.</p>
+          </div>
+        </div>
+      </section>
     </div>
   );
-}
+};
 
-export default HowToPlay;
