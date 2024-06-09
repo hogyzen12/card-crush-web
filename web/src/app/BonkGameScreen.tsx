@@ -51,6 +51,8 @@ const candyGifs = [
 ];
 
 const activateSound = new Audio("assets/audio/activate.mp3");
+const swapSound = new Audio("assets/audio/swap.mp3");
+const clickSound = new Audio("assets/audio/click.mp3");
 const backgroundMusic = new Audio("assets/audio/backing.mp3");
 backgroundMusic.loop = true;
 const muteIcon = "assets/mute.png"
@@ -465,6 +467,7 @@ export function BonkGameScreen() {
       console.log("Turn limit reached. No more moves allowed.");
       return;
     }
+    swapSound.play();
   
     const recordMove = (startTile: { row: number, col: number }, direction: string) => {
       const colLetter = String.fromCharCode(97 + startTile.col);
@@ -492,6 +495,7 @@ export function BonkGameScreen() {
         // Show the user's move immediately
         setBoard(newBoard);
         setAnimationBoard(newBoard);
+        clickSound.play();
   
         // Record the move
         if (isAdjacentHorizontally) {
