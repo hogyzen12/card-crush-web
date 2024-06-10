@@ -45,7 +45,7 @@ export function HomeScreen() {
       </div>
       <div className="prize-pool-display">BONK Prize Pool: {prizePool.toLocaleString()} BONK</div>
       <img
-        src="/assets/homepage.webp" // Path to the new generated image
+        src="/assets/banner.png" // Path to the new generated image
         alt="Anime Character and Shiba Inu"
         className="w-full h-auto mt-8"
       />

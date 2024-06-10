@@ -144,7 +144,7 @@ button:disabled {
   grid-template-columns: repeat(var(--board-size), 1fr);
   grid-template-rows: repeat(var(--board-size), 1fr);
   gap: 1px;
-  max-width: 600px;
+  max-width: 700px;
   max-height: 90vh;
   margin: 0 auto;
 }
@@ -324,7 +324,7 @@ button:disabled {
   margin: 0;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   .special-cards {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -344,7 +344,7 @@ button:disabled {
 }
 
 /* Responsive button styles */
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .button-container-top {
     flex-direction: column;
     gap: 10px;
