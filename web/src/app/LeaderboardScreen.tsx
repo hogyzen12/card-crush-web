@@ -61,7 +61,7 @@ export function LeaderboardScreen() {
 
   const fetchLeaderboardData = async () => {
     try {
-      const response = await fetch('https://solanagetaccount.info/leaderboard');
+      const response = await fetch('https://solanagetaccount.info/BONKleaderboard');
       const data = await response.json();
       console.log('Leaderboard data:', data);
       setLeaderboardData(data.leaderboard);
@@ -115,7 +115,6 @@ export function LeaderboardScreen() {
               <th className="py-2 px-4">Rank</th>
               <th className="py-2 px-4">Signer</th>
               <th className="py-2 px-4">Total Points</th>
-              <th className="py-2 px-4">Total Cards</th>
               <th className="py-2 px-4">Entry Rate</th>
               <th className="py-2 px-4">Streak</th>
             </tr>
@@ -127,7 +126,6 @@ export function LeaderboardScreen() {
                   <td className="py-2 px-4">{index + 1}</td>
                   <td className="py-2 px-4 break-all">{formatSigner(entry.signer)}</td>
                   <td className="py-2 px-4">{entry.total_points}</td>
-                  <td className="py-2 px-4">{entry.total_cards}</td>
                   <td className="py-2 px-4">{entry.entry_rate}</td>
                   <td className="py-2 px-4">{entry.streak}</td>
                 </tr>
@@ -138,7 +136,6 @@ export function LeaderboardScreen() {
                   <td className="py-2 px-4">{index + 1}</td>
                   <td className="py-2 px-4 break-all">{formatSigner(entry.seed)}</td>
                   <td className="py-2 px-4">{entry.points}</td>
-                  <td className="py-2 px-4">{entry.cards_collected}</td>
                   <td className="py-2 px-4">{entry.date}</td>
                 </tr>
               ))

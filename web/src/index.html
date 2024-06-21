@@ -9,8 +9,23 @@
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <!-- Attach the loading script in your <head /> -->
+    <script src='https://terminal.jup.ag/main-v2.js'></script>
   </head>
   <body>
     <div id="root"></div>
+    <!-- Prepare a div in your <body> for Terminal to render -->
+    <div id="integrated-terminal"></div>
+    <script>
+      window.Jupiter.init({
+        displayMode: "widget",
+        integratedTargetId: "integrated-terminal",
+        endpoint: "https://damp-fabled-panorama.solana-mainnet.quiknode.pro/186133957d30cece76e7cd8b04bce0c5795c164e/ ",
+        formProps: {
+          fixedOutputMint: true,
+          initialOutputMint: "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+        },
+      });
+    </script>
   </body>
 </html>

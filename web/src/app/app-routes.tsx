@@ -4,6 +4,7 @@ import { HowToPlay } from './HowToPlay';
 import { GameScreen } from './GameScreen';
 import { BonkGameScreen } from './BonkGameScreen';
 import { LeaderboardScreen } from './LeaderboardScreen';
+import { TerminalScreen } from './TerminalScreen';
 
 export function AppRoutes() {
   return useRoutes([
@@ -12,6 +13,7 @@ export function AppRoutes() {
     { path: '/how-to-play', element: <HowToPlay />},
     { path: '/game', element: <GameScreen /> },
     { path: '/bonkgame', element: <BonkGameScreen /> },
-    { path: '/leaderboard', element: <LeaderboardScreen /> }
+    { path: '/leaderboard', element: <LeaderboardScreen /> },
+    { path: '/terminal', element: <TerminalScreen /> }
   ]);
 }
