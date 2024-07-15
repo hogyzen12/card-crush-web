@@ -1,0 +1,2692 @@
+{
+  "entries": [
+    {
+      "signer": "Fte2zHN1BsCoQ2L9yRNF2prGej4Ssj2hFRp4JMgzPpas",
+      "signature": "5fjfnSqMvpnDNWEtf4xCNfvQevRgpsJYYwkRYhycyxEc5Kad158Lgy3ha1poztfRKABhD4oMFHQCZoHGmucvN17x",
+      "points": 1944,
+      "seed": "5JB32amc3LuzxeXkBZgAfcwMhb4cd761EV3PUEugnuauDC7AZgkgXFNN1apaE5CvK392HVvLY4NQ5SYpFWDJNZG6"
+    },
+    {
+      "signer": "JDUTw5CqZyGN2Xw8uhJZEEiEyESr6syztAwciTGpEHtd",
+      "signature": "4k7n5MsdYFrRdtUN9U6xuEcLxHzQaZ8F2DEKju2UvHHboPcrtFYzbMQ5GBxWvL8uH5Wm1G8NMphDvPneQ5MxDPWD",
+      "points": 52,
+      "seed": "5JB32amc3LuzxeXkBZgAfcwMhb4cd761EV3PUEugnuauDC7AZgkgXFNN1apaE5CvK392HVvLY4NQ5SYpFWDJNZG6"
+    },
+    {
+      "signer": "JDUTw5CqZyGN2Xw8uhJZEEiEyESr6syztAwciTGpEHtd",
+      "signature": "516cqsQobSuGNCiFuGSJPedZntQQt3GHuKojTPVkCfFkcEGpyLD8uym9yAmhQCvA7tCexDni7MTjsEXUzEpv9HEi",
+      "points": 59,
+      "seed": "5JB32amc3LuzxeXkBZgAfcwMhb4cd761EV3PUEugnuauDC7AZgkgXFNN1apaE5CvK392HVvLY4NQ5SYpFWDJNZG6"
+    },
+    {
+      "signer": "JDUTw5CqZyGN2Xw8uhJZEEiEyESr6syztAwciTGpEHtd",
+      "signature": "4PEfWTXiFx29qrPW2TAEGeoAWY8A1P34NqYbSoWxkXyRWrA6kEpC9YbWZiqX3i7w5JZi6XGLcN4Qay8sEd8C4DwJ",
+      "points": 189,
+      "seed": "2hbTTGQNFqxPYuGHF74MKuZik6iDagpjWfBqbjMfsW1gcdhwuKQu6Jg5UMQTgXnYpHzSUd1HeQu2k25cWfbpbJYa"
+    },
+    {
+      "signer": "4xckmPwFBX39kGUeNkawPHj4KHrCaA9LPChAAZsSVXwM",
+      "signature": "4kfNmffcVH9U1LAzXLPPiyBWzaRGjKxib4Mq2UMAGjDxVwwkDSw8G1zTHyGbzFKCKwqoaGL6UP4fGYhK3CoPj5zS",
+      "points": 234,
+      "seed": "439965zAwLzKkh5i2idDBDedisKvW8RiskMs8Htcqn9d69strEnN8aB78Dw38po6u4bw6rrcG9srqsVUgTofHkdw"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "4QxUAs9YbNzauyC7swn25KSPh6WZypWwCrRiomP3usnjT5oUyQxmSkynmaa4GFdn4h95ZiSgdD6C7BY45J9HKNzV",
+      "points": 867,
+      "seed": "439965zAwLzKkh5i2idDBDedisKvW8RiskMs8Htcqn9d69strEnN8aB78Dw38po6u4bw6rrcG9srqsVUgTofHkdw"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "Xcmqqy8RNwgEamuB74K4yfCSR42e78j4SS8zkq5RHVj44fMRd8BkBE5VmpetUadz1WdYf2ZoE8hivg8xanzgZux",
+      "points": 364,
+      "seed": "439965zAwLzKkh5i2idDBDedisKvW8RiskMs8Htcqn9d69strEnN8aB78Dw38po6u4bw6rrcG9srqsVUgTofHkdw"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "3NdTfMrscH9q6tyGLCb8fgkXjutkts9JetGUMhFf3g1shozumu3WDZw3XBeMrqrkLshEbecrWLqypCcC3Y7tspkr",
+      "points": 1161,
+      "seed": "5NZL4LM2i3ye5VojWszW9DnkdVcZaiQxEm3JsZznfYCHRpa9ECtDHm1CNdFoHhmjHQZBE7dTnaTnfEF8zKmyLJH9"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "4mWASLYLrbCbGS3dwVeE7PTdJ9nsy6YFcixVnMjPJNTXgp2MVGBPsxJmFtL1d9iqQhcPdUfFuT43TQTTxs1tidnq",
+      "points": 961,
+      "seed": "5NZL4LM2i3ye5VojWszW9DnkdVcZaiQxEm3JsZznfYCHRpa9ECtDHm1CNdFoHhmjHQZBE7dTnaTnfEF8zKmyLJH9"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "4jF4x4R3f89KkbSySy2rsP7fv2mzYrof2YFeGkrpdih928K4xH92PrzPSKqvHGh2xMaSY2nYk2N3bbmNJUAsL8vH",
+      "points": 1414,
+      "seed": "5NZL4LM2i3ye5VojWszW9DnkdVcZaiQxEm3JsZznfYCHRpa9ECtDHm1CNdFoHhmjHQZBE7dTnaTnfEF8zKmyLJH9"
+    },
+    {
+      "signer": "H7eot4pwpiJVsS2sWGe7ET3mvmzUnk4g1G3tu2xpHJqC",
+      "signature": "4GAXqpUtGBxGuz5fdwPRjjRrijYjHQTrAuoJusGrqXBCheae46ArrmHueNHwZ4WUPdsVucjvuq958TmPrWkFCt3k",
+      "points": 1349,
+      "seed": "5NZL4LM2i3ye5VojWszW9DnkdVcZaiQxEm3JsZznfYCHRpa9ECtDHm1CNdFoHhmjHQZBE7dTnaTnfEF8zKmyLJH9"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "4Erix3UtYX7FrtMYrQCp6dB9CQNf4u2sQbTLrriAwpSfNZgAGrvVwj2dY5ejT2DNdXC5q9tEYpSsakxpDBKQ7KFz",
+      "points": 68,
+      "seed": "5HxqgCh1Q6s8UdpkC26ZA6nzm3r6zScziKYieEp5MKRedUWMEW4ZVe1mj9sVi8msYi8qH5ied6F8J3xXy1JDvXPn"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "5RuNF17UK4L96rbfFHHTExmjan5EZ8pYbG9TBG6B2v7uy9SHi883ishzc855wFTRC4TjDHiDaEgWcNmdCYjzHLN8",
+      "points": 693,
+      "seed": "5HxqgCh1Q6s8UdpkC26ZA6nzm3r6zScziKYieEp5MKRedUWMEW4ZVe1mj9sVi8msYi8qH5ied6F8J3xXy1JDvXPn"
+    },
+    {
+      "signer": "5yU2aPZN5Lgrp5Ci9ygHRZGwdEDmbYARoJJnKLzz2Gxn",
+      "signature": "5fTwp9xG2pSfx9E5wNTq1jRfMtBti9nxxB2bqCQwjfxvspcZ5KuNPFqwyk3rdniNBorRLWp6eNFUifYBD2u3B9eK",
+      "points": 562,
+      "seed": "5HxqgCh1Q6s8UdpkC26ZA6nzm3r6zScziKYieEp5MKRedUWMEW4ZVe1mj9sVi8msYi8qH5ied6F8J3xXy1JDvXPn"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "3Lbu593LipCFWbkMicBGWtAtqSxcvcBhgQ2fHp8cgD9PctdiLp6mKPkLB65RMCy5kNxWo7KTwVo7s8LLjCz4vJbW",
+      "points": 840,
+      "seed": "5HxqgCh1Q6s8UdpkC26ZA6nzm3r6zScziKYieEp5MKRedUWMEW4ZVe1mj9sVi8msYi8qH5ied6F8J3xXy1JDvXPn"
+    },
+    {
+      "signer": "Fte2zHN1BsCoQ2L9yRNF2prGej4Ssj2hFRp4JMgzPpas",
+      "signature": "4D2JXuN2DqQ5DS3YS6oSP2PH54FczzkRczoi6hh4x1LR2kqtvPfh6L6dNLyEEMNivfUQoMtkWN1FR29bA3HkDmUo",
+      "points": 48,
+      "seed": "2RYrzGCWgvbEdxLyqS15hxsXsF92FLmekJrXk9Y6XkzvvLibt2dkApY17Jw1LLZX5A6sSV2yQbVyKFLz3uLLcrxf"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "3nLVjgHChqnuPLNJCwyaRTp3KGxJHxZBqtX7hrVbdG5LYHht6LxmQnfqXQEpEmCX6FWmopejbrzGs3j5oBzarD35",
+      "points": 1627,
+      "seed": "5iQmGDAeGqgtz7oKhBxDiSSLVNYL4Ba335BCQtdC243m8UqqHy1T4cuLUVsS1qJpfnAM4tLBjtA8s7MMQnsTcPuC"
+    },
+    {
+      "signer": "ArSR5L1zaYxzCYihfXT6tqqXWe4EmxnhU71GhPUPEQoj",
+      "signature": "5hp4atN1ZcZKVaFLKGXnweHt5R97wkGWU1qgihVMgdJZsfVvkKnHME9bKjMBzMeGQmidZgUmQWBrrrCCahgkHHWZ",
+      "points": 134,
+      "seed": "3ywVvB4wPFZ6xFsPNoUo8GaFM14NBesh5x3zfnGAiDPhcCn2d8vJT3fsBpfv7LQLxH9ZhS1aSp9uvB7D9CZ3XLDP"
+    },
+    {
+      "signer": "ArSR5L1zaYxzCYihfXT6tqqXWe4EmxnhU71GhPUPEQoj",
+      "signature": "5VHc9m2gTPVk5fJn4pA22kAbTcLFAADrVFuiJ2XGQQwZuvLUJm9hNL21dn6A1ntLooXSgWjAC2kpVouF362vQJkR",
+      "points": 221,
+      "seed": "3ywVvB4wPFZ6xFsPNoUo8GaFM14NBesh5x3zfnGAiDPhcCn2d8vJT3fsBpfv7LQLxH9ZhS1aSp9uvB7D9CZ3XLDP"
+    },
+    {
+      "signer": "ArSR5L1zaYxzCYihfXT6tqqXWe4EmxnhU71GhPUPEQoj",
+      "signature": "2qCbzLp4kgGLWKDHTiZ54k3KbjbDNYNN9XSnYLEgmkWnsxgd7izjEwktzvQchoS1jeHSr7UPEYpNGsJud7u94iZE",
+      "points": 942,
+      "seed": "3ywVvB4wPFZ6xFsPNoUo8GaFM14NBesh5x3zfnGAiDPhcCn2d8vJT3fsBpfv7LQLxH9ZhS1aSp9uvB7D9CZ3XLDP"
+    },
+    {
+      "signer": "ArSR5L1zaYxzCYihfXT6tqqXWe4EmxnhU71GhPUPEQoj",
+      "signature": "5gy5WrGcMddE3qEsoQU2G2CEXV4P4yjr4ecCHFd8ZQsvDwKpnN3xzjnjniSsXMRBtN4s4vSKALRY9MCEvPvZtxUL",
+      "points": 940,
+      "seed": "3ywVvB4wPFZ6xFsPNoUo8GaFM14NBesh5x3zfnGAiDPhcCn2d8vJT3fsBpfv7LQLxH9ZhS1aSp9uvB7D9CZ3XLDP"
+    },
+    {
+      "signer": "ArSR5L1zaYxzCYihfXT6tqqXWe4EmxnhU71GhPUPEQoj",
+      "signature": "4Ab7yMBbMqKfCUSJeW97txxgFMGfEpX3P9bMCjoAkXxdTfio6rUvEhRBeaHsVx6h5QrDdfgUUCkDUMjnVjiHnZiH",
+      "points": 1049,
+      "seed": "3ywVvB4wPFZ6xFsPNoUo8GaFM14NBesh5x3zfnGAiDPhcCn2d8vJT3fsBpfv7LQLxH9ZhS1aSp9uvB7D9CZ3XLDP"
+    },
+    {
+      "signer": "EvvaRmcUoyumhA4wgEtvEF5wfNm5AoHh5QTTfAxe1dkq",
+      "signature": "VETMSxsPX4w4v4MMTcvU5Yo4HFeryL1PTEH6LVE4dkaJBQdsvNoNWkZSVzsAN7g1BT6qrJv3CSuF8eQyh4EcCFn",
+      "points": 812,
+      "seed": "3ywVvB4wPFZ6xFsPNoUo8GaFM14NBesh5x3zfnGAiDPhcCn2d8vJT3fsBpfv7LQLxH9ZhS1aSp9uvB7D9CZ3XLDP"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "5mwien7RyLqjtm5HfhBTVCVWzhZMZAn7dCxDvgDDmYZ6D2kpBsppv24G57bCwGXemW8qQ4Znq36qrTWQjonxDWv9",
+      "points": 1186,
+      "seed": "3ywVvB4wPFZ6xFsPNoUo8GaFM14NBesh5x3zfnGAiDPhcCn2d8vJT3fsBpfv7LQLxH9ZhS1aSp9uvB7D9CZ3XLDP"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "32bdCtqBXPWVXPMhg19BADyRVEeDJRqJvDm92NdYegC4WJgFr9ZpFRARn5ZvuEWtacELniTyDr34hR6E9A9UTHtt",
+      "points": 57,
+      "seed": "3ywVvB4wPFZ6xFsPNoUo8GaFM14NBesh5x3zfnGAiDPhcCn2d8vJT3fsBpfv7LQLxH9ZhS1aSp9uvB7D9CZ3XLDP"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "42cR8WVjCqUcZbh5DnZPAcx8MJbAaRhu7Fkc3a3tEtnwTK5KbQTd1Q1vQRAST79kjR63kbpiXNC6uRwtu6UFDcKb",
+      "points": 57,
+      "seed": "3ywVvB4wPFZ6xFsPNoUo8GaFM14NBesh5x3zfnGAiDPhcCn2d8vJT3fsBpfv7LQLxH9ZhS1aSp9uvB7D9CZ3XLDP"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "38M7XcjtLAN4WjDAB88zwDqNL1Xj5jLUaV5Wp5Q9XtQuKuaGPKtn5nCmvdwN2CpsERonyX79ZQGMacozfafnC3Aj",
+      "points": 878,
+      "seed": "3ywVvB4wPFZ6xFsPNoUo8GaFM14NBesh5x3zfnGAiDPhcCn2d8vJT3fsBpfv7LQLxH9ZhS1aSp9uvB7D9CZ3XLDP"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "5ALJunSs8pxnS22fiM1MB3ddbiPwkLghkSaJ16j22th1AvBdxPTkGkKeEntiDEwLAQ87RyJhif6PgXtZQfvvTHQB",
+      "points": 878,
+      "seed": "3ywVvB4wPFZ6xFsPNoUo8GaFM14NBesh5x3zfnGAiDPhcCn2d8vJT3fsBpfv7LQLxH9ZhS1aSp9uvB7D9CZ3XLDP"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "236tJUgrGbaQPHY5fCPengLoPDR2y2Q4YGHfQhJTUDXMo436nz6FAR3doTDi443Gacw4HGbWPiuXwGTkcQeMVWz5",
+      "points": 1500,
+      "seed": "3ywVvB4wPFZ6xFsPNoUo8GaFM14NBesh5x3zfnGAiDPhcCn2d8vJT3fsBpfv7LQLxH9ZhS1aSp9uvB7D9CZ3XLDP"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "5AVmsDFaHdihYq87FJG2oWFD6XWqymDvfSVUxRnvRFGrx9E7c9sNR1ziq6aLX45Ar2TkagTNSx93JRj3BE2y62js",
+      "points": 1392,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "287Gqfv7Ypn1RuXdqhmUgo2CaWMgjypUrqwzhSCE26gdqqfDrvcJaLFtxZfmKfDaZHEt16jRdvqaQahoETZ1P3BE",
+      "points": 1132,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "5JsTMhYA6Sk6X68x5vJozVU3d1GoXmrPqEfWAgkRSmG5XjByJ1Bifayd4Nf8JrwYggE36JnBWR9AqsehVnPSGSRi",
+      "points": 1322,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "Xn8ATQ9gAhHZLNRzj4GSX1pukMFV5aCYksXQpTsZAP3BLeQqW7uG4wNhU33pf3CMNLahmP7JAafGG9YauUh3LdB",
+      "points": 1501,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "4GHy4P7xnmUZuiUmbSLTHy86EZ83rzRwLWBRMjEhAK91y4tWdg1rj54Rgx55H2tqXTCNQoAqY89vUdi67Umxnf5J",
+      "points": 1489,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "4CBo9jBv85Dv51TK18RhKz17FRuESjfpsw9rm3AFc7tR1tPQZRv1XhkiXUsLj52EzCBFk9tdYkHJuCmmk9TiNp4g",
+      "points": 1418,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "53JoLgGFcU5k95bFWkrfYAxbqVJ3ePgqMFUxiEwbwxV2MCpiFvY5XasUwg48aqa1D9wBrBsR4RbzEt39PZPmZ4mV",
+      "points": 1279,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "57EpmQac9aTRQUHqUTESfFW81RnmQvKTi7c4nhgK7HMA2tpmLganeXa4KV6vJbuFiJyxGtpT2SHncj8AE9JoM8JG",
+      "points": 1548,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "3rdHu444qnUfbFFFGmzTnSMKLhKRAZ6Mx5WxojipaF51Y9PiVGtMTAA919HgTvLvs48iabT8rk1seyDZi2zWrDoM",
+      "points": 1496,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "2F7x4w4utARpzuUkmsxNLTy5Mk7d6vVJcBAUFBBqoVyCawLLLwKqhV93i4SvjqHTFPCNYeRETN4iu3MpWThHceBV",
+      "points": 1245,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "2xu7qwcqbrEypUek4N2efXwnLdwm3pwccnX78ik5Fdb9xu5iQvGaFT6UMBc9AHZrmooPty3L2mCNCDSLTDFQVq8Y",
+      "points": 2299,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "33TBRS4YD4xxgGE3JB7XnMd1WMJVsmE19CR1m5Qv14Jds34EcNGYxuM8ededtWwCbNj1yZokbpdupTrvAn8Q2HJs",
+      "points": 1459,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "2d5NV4XZ8vD7JxSMHCadxPfuMheCuiNUhy3WCuYRwa5ULmCkxHtnd6tpjfwXagx67LFNttue8DKFXe2TTUWdRKxr",
+      "points": 1456,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "ArSR5L1zaYxzCYihfXT6tqqXWe4EmxnhU71GhPUPEQoj",
+      "signature": "5LpeFhYB34qQqeQhYiHs2jwpd3AsvEAWf9jW6rk6Re14uYFZShiErhgTFt1HWoGmTt8mf7LrvFa59zHaGytaEjtQ",
+      "points": 1604,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "3g4XJPNJ2rsHuCsiM6jSuu5aHRWXkLtvqfw7J7tJJqxSv5Ze6668Y4XoFg56PQEF757b4WYBk6X7bVBgmE5WEQAe",
+      "points": 1409,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "w17AbyHCEV3NCUBSTTowaq1PHXN5ZGfDSyJ3wuTMofxSpiTADLhygPEcPrvgd8PczxS3LyFthHv5FnyuKsJcDPS",
+      "points": 1409,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "47Yaecze9rq9cYyBB3kFXuQuDRBPvjnLcRgCgBny4uep",
+      "signature": "EjWmA6vnVXAdCDHjJP2NxCBiz6YmaowS8bHANW9RtiW2Eown6Vsk2CeGU1GMEGaiajJZUxRiHDrx1uPGDvdvFz2",
+      "points": 886,
+      "seed": "iDiB7uHczx6VcsL2r8nPHooGiw6JUg3vPKogxjbfyzaipjeGUPpbz7BwECFFbX6k2RkwfJ11G6orF5w3Ax6j9Bi"
+    },
+    {
+      "signer": "47Yaecze9rq9cYyBB3kFXuQuDRBPvjnLcRgCgBny4uep",
+      "signature": "4uHKEW7Y6QJYGEXvmuNjzttfUx39XKqskJtURLeub1g83sYrrktLrAaKZdzfzNbkM953Dg6sj5tCbrxcEpBiU6vG",
+      "points": 886,
+      "seed": "iDiB7uHczx6VcsL2r8nPHooGiw6JUg3vPKogxjbfyzaipjeGUPpbz7BwECFFbX6k2RkwfJ11G6orF5w3Ax6j9Bi"
+    },
+    {
+      "signer": "47Yaecze9rq9cYyBB3kFXuQuDRBPvjnLcRgCgBny4uep",
+      "signature": "2bkkLtXkrESajid4J2g5P7TgfxRNCxRHoDEyMv1E9MiXTGtYRJxuGyNy2MFZmLfFSATSRUErcmNXGd8Z8sDsttKr",
+      "points": 869,
+      "seed": "iDiB7uHczx6VcsL2r8nPHooGiw6JUg3vPKogxjbfyzaipjeGUPpbz7BwECFFbX6k2RkwfJ11G6orF5w3Ax6j9Bi"
+    },
+    {
+      "signer": "Fte2zHN1BsCoQ2L9yRNF2prGej4Ssj2hFRp4JMgzPpas",
+      "signature": "J7pwniCadKvMH6J33BHgG79e88eccKWNce1NiDujKALypS81SPwLaacoN4hn4nz46t7MhvvMNNVeHmRuDroUNZa",
+      "points": 1156,
+      "seed": "iDiB7uHczx6VcsL2r8nPHooGiw6JUg3vPKogxjbfyzaipjeGUPpbz7BwECFFbX6k2RkwfJ11G6orF5w3Ax6j9Bi"
+    },
+    {
+      "signer": "47Yaecze9rq9cYyBB3kFXuQuDRBPvjnLcRgCgBny4uep",
+      "signature": "2SVjYYL4rJU6ePcuTNnu4aVgLFReJGgfTMcjUh1FfUVMwYNW7aLPH2TqAU1XpjS8P7EngdxV5utZYmeYwkEyvAhK",
+      "points": 732,
+      "seed": "iDiB7uHczx6VcsL2r8nPHooGiw6JUg3vPKogxjbfyzaipjeGUPpbz7BwECFFbX6k2RkwfJ11G6orF5w3Ax6j9Bi"
+    },
+    {
+      "signer": "47Yaecze9rq9cYyBB3kFXuQuDRBPvjnLcRgCgBny4uep",
+      "signature": "5TasDbyuUTNQVrYoLVvq2h52Gfm4CpEAR53xNFopUMAQ7YrvUZy8b48nq98Fy8kHsfUc7iijerp8SLmyaJPPUQCz",
+      "points": 1187,
+      "seed": "iDiB7uHczx6VcsL2r8nPHooGiw6JUg3vPKogxjbfyzaipjeGUPpbz7BwECFFbX6k2RkwfJ11G6orF5w3Ax6j9Bi"
+    },
+    {
+      "signer": "47Yaecze9rq9cYyBB3kFXuQuDRBPvjnLcRgCgBny4uep",
+      "signature": "2Ln2f7RiHwHkJK8UZZUWG6SmRwDkbk67oVsvuWeiLDEWkK3Ya4udProb3wrVF1c3SKGseMXVnCqbRcCqJKRiFmqt",
+      "points": 1252,
+      "seed": "iDiB7uHczx6VcsL2r8nPHooGiw6JUg3vPKogxjbfyzaipjeGUPpbz7BwECFFbX6k2RkwfJ11G6orF5w3Ax6j9Bi"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "sW3hvYe3hUQx1ECAVibSye4Y2YrhWsBu2tcHbH3hU4vxs3AwGiQ1it46UbBTp6TAemSd1yvx7YDuCdP5XZqDPt7",
+      "points": 611,
+      "seed": "iDiB7uHczx6VcsL2r8nPHooGiw6JUg3vPKogxjbfyzaipjeGUPpbz7BwECFFbX6k2RkwfJ11G6orF5w3Ax6j9Bi"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "nqCo8Gk1vJ2zEXjiUXWXxsdmfEpMc472jWwPkwXWJyQ7e3ybxNyTa2436GUKwLxTzgZK8BhmhfKrhJpPAf5Yuxd",
+      "points": 1236,
+      "seed": "iDiB7uHczx6VcsL2r8nPHooGiw6JUg3vPKogxjbfyzaipjeGUPpbz7BwECFFbX6k2RkwfJ11G6orF5w3Ax6j9Bi"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "5PF8JYtgGeMfdnqsbKUG2rj76UBgf2VsUxF9ucRuj8a4SeBU4mgUSHMa9PMJCMo9ggcJVYDxBaGdJW6gZ1rcxnKt",
+      "points": 1025,
+      "seed": "iDiB7uHczx6VcsL2r8nPHooGiw6JUg3vPKogxjbfyzaipjeGUPpbz7BwECFFbX6k2RkwfJ11G6orF5w3Ax6j9Bi"
+    },
+    {
+      "signer": "EZ5LQMzATorMNsc4auJRHGRhy1eNffowUAKRqvFtkfu",
+      "signature": "eZvtU865c3AyjVsqfqGdv43nskvPLc8KF4EA6Cmy717Zar4LChkzFMKL7LMMG4XEF14pxUpZauSr7jSCXbEmPXr",
+      "points": 1490,
+      "seed": "3UyhtQR16F1iuvt4ZGtbBkM2MxERVKcv71D7mNgx66wgXSNqRJbYjCEGrLN1nGm5movQKBb5V31DhWptErBxDDv2"
+    },
+    {
+      "signer": "47Yaecze9rq9cYyBB3kFXuQuDRBPvjnLcRgCgBny4uep",
+      "signature": "5EmGbzd7UkYkmeLr75JtDFf22N1T6QMdaXnjnkXwGNHZpGw4H7z79wYvr8Ytn4C6U15CbtGE63nAEZZcD5ParEMw",
+      "points": 1523,
+      "seed": "3UyhtQR16F1iuvt4ZGtbBkM2MxERVKcv71D7mNgx66wgXSNqRJbYjCEGrLN1nGm5movQKBb5V31DhWptErBxDDv2"
+    },
+    {
+      "signer": "47Yaecze9rq9cYyBB3kFXuQuDRBPvjnLcRgCgBny4uep",
+      "signature": "4PdPvMC4sV3vSMMCSAo56qUALvrBqyiGEPGJC9MF6w95qZdqFcCoip9dnreBTkm8bChmvtpLJPoENGnYK6BN4Z2C",
+      "points": 1523,
+      "seed": "3UyhtQR16F1iuvt4ZGtbBkM2MxERVKcv71D7mNgx66wgXSNqRJbYjCEGrLN1nGm5movQKBb5V31DhWptErBxDDv2"
+    },
+    {
+      "signer": "47Yaecze9rq9cYyBB3kFXuQuDRBPvjnLcRgCgBny4uep",
+      "signature": "42ikX52s47yNqawLCokHVbmtXVnkyGLohSMoyERmRsvo6c81RP12HmDuYiT6dEVGKcRBdvCcbv9FMPrLFunhE6tc",
+      "points": 1523,
+      "seed": "3UyhtQR16F1iuvt4ZGtbBkM2MxERVKcv71D7mNgx66wgXSNqRJbYjCEGrLN1nGm5movQKBb5V31DhWptErBxDDv2"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "4HzREqF6BTxNagraT5i4QqvVQUFt4aD2q4A97pz3dtefPEjQ1nqFkScEjapXbkKfARZAXNkqZYdaPsUhFzqcQVzi",
+      "points": 1535,
+      "seed": "3UyhtQR16F1iuvt4ZGtbBkM2MxERVKcv71D7mNgx66wgXSNqRJbYjCEGrLN1nGm5movQKBb5V31DhWptErBxDDv2"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "4qWinU6rPHwsCvJBmdvRej8Au19fz6ZpBrQRzZYqhEsXD6JMqFmf7jnEPyDnJz1vJs7xyzU7LVLqnH1wX5hTzWBc",
+      "points": 1688,
+      "seed": "3UyhtQR16F1iuvt4ZGtbBkM2MxERVKcv71D7mNgx66wgXSNqRJbYjCEGrLN1nGm5movQKBb5V31DhWptErBxDDv2"
+    },
+    {
+      "signer": "4Nq2UZWfYKWXnhvfJzMcRbvvFfxGjF2Q3WVkTcuvVRDF",
+      "signature": "M3ThbMYEPMMBGmbFQegzUpJJcCZHba15VYN8PknxVR3wQfoBT5iDbZikAqEHMqkXm8HWYVBWxyVNJdoCZLu3NUC",
+      "points": 617,
+      "seed": "21tSNSngtEqBNVjYjuWsZSzTfWdWH3rHjEXYqj44sBqkdWHByeT83dyNPa8ePY6K3qUFWdLnihaCDEvTBPXQbqwB"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "3yN6oqyALZwbAZcKmFZsShL8uC75JgToaRJ4g8JNX7QeCLAMvwXijQDMrPTSdwsZxUfvpcQDve5ZGZjDBScDgUw7",
+      "points": 1866,
+      "seed": "21tSNSngtEqBNVjYjuWsZSzTfWdWH3rHjEXYqj44sBqkdWHByeT83dyNPa8ePY6K3qUFWdLnihaCDEvTBPXQbqwB"
+    },
+    {
+      "signer": "Fte2zHN1BsCoQ2L9yRNF2prGej4Ssj2hFRp4JMgzPpas",
+      "signature": "4jzyAYyGtLAZRRXGdPEwFLHpNXYymLDVQDquMeNp6ShQQhFrnys2jZ34PebMhk3hz9dvS1242K319KeBvpwuYyYJ",
+      "points": 1454,
+      "seed": "21tSNSngtEqBNVjYjuWsZSzTfWdWH3rHjEXYqj44sBqkdWHByeT83dyNPa8ePY6K3qUFWdLnihaCDEvTBPXQbqwB"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "2LknRjLt55gkpWCyE8LYXKHBfV4oSiNa2ozxyf5B5LQLACpeS7ti7Jgtwc7HrxEZgFW4QAihqdtUcBSTivbnWxz6",
+      "points": 785,
+      "seed": "21tSNSngtEqBNVjYjuWsZSzTfWdWH3rHjEXYqj44sBqkdWHByeT83dyNPa8ePY6K3qUFWdLnihaCDEvTBPXQbqwB"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "2KeLTyagWfa4KyzuHviX9G38DZRAHv2b5kSmh7ErFCaJYx6kPHWumXnoncE1KRLBb3Qi7F6Ho7Xa4FUB4hyiJPPz",
+      "points": 719,
+      "seed": "21tSNSngtEqBNVjYjuWsZSzTfWdWH3rHjEXYqj44sBqkdWHByeT83dyNPa8ePY6K3qUFWdLnihaCDEvTBPXQbqwB"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "2CSEGtRPZqhBJsWajeJJ9pcU2YDqnBAe1JShExu9JLyh4w1JNYgVwHCcHtfs2ze1tfBYGKDKDhsdjGfT9KQ9SzWj",
+      "points": 788,
+      "seed": "21tSNSngtEqBNVjYjuWsZSzTfWdWH3rHjEXYqj44sBqkdWHByeT83dyNPa8ePY6K3qUFWdLnihaCDEvTBPXQbqwB"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "5XzpoW5rFn8VTGwniWmchq41P1isrDWEQNNbasEykFcNdqHGY56QZqMpFDqdWb8hmJYwd1pkz2uXFSGZWc79kYoC",
+      "points": 1252,
+      "seed": "21tSNSngtEqBNVjYjuWsZSzTfWdWH3rHjEXYqj44sBqkdWHByeT83dyNPa8ePY6K3qUFWdLnihaCDEvTBPXQbqwB"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "3Zrda84WqGJSpLhnEsdrWTzikBgULM8DdH5oxoM2BVbPbA61YBfKGiuPwnLa5uJ9i8t1X7iTbb7LbEnhkQZD2g2d",
+      "points": 1183,
+      "seed": "4bhYjrf3E2ZkrRViZrc4EuFisZCipkLfnB6FPjLxjKqFJ5UDnQY1KwPvNzCs2gsdkmJGMmhfAVEE71bFrua69oXP"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "4BwmDAALmjWM7TkRcoPYuhAjCyzxNT7J8SJcNYte1LTgqxhFL9LFXEmMSgCcDXSJSPYYx248zSDZQPRo3oq2ZWBd",
+      "points": 1118,
+      "seed": "4bhYjrf3E2ZkrRViZrc4EuFisZCipkLfnB6FPjLxjKqFJ5UDnQY1KwPvNzCs2gsdkmJGMmhfAVEE71bFrua69oXP"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "wRKW1v3N9YGeWgSkRv67VsCsGkLVBkaANdehu9dqhXnbAgMZx7JQtxwS7X3UwRmY7J8UVG3DfAJ9iJNBfxptu55",
+      "points": 1269,
+      "seed": "4bhYjrf3E2ZkrRViZrc4EuFisZCipkLfnB6FPjLxjKqFJ5UDnQY1KwPvNzCs2gsdkmJGMmhfAVEE71bFrua69oXP"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "NAHybgwNnuf7tM6hftv3WiEAdnGX2nht1VvG7PeaShErUVxKAeqeaJJ65yCa2d1Tzr5RcNZ7m7nFFxBYVcMNHpy",
+      "points": 642,
+      "seed": "4bhYjrf3E2ZkrRViZrc4EuFisZCipkLfnB6FPjLxjKqFJ5UDnQY1KwPvNzCs2gsdkmJGMmhfAVEE71bFrua69oXP"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "4nHg5FuFFyvwWsYuaHBEksKbru8phUiJUAM44N16yirM1XUMiAoDJ5JGJZrWzgTGkGXmpWQCDVtw69dhqDY6D5Nn",
+      "points": 1263,
+      "seed": "4bhYjrf3E2ZkrRViZrc4EuFisZCipkLfnB6FPjLxjKqFJ5UDnQY1KwPvNzCs2gsdkmJGMmhfAVEE71bFrua69oXP"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "43xaoQ8XQi16ZXZdALtBog19eUzUJTNizsMkb4623aY9UzgjrmtLuBSRi8764j81bQGXqFcf3aB5UxxHqm3LiMf",
+      "points": 1355,
+      "seed": "4bhYjrf3E2ZkrRViZrc4EuFisZCipkLfnB6FPjLxjKqFJ5UDnQY1KwPvNzCs2gsdkmJGMmhfAVEE71bFrua69oXP"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "3Mr8btDpqn7WxGp1LFMYqKu6kL6cr6cRhw2RexTpw8ybGfgwfVGGqNhaMwBcNm26aQTFyiXZ4XNxbRcPX1DbjN9N",
+      "points": 1843,
+      "seed": "4bhYjrf3E2ZkrRViZrc4EuFisZCipkLfnB6FPjLxjKqFJ5UDnQY1KwPvNzCs2gsdkmJGMmhfAVEE71bFrua69oXP"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "5GJLXaxHCMETYgwNYtbVd4C34D7nyub4fcjnSbPS8StDYMGYEDFHhdeFgzwwW7qStfpjCASBChBa7j2wx85onDCt",
+      "points": 1919,
+      "seed": "4bhYjrf3E2ZkrRViZrc4EuFisZCipkLfnB6FPjLxjKqFJ5UDnQY1KwPvNzCs2gsdkmJGMmhfAVEE71bFrua69oXP"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "4hHR5Mwwit1NDJeU5fmkMfuMNEDJE3vC1YmrDdsXAJEMN8xKhQSSiD8taiEaCSi6tQzH13GmLUZgj67B6P917mJC",
+      "points": 1919,
+      "seed": "4bhYjrf3E2ZkrRViZrc4EuFisZCipkLfnB6FPjLxjKqFJ5UDnQY1KwPvNzCs2gsdkmJGMmhfAVEE71bFrua69oXP"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "Vf7vWSuhXrZkSdDwiKJKfKpSPMizPjr5D2Gyi3iMUKmEHLB6RXatxfDTDvz4qUHoVDdFNXFRPyPiMBdgCurypuR",
+      "points": 1918,
+      "seed": "4bhYjrf3E2ZkrRViZrc4EuFisZCipkLfnB6FPjLxjKqFJ5UDnQY1KwPvNzCs2gsdkmJGMmhfAVEE71bFrua69oXP"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "26ADPSb1Q9wm7Y7vHF1pjx8HRqj8TqfMbrThrkHquSH3G23aJUG1ADwWhJbpRduX9qVa789mA7veZtkf9ELVga2k",
+      "points": 1356,
+      "seed": "4oCqBfN8VnGCJfyNg9nfDJjdm8p6ECzBkJaJwU46MfqWXNWfzHrVFYwa6RhZikTguiZkEyVJvg8mVoBPMqLifm7Z"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "5ds5Yxit7cXqHMg2YSohSa8UXdAUtTMbnkRsD8E3F66tt4ohLiSLLSmsQgd9cMk5Y1xRtXiWgG8DHYWGidbcmxC1",
+      "points": 1290,
+      "seed": "4oCqBfN8VnGCJfyNg9nfDJjdm8p6ECzBkJaJwU46MfqWXNWfzHrVFYwa6RhZikTguiZkEyVJvg8mVoBPMqLifm7Z"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "5uP35nAG5aKo6CqyFV1BtdBBF1ffhK5FZXx9fdZQM4TEJEicWUU9ms1xrbwSVhjYN9xfhahaBaoYb59uanDTk5uS",
+      "points": 1601,
+      "seed": "2jkkYeNVCUB9T6xLqpwtTzUC6C9Vf2zoJUiEtm19LFNDTkkgEYc8eeF3z1VT3HMvRJF5sRYgHX3VZKwLuJguYaWL"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "5f7zL5oAEWfwY3aby56BoJmszVNgWmEqibEaQvdEzG5jPwarvU7sWQWUSemSrSQJErgzr9LpHubJFbiL7nTUa5zq",
+      "points": 1512,
+      "seed": "2jkkYeNVCUB9T6xLqpwtTzUC6C9Vf2zoJUiEtm19LFNDTkkgEYc8eeF3z1VT3HMvRJF5sRYgHX3VZKwLuJguYaWL"
+    },
+    {
+      "signer": "Fte2zHN1BsCoQ2L9yRNF2prGej4Ssj2hFRp4JMgzPpas",
+      "signature": "5eipkbLdnEJJeLpypM38p8AwesTt3xJHLSenbuEue9UjWpWbV59dwYaQKE3d7VppYTu7127ETvF5rqZFYAZTWvxs",
+      "points": 1533,
+      "seed": "2jkkYeNVCUB9T6xLqpwtTzUC6C9Vf2zoJUiEtm19LFNDTkkgEYc8eeF3z1VT3HMvRJF5sRYgHX3VZKwLuJguYaWL"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "4uFjHLrKN9YWAWk9u867iHKhh5dwjiTBBiCyA3pkX1CPTTbKRkbGNHXnxhvP4YYNyShcJgDdA83862KqKzaUgBcH",
+      "points": 1747,
+      "seed": "2jkkYeNVCUB9T6xLqpwtTzUC6C9Vf2zoJUiEtm19LFNDTkkgEYc8eeF3z1VT3HMvRJF5sRYgHX3VZKwLuJguYaWL"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "4JbBhkyKbMx8BNNh4cYb59KYn1w5NhZopzyk7qFBd31cYBr7Gw5MridodaJMYAC7FeAUnmJWgM8HxVnYnAPWXJf3",
+      "points": 1756,
+      "seed": "2jkkYeNVCUB9T6xLqpwtTzUC6C9Vf2zoJUiEtm19LFNDTkkgEYc8eeF3z1VT3HMvRJF5sRYgHX3VZKwLuJguYaWL"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "52dqqUyBXpGRXJqcmz9ryfR29n8YZ1K7y3kDKrvVwaL17wyxMHAg3UX9wypJm6TZYTSqNANEo6YPLrRrgGKf2uRz",
+      "points": 1756,
+      "seed": "2jkkYeNVCUB9T6xLqpwtTzUC6C9Vf2zoJUiEtm19LFNDTkkgEYc8eeF3z1VT3HMvRJF5sRYgHX3VZKwLuJguYaWL"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "4YwwHTVcfcoRqi48pBpiSGeFsoXixNHFCSM5RSn5epeSYrLiYwoY4CjFH9t6cTBs9ze1j8i1aCNVToSpSAZuAyyK",
+      "points": 2107,
+      "seed": "2jkkYeNVCUB9T6xLqpwtTzUC6C9Vf2zoJUiEtm19LFNDTkkgEYc8eeF3z1VT3HMvRJF5sRYgHX3VZKwLuJguYaWL"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "5foriFH8a69yYBkWCT6855UD9cqKZoPqAt5QvRAyPtpjmT7joR29gm2TQTc89UtAq7D34CKGUMa4DKLQXvNr6EED",
+      "points": 1964,
+      "seed": "4WpoLGRfsGSpuHyy7QNYPF6X96pAyRUDYegLnSEFban9LfjxeCYr7yD6RCWnGpToHQZbaFKRmRWpsbUWnSpfi6nx"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "2SaAMCdHnXqJYCkgwkVHx1rvH28k2Gztuh6yRt2K74tTpX7W11p8Ut2cekQLDjTkuAkJC4rJELCZ2GuPDuTF5H9z",
+      "points": 2323,
+      "seed": "4WpoLGRfsGSpuHyy7QNYPF6X96pAyRUDYegLnSEFban9LfjxeCYr7yD6RCWnGpToHQZbaFKRmRWpsbUWnSpfi6nx"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "54AWZtmnRW9KBUrPkERig2ikAv7YaPT9STpoFvoGUn1Tt913PCGe55TkVGMEBDbTmZK4zeWF6YovJnrjnN6khUwh",
+      "points": 1151,
+      "seed": "4WpoLGRfsGSpuHyy7QNYPF6X96pAyRUDYegLnSEFban9LfjxeCYr7yD6RCWnGpToHQZbaFKRmRWpsbUWnSpfi6nx"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "2av3bpqVv51TWH1sTXs2nV3Kuv1gbMqtfS967YgZqgtMrMBefK3utUqZZ5dtVRRDhATC7M93jeyF9QV3vTWJGPwf",
+      "points": 1591,
+      "seed": "4WpoLGRfsGSpuHyy7QNYPF6X96pAyRUDYegLnSEFban9LfjxeCYr7yD6RCWnGpToHQZbaFKRmRWpsbUWnSpfi6nx"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "4u7EZtUFnYorPaLE8duAoNADKQynLagfKFgJr438vFH7DAtbkCxmV8sShrUvyWhC429YnzRnstx3dQ4buXaPAydW",
+      "points": 1488,
+      "seed": "4WpoLGRfsGSpuHyy7QNYPF6X96pAyRUDYegLnSEFban9LfjxeCYr7yD6RCWnGpToHQZbaFKRmRWpsbUWnSpfi6nx"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "48Hm2jPxz2GAgPAVonkoZ36yNGZnGd5FLJQSsQs4eBn1aPwgynfqKTyHzVnykQn1ZjC1kfuDhLru3g9443GZfu2q",
+      "points": 1591,
+      "seed": "4WpoLGRfsGSpuHyy7QNYPF6X96pAyRUDYegLnSEFban9LfjxeCYr7yD6RCWnGpToHQZbaFKRmRWpsbUWnSpfi6nx"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "vDuLc9GEGbBEpXSzSQGcaFBYUdys193S6M3SaCdi1uQkAaizqmKG5tphR7HKRTDNeSKiyuk7ZmhJevka8YQvEJ8",
+      "points": 1247,
+      "seed": "4WpoLGRfsGSpuHyy7QNYPF6X96pAyRUDYegLnSEFban9LfjxeCYr7yD6RCWnGpToHQZbaFKRmRWpsbUWnSpfi6nx"
+    },
+    {
+      "signer": "47Yaecze9rq9cYyBB3kFXuQuDRBPvjnLcRgCgBny4uep",
+      "signature": "3dU1u1L47YKPGvyZ44yRyuqPpq2h133GeSv9m5Li7DxhsXzxhYgX5uQro2J6fwbtHKnSiihT9UYEhXZshM89ymrY",
+      "points": 1343,
+      "seed": "4WpoLGRfsGSpuHyy7QNYPF6X96pAyRUDYegLnSEFban9LfjxeCYr7yD6RCWnGpToHQZbaFKRmRWpsbUWnSpfi6nx"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "4KXpY6MHLAefUrkY5nnS7Pbi5XCKrWDWVn6tHnnshFLwtVnQtBamuuRNxNPK1dNWHh6MoZUJfXaEPXhsuECZnXas",
+      "points": 1391,
+      "seed": "4WpoLGRfsGSpuHyy7QNYPF6X96pAyRUDYegLnSEFban9LfjxeCYr7yD6RCWnGpToHQZbaFKRmRWpsbUWnSpfi6nx"
+    },
+    {
+      "signer": "DBbzvMmNRZTtgkVnxqMzmtgP6VuxzAuAUn9cM2abHruc",
+      "signature": "3Xk3aHmw8Ej7muzc7jd5Y8rAqo6d2xoLpcpZsusXEYnYXBb68opjtgz8BVLPuzBXKBMJC3SvVYPUN6yMemfZLs8y",
+      "points": 1284,
+      "seed": "4WpoLGRfsGSpuHyy7QNYPF6X96pAyRUDYegLnSEFban9LfjxeCYr7yD6RCWnGpToHQZbaFKRmRWpsbUWnSpfi6nx"
+    },
+    {
+      "signer": "DBbzvMmNRZTtgkVnxqMzmtgP6VuxzAuAUn9cM2abHruc",
+      "signature": "2xhvJFZ8tb7JJuZaGqY9fESuQ92CsKzeozg83MP97WdSYuSFuWTAdy72B73qcsWtReE8dhFmfR1bZwkuCRA9VW9Y",
+      "points": 1284,
+      "seed": "4WpoLGRfsGSpuHyy7QNYPF6X96pAyRUDYegLnSEFban9LfjxeCYr7yD6RCWnGpToHQZbaFKRmRWpsbUWnSpfi6nx"
+    },
+    {
+      "signer": "DBbzvMmNRZTtgkVnxqMzmtgP6VuxzAuAUn9cM2abHruc",
+      "signature": "3mNj1kEYdiv6huUz6MjKvgrmLDgawJgsMKnHqX2yaC5hx2cj7bBVvsVceWWSyEtjUBS5Mdz2sRoCS9QhsET99N4d",
+      "points": 1488,
+      "seed": "4WpoLGRfsGSpuHyy7QNYPF6X96pAyRUDYegLnSEFban9LfjxeCYr7yD6RCWnGpToHQZbaFKRmRWpsbUWnSpfi6nx"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "5xZ3dnqi8XRE7eDFEU7ghUmzEdVJK6tamv6uFwhGkLC8tuqHZsCVQpR35juXFg9nWuDREJBGLe3w2sEfmtz3jVcM",
+      "points": 1249,
+      "seed": "4WpoLGRfsGSpuHyy7QNYPF6X96pAyRUDYegLnSEFban9LfjxeCYr7yD6RCWnGpToHQZbaFKRmRWpsbUWnSpfi6nx"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "3vUDaHozEHKxwZPmnVjMUxNt4fdte6gmE71y8GRaiL2vxFTdkuA2iNRvcznv4iwHaGfFnQXCP1ke6nU5Tdby3r1J",
+      "points": 1784,
+      "seed": "2ozEM8nN9wXmAEuXLKqpEGEHofotFik7jJXVH7KFxHfg1c4EeyZVndYopNuFf49s9JAJdeexsARKgf7fx49GZ7Xt"
+    },
+    {
+      "signer": "Fte2zHN1BsCoQ2L9yRNF2prGej4Ssj2hFRp4JMgzPpas",
+      "signature": "jZJRt6NyFLSWih3YkYLmLqzQP4KSHcL2GsQooKC2TYK7CKnGX5HuuJwEuCRMSB4JDqVQNnDWWH5RCUCJJYNT9Qx",
+      "points": 1669,
+      "seed": "2ozEM8nN9wXmAEuXLKqpEGEHofotFik7jJXVH7KFxHfg1c4EeyZVndYopNuFf49s9JAJdeexsARKgf7fx49GZ7Xt"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "52PVK1TyFfN6qo815j66jwR3W3qKUfwUMyPzLgnDBnMiVwdtow7dwWR2vJSKNa52tUETvT5g9ks7sfeWYfZZdm6U",
+      "points": 1562,
+      "seed": "2ozEM8nN9wXmAEuXLKqpEGEHofotFik7jJXVH7KFxHfg1c4EeyZVndYopNuFf49s9JAJdeexsARKgf7fx49GZ7Xt"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "2caP1cgRmYEkmjxLCdzYRPfT6e7orZnSznPn1gHY2L2zMG7eq9ykZLfa7y8fjBQEzt8axcAGtHSzjhX7D9EB9WE1",
+      "points": 1148,
+      "seed": "2ozEM8nN9wXmAEuXLKqpEGEHofotFik7jJXVH7KFxHfg1c4EeyZVndYopNuFf49s9JAJdeexsARKgf7fx49GZ7Xt"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "2GTSvoxULcgUNDgKowhtQwiknFVP3kuKrH8H57TntrEFrPB3j5xkxzg7y5AYewdsbQK7i5h7t2VXdMHgSBctrKDK",
+      "points": 1275,
+      "seed": "2ozEM8nN9wXmAEuXLKqpEGEHofotFik7jJXVH7KFxHfg1c4EeyZVndYopNuFf49s9JAJdeexsARKgf7fx49GZ7Xt"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "2fBuWE6xMsBiwM5tK7Vy8M9Y9MJDjMJMXPvZjViVCs9U9EoU4ZucjvrSmYuqQTPr3WCTyVmhiV5PnLfLedc55Xt3",
+      "points": 1340,
+      "seed": "2ozEM8nN9wXmAEuXLKqpEGEHofotFik7jJXVH7KFxHfg1c4EeyZVndYopNuFf49s9JAJdeexsARKgf7fx49GZ7Xt"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "4qebTbN266RvxpLnwtT68F3bLFQcuk5eurbS9vXVTUmabhnTHUb7DRLffYXdaNBJY7GBEidznPLPXp2wQroGDyHq",
+      "points": 1340,
+      "seed": "2ozEM8nN9wXmAEuXLKqpEGEHofotFik7jJXVH7KFxHfg1c4EeyZVndYopNuFf49s9JAJdeexsARKgf7fx49GZ7Xt"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "4NMrXcSp1vEaFS37K8UXPVUg42BGUh77VNdFNMvuz22eg5ZBrVFhXqtxzCXVq8WiEZy9p5GSk2j5bGYtxVD2STZk",
+      "points": 1405,
+      "seed": "2ozEM8nN9wXmAEuXLKqpEGEHofotFik7jJXVH7KFxHfg1c4EeyZVndYopNuFf49s9JAJdeexsARKgf7fx49GZ7Xt"
+    },
+    {
+      "signer": "47Yaecze9rq9cYyBB3kFXuQuDRBPvjnLcRgCgBny4uep",
+      "signature": "ucKkUCNi3jY4RxoamcV4U5L3pia8Bsse3wkiuceDggZgWjoSHB9Yh5SjnAWVkLDYsmVELhHjuy4iiTKyBVcQL3b",
+      "points": 1274,
+      "seed": "2ozEM8nN9wXmAEuXLKqpEGEHofotFik7jJXVH7KFxHfg1c4EeyZVndYopNuFf49s9JAJdeexsARKgf7fx49GZ7Xt"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "3UrdefH2FPJjtiSvGjHB44Gh9SDFeHuxHYrCdz8kf1xH3p7zyZGaC6eVaMMrTsvFQ7CDxzAeWquFQSSVPEb52qV1",
+      "points": 1800,
+      "seed": "2ozEM8nN9wXmAEuXLKqpEGEHofotFik7jJXVH7KFxHfg1c4EeyZVndYopNuFf49s9JAJdeexsARKgf7fx49GZ7Xt"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "4jcv6b15BAcmQXRrYkph5MJ6vALc1yRvzA6X8vHWdP48bhfPPseZCiNcFzEwRheT2NozfqmfVXUthsremPcqFZ5L",
+      "points": 1344,
+      "seed": "2ozEM8nN9wXmAEuXLKqpEGEHofotFik7jJXVH7KFxHfg1c4EeyZVndYopNuFf49s9JAJdeexsARKgf7fx49GZ7Xt"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "3Y7gAFyvNasLqcp2PDcVF7ipDpimF3W3aNaiDahDtkCB5cHN5omSZki4A8o9SbzQv2D2WzRDx6KKzmXEkMc3HaLM",
+      "points": 1150,
+      "seed": "2ozEM8nN9wXmAEuXLKqpEGEHofotFik7jJXVH7KFxHfg1c4EeyZVndYopNuFf49s9JAJdeexsARKgf7fx49GZ7Xt"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "3w13rebaXjxNBcMWa5DxqgYhqJV7MnhB4VBVvXpitx8Coqoonz2aW1ZRRiqec7zGfj9mVxM9YvbVXU1BNjZqGfV6",
+      "points": 2141,
+      "seed": "2ozEM8nN9wXmAEuXLKqpEGEHofotFik7jJXVH7KFxHfg1c4EeyZVndYopNuFf49s9JAJdeexsARKgf7fx49GZ7Xt"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "2XowwCwoEV1pdaSCummYG6ykNozSDm6RPNC4Dv4AqQXqU9Pwhn7cz9V5P5YveHHdEgff2xcgUL3ALnvFuqecnW3g",
+      "points": 1409,
+      "seed": "2ozEM8nN9wXmAEuXLKqpEGEHofotFik7jJXVH7KFxHfg1c4EeyZVndYopNuFf49s9JAJdeexsARKgf7fx49GZ7Xt"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "2YHDjMagW29LTTMFfPU7b6sDPQitUTPsAHVXzLt1DB7EJGTPeE5DhA5docA6kiXQnBPX84or5oSM4UG2YNx2BMa",
+      "points": 2107,
+      "seed": "2ozEM8nN9wXmAEuXLKqpEGEHofotFik7jJXVH7KFxHfg1c4EeyZVndYopNuFf49s9JAJdeexsARKgf7fx49GZ7Xt"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "3GgNBAZia1dd7C3bGSW5kVb6Mu8zD65B9KXRxqNSPGH2RzxeRs3tHzsf4xSTs87N4vLFs4APQQkeFYdxy6kQ8umY",
+      "points": 2479,
+      "seed": "2ozEM8nN9wXmAEuXLKqpEGEHofotFik7jJXVH7KFxHfg1c4EeyZVndYopNuFf49s9JAJdeexsARKgf7fx49GZ7Xt"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "3jfky4yVAomTkHX3BJU86SjiP96Y4Kn1K2H3nHi4dnH6AGBGWJZFLf5nsmf8csh1o828cCAVJVZEAZ1mrjDWQZGz",
+      "points": 2646,
+      "seed": "2ozEM8nN9wXmAEuXLKqpEGEHofotFik7jJXVH7KFxHfg1c4EeyZVndYopNuFf49s9JAJdeexsARKgf7fx49GZ7Xt"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "4nis53q9mzAjyALi1NyJ7DfRuWtqGqp1jSRtCbfqXmKiwQ7LpAaUErqfybvBSRLnnXCKZM5UXpGE8SxoU6j5Xbi8",
+      "points": 1148,
+      "seed": "hmSyK5ELZiknfqnG1egVzHRbb4pDKdLWvcuyaa54HtH49mHuUMGF3PNePU6NVgUvHni5C1rsJyvLqpKxHx6eSeb"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "4Co4y6Bn1ysB4SH6KjPzWw2PzPk75XRJN1KfywdT2HcA5KNWzxzmsxHnN77wjaUc3zWDjCePnUtMZJAffjiMQrKR",
+      "points": 1290,
+      "seed": "hmSyK5ELZiknfqnG1egVzHRbb4pDKdLWvcuyaa54HtH49mHuUMGF3PNePU6NVgUvHni5C1rsJyvLqpKxHx6eSeb"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "54ZdQgUFJ1Z61nr9AVBfqvEtApDarVCT3LKfq1KkfbWtcJJok1651oGySmcNoH3AopmWas9TLFRH77R3Y23zzVCT",
+      "points": 1355,
+      "seed": "hmSyK5ELZiknfqnG1egVzHRbb4pDKdLWvcuyaa54HtH49mHuUMGF3PNePU6NVgUvHni5C1rsJyvLqpKxHx6eSeb"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "4VNTbNT3H7tK4STA9m6YEgiLjRRapt9oJa4KL239QGNpoRNvuhKbn1sCCZ2k8Xxjn2JLqzr1v4EVESg1Pmej1re2",
+      "points": 57,
+      "seed": "hmSyK5ELZiknfqnG1egVzHRbb4pDKdLWvcuyaa54HtH49mHuUMGF3PNePU6NVgUvHni5C1rsJyvLqpKxHx6eSeb"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "3B5RvSr9rwDpoKFmkATncWsYvk1Zvyiy9YeExBg6mQmN3LAZzLhN68LxXwKpZVEsn3Qt6oXWrJZPKY42cwAzBv8y",
+      "points": 42,
+      "seed": "hmSyK5ELZiknfqnG1egVzHRbb4pDKdLWvcuyaa54HtH49mHuUMGF3PNePU6NVgUvHni5C1rsJyvLqpKxHx6eSeb"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "RSBXgseP8MkLZ7ggBTGc8tKrZvyBPZ91RSuLBxfUhTZJ4J2zuEEtYtSiS3GGKhn4fjK68rW4SPyQWHjX9ohD6Px",
+      "points": 45,
+      "seed": "hmSyK5ELZiknfqnG1egVzHRbb4pDKdLWvcuyaa54HtH49mHuUMGF3PNePU6NVgUvHni5C1rsJyvLqpKxHx6eSeb"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "aGFM4ZDFAG3fhX2qwFjyLrjZt89r6VUhjb2tFN4p7FEXLHyLhSUykJPjhJVAm8qcjz9AjEnGojaXUVsN8hG1PSK",
+      "points": 49,
+      "seed": "hmSyK5ELZiknfqnG1egVzHRbb4pDKdLWvcuyaa54HtH49mHuUMGF3PNePU6NVgUvHni5C1rsJyvLqpKxHx6eSeb"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "Q5woDihe81pjo1nXjp7ZRnyTrPqsSBFFNhan9DnMbX69cUYKkr9MpNPzAwRyFv8mWWH1D3J1MctTF4nHQnBHAbA",
+      "points": 54,
+      "seed": "hmSyK5ELZiknfqnG1egVzHRbb4pDKdLWvcuyaa54HtH49mHuUMGF3PNePU6NVgUvHni5C1rsJyvLqpKxHx6eSeb"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "4jhRnD4RkbQs63B4CCuAg3eGCxnAXGwBdVmW8chFPcAe3SwWrevA3tHmETz8QUsJYLX1trSfWkCtBfXQEiGM8zj1",
+      "points": 1012,
+      "seed": "hmSyK5ELZiknfqnG1egVzHRbb4pDKdLWvcuyaa54HtH49mHuUMGF3PNePU6NVgUvHni5C1rsJyvLqpKxHx6eSeb"
+    },
+    {
+      "signer": "75t2Erf9VYmpwRkyoTavi4krVArURodpJxfBDx7wNAP2",
+      "signature": "4xEF214chzdDoyt1nLz94DpmizMdsUNJuFYj96wjpUEsqvJNTQHm1YawSJH1ggyAanQENAB3EjbuzyEmXZ6ycR3M",
+      "points": 190,
+      "seed": "hmSyK5ELZiknfqnG1egVzHRbb4pDKdLWvcuyaa54HtH49mHuUMGF3PNePU6NVgUvHni5C1rsJyvLqpKxHx6eSeb"
+    },
+    {
+      "signer": "75t2Erf9VYmpwRkyoTavi4krVArURodpJxfBDx7wNAP2",
+      "signature": "2vvyE7MY3DqZm7z6gE8qBw6RE4DfbvCSE8CM89ryFxq9PebexL5PtzcX1qvXtKisQY645XYfLTA58CHECCDWnBEG",
+      "points": 397,
+      "seed": "hmSyK5ELZiknfqnG1egVzHRbb4pDKdLWvcuyaa54HtH49mHuUMGF3PNePU6NVgUvHni5C1rsJyvLqpKxHx6eSeb"
+    },
+    {
+      "signer": "75t2Erf9VYmpwRkyoTavi4krVArURodpJxfBDx7wNAP2",
+      "signature": "2izspFcNKpDk7wnTtNz56KoZUSxyQznZWHEchAWox7ZXXyNLoCBYrS1QrsHGeLciRA81e5Bu5j4TtpMD6QgvHYdM",
+      "points": 1140,
+      "seed": "hmSyK5ELZiknfqnG1egVzHRbb4pDKdLWvcuyaa54HtH49mHuUMGF3PNePU6NVgUvHni5C1rsJyvLqpKxHx6eSeb"
+    },
+    {
+      "signer": "75t2Erf9VYmpwRkyoTavi4krVArURodpJxfBDx7wNAP2",
+      "signature": "3FZrEGpczAAUrntEDaSZyxocKEg2teeVwxtsvVuuFFAgsvCvQ65XZV8vFQvT32uoGUDWkBGfS3gh4TUijfkYMsVq",
+      "points": 1140,
+      "seed": "hmSyK5ELZiknfqnG1egVzHRbb4pDKdLWvcuyaa54HtH49mHuUMGF3PNePU6NVgUvHni5C1rsJyvLqpKxHx6eSeb"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "4i1KTJrVC1D1VdyUqatuPTTGtHtVZe7HJuDHNuWH5aXKMGCGuUsZ52odt7XU4qhJfokHWH3978Ta8uqN2kdqXFMP",
+      "points": 2099,
+      "seed": "hmSyK5ELZiknfqnG1egVzHRbb4pDKdLWvcuyaa54HtH49mHuUMGF3PNePU6NVgUvHni5C1rsJyvLqpKxHx6eSeb"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "JWEU1r79pTaWYc4TQBaShpWb7apUoWt6JihqzUjdYGLpBUgEb5xmPXu4qYDptFZxwnzUfiXe9DzWwf3CsuXM87u",
+      "points": 1191,
+      "seed": "2MDX7yWrvaPme3VUGYwVg35FMtcGwki6MuFJBsPhhCnN7HXjHUkNiXswJ8Seb283BaXzrA2zC7tfm1p54Q4dfc8w"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "vgu4a11LCExiDcV88HGHd4C5xwREVSqkZd3b4o9j3KemZBUtkcuQ4MmkMiL2vmPVomjjDKA4gjHwVzUVQWfSh6Y",
+      "points": 2227,
+      "seed": "2ozEM8nN9wXmAEuXLKqpEGEHofotFik7jJXVH7KFxHfg1c4EeyZVndYopNuFf49s9JAJdeexsARKgf7fx49GZ7Xt"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "5wuJdWvC41PardJNwDEWRFKEdshPtGL3q4Q9cZGtxxRaCEF6kei6CscCCRurP86ZB6yk5THJLhw5Sc6TnzMHgykG",
+      "points": 1799,
+      "seed": "2MDX7yWrvaPme3VUGYwVg35FMtcGwki6MuFJBsPhhCnN7HXjHUkNiXswJ8Seb283BaXzrA2zC7tfm1p54Q4dfc8w"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "3prmzJttWt9coWiA5cYiPmMmzeXkwe2BEEg4ZwSksco6vLB9bqtLdx2kXkVafxfVPW85c1gkahjfP1rUfEHgPPfn",
+      "points": 1235,
+      "seed": "2MDX7yWrvaPme3VUGYwVg35FMtcGwki6MuFJBsPhhCnN7HXjHUkNiXswJ8Seb283BaXzrA2zC7tfm1p54Q4dfc8w"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "frPbnBEHdP3vSmYxW3T3NKVq2vhhJDGuoD7KY4XUq745Qu2KrZmXr8u6KrDn76QsHEcptrj3h9ujzAShDZDeK9b",
+      "points": 1302,
+      "seed": "2MDX7yWrvaPme3VUGYwVg35FMtcGwki6MuFJBsPhhCnN7HXjHUkNiXswJ8Seb283BaXzrA2zC7tfm1p54Q4dfc8w"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "5xQUGkxgKBurFQcoQTEyGutkDzyjeHxtUiHrjDmf3jmuC2Jgwt5CKeJM2iXixoEvce4YEoXVFrJAshH1VqQ3MhyX",
+      "points": 939,
+      "seed": "2MDX7yWrvaPme3VUGYwVg35FMtcGwki6MuFJBsPhhCnN7HXjHUkNiXswJ8Seb283BaXzrA2zC7tfm1p54Q4dfc8w"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "2xmdWjH64eeSSAykK186KAiThTSxBw19TspaueTLAXxSWgqcfQkRp3qgT15XSvasmL7Mx6b3hTV4MhBMcBoTCgo2",
+      "points": 1004,
+      "seed": "2MDX7yWrvaPme3VUGYwVg35FMtcGwki6MuFJBsPhhCnN7HXjHUkNiXswJ8Seb283BaXzrA2zC7tfm1p54Q4dfc8w"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "57AspPed5phSZFrQfRtDAVZyM7kdRAoE3xq16nXLQazLxLGctp83uTedh1aqnSBAdZj2JfuRwTDSC1Gbj3g8zfBq",
+      "points": 1075,
+      "seed": "2MDX7yWrvaPme3VUGYwVg35FMtcGwki6MuFJBsPhhCnN7HXjHUkNiXswJ8Seb283BaXzrA2zC7tfm1p54Q4dfc8w"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "5f7jz5weWTYxhvpzsgijFvq2VLqhmWC8nwcN8U7Lf6ysEHEouBx97PuNz38myjsGfVfVgVrggF1DMLb6yb4FHqt1",
+      "points": 803,
+      "seed": "2MDX7yWrvaPme3VUGYwVg35FMtcGwki6MuFJBsPhhCnN7HXjHUkNiXswJ8Seb283BaXzrA2zC7tfm1p54Q4dfc8w"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "4vwhF2Y9bX3icbVJsLeUcpHBijnc8775zFYD9kE9xCqa4HhX3GgusqNbpoCKTZTtU9ojUUjzmg53DWYSE9tbCA7u",
+      "points": 803,
+      "seed": "2MDX7yWrvaPme3VUGYwVg35FMtcGwki6MuFJBsPhhCnN7HXjHUkNiXswJ8Seb283BaXzrA2zC7tfm1p54Q4dfc8w"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "epkDM7s83mU1f4cyE7z8WBw1UyUjQJ3npd19CPRTuNcSQis5KZWsWbyikNixmvignxEhP7jPotnMhAKCLV6VtsT",
+      "points": 1312,
+      "seed": "2MDX7yWrvaPme3VUGYwVg35FMtcGwki6MuFJBsPhhCnN7HXjHUkNiXswJ8Seb283BaXzrA2zC7tfm1p54Q4dfc8w"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "3UZDRZWFK76FEYDg9maUn3H5RhebQv1EEA4w5fo72N4xQfmusUF2VgTz79a9BS1vXvJMb4na3Tpao8xd7JLQDBn",
+      "points": 710,
+      "seed": "2MDX7yWrvaPme3VUGYwVg35FMtcGwki6MuFJBsPhhCnN7HXjHUkNiXswJ8Seb283BaXzrA2zC7tfm1p54Q4dfc8w"
+    },
+    {
+      "signer": "ExgCjUT9NrQfs3mHZD7Vis7LE6fbDwhuhn3uPKtedKqg",
+      "signature": "3sgYDV6rZra9wUZeVpc1G4sLZ2G3sMnze4g4dnig99dpTF1EHve5NafaKRT1qi3dQR41EAAdoh4KGLHSe5x55kw8",
+      "points": 961,
+      "seed": "2MDX7yWrvaPme3VUGYwVg35FMtcGwki6MuFJBsPhhCnN7HXjHUkNiXswJ8Seb283BaXzrA2zC7tfm1p54Q4dfc8w"
+    },
+    {
+      "signer": "ExgCjUT9NrQfs3mHZD7Vis7LE6fbDwhuhn3uPKtedKqg",
+      "signature": "4qCjtzWTFAk1HHR7cNEDbY6fFP3beyYHyr1HdcweU4WLbzGEAR9tYn3GGHajsU7nPLnw1X1jPchjH4MzsFS4KNgY",
+      "points": 1044,
+      "seed": "2MDX7yWrvaPme3VUGYwVg35FMtcGwki6MuFJBsPhhCnN7HXjHUkNiXswJ8Seb283BaXzrA2zC7tfm1p54Q4dfc8w"
+    },
+    {
+      "signer": "ExgCjUT9NrQfs3mHZD7Vis7LE6fbDwhuhn3uPKtedKqg",
+      "signature": "4AVDTr48d4fPPSj5sPjrKyD937J14R33eWVdaWF9KZjhKDzP5jJDVFuW3CT2vcrjRVcEKpBYrb5166m75WQUpQhJ",
+      "points": 1044,
+      "seed": "2MDX7yWrvaPme3VUGYwVg35FMtcGwki6MuFJBsPhhCnN7HXjHUkNiXswJ8Seb283BaXzrA2zC7tfm1p54Q4dfc8w"
+    },
+    {
+      "signer": "2aoh3kzkWTzaZcSR8pyzsBakHULbvNRSn8B8t8MUqs4W",
+      "signature": "52Nye1EeqDZCziFSRZdzCfe5guc2EWSX6J1Dm3R3injvbEGHmByc9cBrSC82qExTtZr9obDKSznngmWXk7DFe6KT",
+      "points": 215,
+      "seed": "2MDX7yWrvaPme3VUGYwVg35FMtcGwki6MuFJBsPhhCnN7HXjHUkNiXswJ8Seb283BaXzrA2zC7tfm1p54Q4dfc8w"
+    },
+    {
+      "signer": "ExgCjUT9NrQfs3mHZD7Vis7LE6fbDwhuhn3uPKtedKqg",
+      "signature": "4pNSUorRjNkEJVSKYZKenUDQNptEWo6qnqeWJgxneThKLKacXyhA8P6xP2NdZqeZQEcA1wxMHUDx1g5sKaDgvzaQ",
+      "points": 1159,
+      "seed": "2MDX7yWrvaPme3VUGYwVg35FMtcGwki6MuFJBsPhhCnN7HXjHUkNiXswJ8Seb283BaXzrA2zC7tfm1p54Q4dfc8w"
+    },
+    {
+      "signer": "ExgCjUT9NrQfs3mHZD7Vis7LE6fbDwhuhn3uPKtedKqg",
+      "signature": "3qghWZbZHNkHc6FGJDrma98X2nSaFwnhpgbjC9BSeMAABRDRHNTnVjgWyQk6cvpdgrE6SmJmExNJXzzm5aZEKLZv",
+      "points": 1159,
+      "seed": "2MDX7yWrvaPme3VUGYwVg35FMtcGwki6MuFJBsPhhCnN7HXjHUkNiXswJ8Seb283BaXzrA2zC7tfm1p54Q4dfc8w"
+    },
+    {
+      "signer": "ExgCjUT9NrQfs3mHZD7Vis7LE6fbDwhuhn3uPKtedKqg",
+      "signature": "5GpnYrjyMcQ5asyMBuSdP1ArCmYU7VcxsPyp3HEo1rafGJUGTgZXHdbRxELueuuusrcTiuhHJz3LBa7rPMmfPv29",
+      "points": 1159,
+      "seed": "2MDX7yWrvaPme3VUGYwVg35FMtcGwki6MuFJBsPhhCnN7HXjHUkNiXswJ8Seb283BaXzrA2zC7tfm1p54Q4dfc8w"
+    },
+    {
+      "signer": "2aoh3kzkWTzaZcSR8pyzsBakHULbvNRSn8B8t8MUqs4W",
+      "signature": "3kgs3kCPh6NtkuiVTV5b61VwpvmggkeyeSKkJJUVRsAoinEZSn9xgt4BP6kfeTJ2xM99fDXV91fW1Jzbirdbv8wf",
+      "points": 1042,
+      "seed": "2MDX7yWrvaPme3VUGYwVg35FMtcGwki6MuFJBsPhhCnN7HXjHUkNiXswJ8Seb283BaXzrA2zC7tfm1p54Q4dfc8w"
+    },
+    {
+      "signer": "2aoh3kzkWTzaZcSR8pyzsBakHULbvNRSn8B8t8MUqs4W",
+      "signature": "5yqgTtYCeQ6fX7Nv5A2tkTVDCWRbcSGup7wC2TmgNWMod95tqxGyERsWsrMZr4DCvvzk9Q8Gm2MUNw3cnb4DddSA",
+      "points": 1102,
+      "seed": "2MDX7yWrvaPme3VUGYwVg35FMtcGwki6MuFJBsPhhCnN7HXjHUkNiXswJ8Seb283BaXzrA2zC7tfm1p54Q4dfc8w"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "4zgwX4BdWKKA4ABv3Lys19mxf1ouCso49hCsCRT895sXGsjAG1PrfL1aovZ2XMLtupkgB3Ff7xeQKwnKEUPfdekV",
+      "points": 1161,
+      "seed": "2MDX7yWrvaPme3VUGYwVg35FMtcGwki6MuFJBsPhhCnN7HXjHUkNiXswJ8Seb283BaXzrA2zC7tfm1p54Q4dfc8w"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "2KbZwpygg2Q6MzyJF12JixYvymE48wDMCFk5fqAdx1Z1Ys1DbK6vsrw3x9CU7hw6E7E7YuLztFDfGYkaSjRfwpes",
+      "points": 1513,
+      "seed": "4Yg2gwS4SvUDSBAJJRXAvNponupM6NQoy7JPWvPrXmdeiJgrpaoi4fLjUcSjtRFk6wcW6p8xfrDDQBu8HF1ecgw8"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "2oxwVVv6Hs4PYjRQwDqzeBWYLEFAYuNK1ByzDCdWG4Bmk5f5xmeZVCuJjaHKjcX5r136zLvRByqRv4VidPe77JpK",
+      "points": 1809,
+      "seed": "4Yg2gwS4SvUDSBAJJRXAvNponupM6NQoy7JPWvPrXmdeiJgrpaoi4fLjUcSjtRFk6wcW6p8xfrDDQBu8HF1ecgw8"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "2CfEyFjhPbTqDUbED7QL6DoaQJKdJJgKAAytZp6N9Z5TxaB3uMKZuFoVFFS1bQFdALnUNiRXs51i5QqWYhE5XRzv",
+      "points": 1013,
+      "seed": "4Yg2gwS4SvUDSBAJJRXAvNponupM6NQoy7JPWvPrXmdeiJgrpaoi4fLjUcSjtRFk6wcW6p8xfrDDQBu8HF1ecgw8"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "4sNvRzenXi2NnvTTSTEijQxu4MrezG1uHaayKpazFQzp67jKZhi5z6BpRv9UumVALF7g59nu4JJNgS2CFaA3UvFo",
+      "points": 1013,
+      "seed": "4Yg2gwS4SvUDSBAJJRXAvNponupM6NQoy7JPWvPrXmdeiJgrpaoi4fLjUcSjtRFk6wcW6p8xfrDDQBu8HF1ecgw8"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "4FV9qt3WgsDwdphqCysZCXZXfMnmterZQBf3AEqyoQPQqY1wia5wNmD4fabPK1m2YKsD4s6pWasan8q7PfjX4jqe",
+      "points": 1211,
+      "seed": "4Yg2gwS4SvUDSBAJJRXAvNponupM6NQoy7JPWvPrXmdeiJgrpaoi4fLjUcSjtRFk6wcW6p8xfrDDQBu8HF1ecgw8"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "5fduPKGmRWMqSEsXTrj7GTdJvMzP1L2be4nADASSz7uw4xD6UYiPgqQxXEUvZ3PyDW8ezt6ma6ChpX255LqPaAiz",
+      "points": 1211,
+      "seed": "4Yg2gwS4SvUDSBAJJRXAvNponupM6NQoy7JPWvPrXmdeiJgrpaoi4fLjUcSjtRFk6wcW6p8xfrDDQBu8HF1ecgw8"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "2Q9Ej6pXcXTZKvUcUZy73m9tsy76U1ebofmH4BY7WYX56QyNSyfMogz8JJ6wRm6eyXVjuzh2CvnPTCmLWMZ1PA92",
+      "points": 1211,
+      "seed": "4Yg2gwS4SvUDSBAJJRXAvNponupM6NQoy7JPWvPrXmdeiJgrpaoi4fLjUcSjtRFk6wcW6p8xfrDDQBu8HF1ecgw8"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "2XAdtg8XSbPDUAcoJtF5brNnH5uxrHtppoEvomDPXoH5DDZD7sf2TNjbPd4sEUA1v4mwQqJtGxy1Kjjap2jpMFzW",
+      "points": 1211,
+      "seed": "4Yg2gwS4SvUDSBAJJRXAvNponupM6NQoy7JPWvPrXmdeiJgrpaoi4fLjUcSjtRFk6wcW6p8xfrDDQBu8HF1ecgw8"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "3WcddoQgVEU293SUWVomRBzMWVfWC94Jw4JPEFawDtJUHJStxThSDU6TXGehheirejpSXHUP29HRMXcS166ubrrP",
+      "points": 1211,
+      "seed": "4Yg2gwS4SvUDSBAJJRXAvNponupM6NQoy7JPWvPrXmdeiJgrpaoi4fLjUcSjtRFk6wcW6p8xfrDDQBu8HF1ecgw8"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "eGZWywYwsHUWMPhhtU7uPcHnk1v3dUueyg98BCWCVjwwWwmFEVBDcHGCmjndWYYHuWKrZEMSrRuSR9twHGZRTnL",
+      "points": 1211,
+      "seed": "4Yg2gwS4SvUDSBAJJRXAvNponupM6NQoy7JPWvPrXmdeiJgrpaoi4fLjUcSjtRFk6wcW6p8xfrDDQBu8HF1ecgw8"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "3WcDzDmiP3yCf5q3RFj7ixNoVowk6nXkjWvBrcEk88NYXkarTXfeR42vBcM6G8Kn1cq1F82o3kvUeJHobKbEMUVv",
+      "points": 1211,
+      "seed": "4Yg2gwS4SvUDSBAJJRXAvNponupM6NQoy7JPWvPrXmdeiJgrpaoi4fLjUcSjtRFk6wcW6p8xfrDDQBu8HF1ecgw8"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "5CoDNyQvLxLJD65Ct5JGTKmttetx3cHVR4cq7ZkDzK2pRtvJTq1SAHDvFoQPWGbHeCiTMLEzfF6LDdy2QXDh5EMF",
+      "points": 1211,
+      "seed": "4Yg2gwS4SvUDSBAJJRXAvNponupM6NQoy7JPWvPrXmdeiJgrpaoi4fLjUcSjtRFk6wcW6p8xfrDDQBu8HF1ecgw8"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "3FZovzXEE3Qf5BVPvrA5nB3sF5zN3DJsG3wY5PUoFw4sfM9Lu88Ya5PF3GMvBe6RrGTDSSDUuNYyMV5bPgfpFmFC",
+      "points": 1211,
+      "seed": "4Yg2gwS4SvUDSBAJJRXAvNponupM6NQoy7JPWvPrXmdeiJgrpaoi4fLjUcSjtRFk6wcW6p8xfrDDQBu8HF1ecgw8"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "vocdF3cEo8rt8J8ko3JWSqDovLHMuobUizrbyAjBqJ24hg6zyyRtjoTWg19LZ1vijzMJ4wbARxjRsctcXHR3ZCv",
+      "points": 1211,
+      "seed": "4Yg2gwS4SvUDSBAJJRXAvNponupM6NQoy7JPWvPrXmdeiJgrpaoi4fLjUcSjtRFk6wcW6p8xfrDDQBu8HF1ecgw8"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "31bzSQreGpAtZZrQ3UZ4WgbX8sYPasWBUFVfiXbus9DHwZG64riC3ADftFgptVfmW39Xfaauw5dGJz1CTecQgCDM",
+      "points": 1211,
+      "seed": "4Yg2gwS4SvUDSBAJJRXAvNponupM6NQoy7JPWvPrXmdeiJgrpaoi4fLjUcSjtRFk6wcW6p8xfrDDQBu8HF1ecgw8"
+    },
+    {
+      "signer": "ArSR5L1zaYxzCYihfXT6tqqXWe4EmxnhU71GhPUPEQoj",
+      "signature": "39Tt5fSWrww1C3w5ZWweBx76kesuNNFrbto8vgrMpnHTrx9CBg43XtDHQgZMmHzaBXgqAphr4aVHxfBwZiyPK8Rq",
+      "points": 1073,
+      "seed": "4Yg2gwS4SvUDSBAJJRXAvNponupM6NQoy7JPWvPrXmdeiJgrpaoi4fLjUcSjtRFk6wcW6p8xfrDDQBu8HF1ecgw8"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "5ZZ1PqiaUc6hUoAPwNCdmcdtL8hk9VE9iw82kWg5NbgoTNaDBC6Kc4TuScFPCgZERsdoE9SkmZCbcNWSQ76SuDVq",
+      "points": 1501,
+      "seed": "4Yg2gwS4SvUDSBAJJRXAvNponupM6NQoy7JPWvPrXmdeiJgrpaoi4fLjUcSjtRFk6wcW6p8xfrDDQBu8HF1ecgw8"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "4xM3xPhCuYzhuYHBHMQW6iU46tdAToJ9XSNzZ1CBSfKmV7M5H7e5Hk8YnSvX2jJZNW3gKb4aHuF9yJn9hDoZgmzQ",
+      "points": 1340,
+      "seed": "4Yg2gwS4SvUDSBAJJRXAvNponupM6NQoy7JPWvPrXmdeiJgrpaoi4fLjUcSjtRFk6wcW6p8xfrDDQBu8HF1ecgw8"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "49AcWuzH8zwaNXyXqf2Z25ZSQVDx795bfejX24ojr3BY2saVPHYphnyXBTc9ZR6Z3ZVRz7cb22t3zXkCjLNfd9Xy",
+      "points": 1340,
+      "seed": "4Yg2gwS4SvUDSBAJJRXAvNponupM6NQoy7JPWvPrXmdeiJgrpaoi4fLjUcSjtRFk6wcW6p8xfrDDQBu8HF1ecgw8"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "2zhWd2EJ2tQ5DGf87ye1zgZo6VNTCzqBennZaEKK8DdGcriziahZaTmJmYWUEYZazJTeGA99njmoMoLPa4fEc3if",
+      "points": 513,
+      "seed": "4Yg2gwS4SvUDSBAJJRXAvNponupM6NQoy7JPWvPrXmdeiJgrpaoi4fLjUcSjtRFk6wcW6p8xfrDDQBu8HF1ecgw8"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "5JTeuVHMLSTRxJcuh9Ss19GLF4VTGx1swTGNdr7GRgcpRDmnYSNzj3bnpoChdBPo7ReDeSQumHdcFvKvJiuYE65u",
+      "points": 2395,
+      "seed": "67ijaWS8exQm4EmTumoSeJa2C2uVbnKEvnHELAMrM4nWKQXnQqEGw8AKCaT97w3ftxzJp2DwrFoNqjZELLmmmKEk"
+    },
+    {
+      "signer": "ArSR5L1zaYxzCYihfXT6tqqXWe4EmxnhU71GhPUPEQoj",
+      "signature": "57h2w91sXRfw3Upa7LJXeJdzvtRhy4myu4StFmVPSy9oBYESo3zb4UobM1yktKfxyJy9pMCevtz8MdwpoNPERWG1",
+      "points": 1299,
+      "seed": "67ijaWS8exQm4EmTumoSeJa2C2uVbnKEvnHELAMrM4nWKQXnQqEGw8AKCaT97w3ftxzJp2DwrFoNqjZELLmmmKEk"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "sC8NrryS3tR6XdC7KZHqVUnsqAxsbLV3AsNJShVmLeUnw1orYVJMQJJ9qYuxcq2mMW8hxdHBNqoQZGdBk3k7VVa",
+      "points": 1644,
+      "seed": "67ijaWS8exQm4EmTumoSeJa2C2uVbnKEvnHELAMrM4nWKQXnQqEGw8AKCaT97w3ftxzJp2DwrFoNqjZELLmmmKEk"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "5CwuwtkdBXGkoTmTCM53bBG5hponXAv3wRy6pQuBUxqox6kotvhudbNUypEixDiUNQC7MpUFj6Hdt1Qo7XMmvbPu",
+      "points": 1648,
+      "seed": "67ijaWS8exQm4EmTumoSeJa2C2uVbnKEvnHELAMrM4nWKQXnQqEGw8AKCaT97w3ftxzJp2DwrFoNqjZELLmmmKEk"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "61SP8JrVVBZxt3kSLmVJ1PDcMHP6Nxi2ZbU2ZJ6UNAsCJ7LVNLPpWS8u16p7se5Ntm3NZibZfU7WMLsXEJExCdC",
+      "points": 1639,
+      "seed": "67ijaWS8exQm4EmTumoSeJa2C2uVbnKEvnHELAMrM4nWKQXnQqEGw8AKCaT97w3ftxzJp2DwrFoNqjZELLmmmKEk"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "499SaHvB2M5fFYd9nWTFWb88rsSyjvjHPTjvKFGgxKoHe8kcqgoDZbM79U82C93EyiWWt9EovLg21wszRpZi7NuH",
+      "points": 1556,
+      "seed": "67ijaWS8exQm4EmTumoSeJa2C2uVbnKEvnHELAMrM4nWKQXnQqEGw8AKCaT97w3ftxzJp2DwrFoNqjZELLmmmKEk"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "5u83m68BnUaBohPY2SwLYsc4bPuEfgJztg65zsJ3JDm8gt8PZbKiB7MP5j46uKdMTGA7QLywgKJ9QWrNnV5wWxQt",
+      "points": 1559,
+      "seed": "67ijaWS8exQm4EmTumoSeJa2C2uVbnKEvnHELAMrM4nWKQXnQqEGw8AKCaT97w3ftxzJp2DwrFoNqjZELLmmmKEk"
+    },
+    {
+      "signer": "AQMfy11SAcuwNw4jRThiHKZXPBumfVfRehSw1YQ8ikCA",
+      "signature": "qFCJXBPtz7uefj8tzPMS5YJbnEDNgi1uU6HLAXoHg8QXEd1haLAjqxqKJQ4a8qFfYFAxUyWa9gszGYPZ1CzsXj6",
+      "points": 3,
+      "seed": "2nhUbh4TP2JtmLtJme2fp5zt3m9uejK4y6fSVhGa52qLfe1uQQaGsfXb7dmiu9QTPMbksdF41wWJfoCvUU1MpdhH"
+    },
+    {
+      "signer": "AQMfy11SAcuwNw4jRThiHKZXPBumfVfRehSw1YQ8ikCA",
+      "signature": "h3tXCi9toGnLXf26HW4TD2RqtF2VGcNyGMvQZyAV55eEaLsbGbaufu8PADJoNVKnzeDNgHPysHUiMQvBgVkCfqi",
+      "points": 39,
+      "seed": "2nhUbh4TP2JtmLtJme2fp5zt3m9uejK4y6fSVhGa52qLfe1uQQaGsfXb7dmiu9QTPMbksdF41wWJfoCvUU1MpdhH"
+    },
+    {
+      "signer": "AQMfy11SAcuwNw4jRThiHKZXPBumfVfRehSw1YQ8ikCA",
+      "signature": "316966HvJ1J6L3SJkzeQ34s8xqxMmTDjbZgH94f4JzGPvrHPcjBE3dx195dZVNcq7fatrcGogd9vC8HcRJ5ho9o9",
+      "points": 135,
+      "seed": "2nhUbh4TP2JtmLtJme2fp5zt3m9uejK4y6fSVhGa52qLfe1uQQaGsfXb7dmiu9QTPMbksdF41wWJfoCvUU1MpdhH"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "V1rGhUD2gBQfbSEJTwq3tNET1uULeNymPi5dFsrG7MBxa8Ch9ciqSRDjkwkkZCvFytEk76r1wWWz88PkaMMZbD1",
+      "points": 45,
+      "seed": "2nhUbh4TP2JtmLtJme2fp5zt3m9uejK4y6fSVhGa52qLfe1uQQaGsfXb7dmiu9QTPMbksdF41wWJfoCvUU1MpdhH"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "8Wf6FSBPX7gBbajEz35CyWmbPT2ydwCzJHThexyFTC4mGYvNB5t8MUy9sVBirX61XSSgmTW3oisqWcNxCRWQbf1",
+      "points": 39,
+      "seed": "2nhUbh4TP2JtmLtJme2fp5zt3m9uejK4y6fSVhGa52qLfe1uQQaGsfXb7dmiu9QTPMbksdF41wWJfoCvUU1MpdhH"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "MFnPQjmqDR4vpGqW7vxKvTSUjdBVNtkK7J2kCpq77zZqbTEcARtvb3M4chFMpXQwFZc8ytHz7UcejKJuh2dpamp",
+      "points": 51,
+      "seed": "2nhUbh4TP2JtmLtJme2fp5zt3m9uejK4y6fSVhGa52qLfe1uQQaGsfXb7dmiu9QTPMbksdF41wWJfoCvUU1MpdhH"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "672ARVqxoLuuJ2nWCzd71MLJ9iavH5992phH7mWac18c2HdLmCbCzonzuAv2b1EsR9GPFRxAZgvBiBAdZFt6zsws",
+      "points": 36,
+      "seed": "2nhUbh4TP2JtmLtJme2fp5zt3m9uejK4y6fSVhGa52qLfe1uQQaGsfXb7dmiu9QTPMbksdF41wWJfoCvUU1MpdhH"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "67p4FHHcVv6oM8tgxWELCYvwc1TVr2WDgdEdJeijtUSLCQMMH6hsXh3hXy3tAPKjr4LLW4zMZmtt1VzoGr1YUbiD",
+      "points": 42,
+      "seed": "2nhUbh4TP2JtmLtJme2fp5zt3m9uejK4y6fSVhGa52qLfe1uQQaGsfXb7dmiu9QTPMbksdF41wWJfoCvUU1MpdhH"
+    },
+    {
+      "signer": "Fte2zHN1BsCoQ2L9yRNF2prGej4Ssj2hFRp4JMgzPpas",
+      "signature": "4n8QeWxHvz85cStPkLwBRHsKWqdkqAM7hBxkFWaiaDviqANBKViQrkNZ6Tzsgs6u3TXFkHpNhWNVBn4oDegff6Ba",
+      "points": 51,
+      "seed": "2nhUbh4TP2JtmLtJme2fp5zt3m9uejK4y6fSVhGa52qLfe1uQQaGsfXb7dmiu9QTPMbksdF41wWJfoCvUU1MpdhH"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "46TEPV5CPjeY5R1EScVLTYyEj9BwrJaFNsoW3hhzrVEuuCeFxB7HekxdVkzUNK3Pyc1SMmaq3nEYYeF3aeoM8AXb",
+      "points": 2033,
+      "seed": "4xJx72jZjk5367dRWbwiB1oSsjkTe1hME43LQ1kQNcn1Adtpmjyw6eAM1hnbQbbAQyTZYe1MnfauoHrYqARXYnyF"
+    },
+    {
+      "signer": "AQMfy11SAcuwNw4jRThiHKZXPBumfVfRehSw1YQ8ikCA",
+      "signature": "5aUoCK9JfUVMarMBNoq3yeNrD3s2Z8bN2iRtEdW3yvdcMFi5y8GcW1aQNapTYMfZTWKJnfcifUaQG5rv3oKJU8Xr",
+      "points": 1252,
+      "seed": "4xJx72jZjk5367dRWbwiB1oSsjkTe1hME43LQ1kQNcn1Adtpmjyw6eAM1hnbQbbAQyTZYe1MnfauoHrYqARXYnyF"
+    },
+    {
+      "signer": "AQMfy11SAcuwNw4jRThiHKZXPBumfVfRehSw1YQ8ikCA",
+      "signature": "2bgiX7V8uSc92yKGQ9NuogAcyXAGCkxwW4iTuVepWada8qGZYUYyBTHumzHPn9PyWDswLu8MdKDKhe2ZduMm5XqG",
+      "points": 1313,
+      "seed": "4xJx72jZjk5367dRWbwiB1oSsjkTe1hME43LQ1kQNcn1Adtpmjyw6eAM1hnbQbbAQyTZYe1MnfauoHrYqARXYnyF"
+    },
+    {
+      "signer": "AQMfy11SAcuwNw4jRThiHKZXPBumfVfRehSw1YQ8ikCA",
+      "signature": "2gnRqxXHifaC4YgYd948ijH8Y2RE6BPuMQgmc6xvkwV38BUbXEqGYhWMVMEwFTdDmcYSoibRYXio4dzTtZkztupm",
+      "points": 1350,
+      "seed": "4xJx72jZjk5367dRWbwiB1oSsjkTe1hME43LQ1kQNcn1Adtpmjyw6eAM1hnbQbbAQyTZYe1MnfauoHrYqARXYnyF"
+    },
+    {
+      "signer": "AQMfy11SAcuwNw4jRThiHKZXPBumfVfRehSw1YQ8ikCA",
+      "signature": "2mDvtJD5S4VgeHT3LHNBNPwamS8xMYC7ubmy59SHkWdfzc9dDkHooKPQTz6HQcpgEVYzaCUwmXVfpDV22QbXnXwo",
+      "points": 1483,
+      "seed": "4xJx72jZjk5367dRWbwiB1oSsjkTe1hME43LQ1kQNcn1Adtpmjyw6eAM1hnbQbbAQyTZYe1MnfauoHrYqARXYnyF"
+    },
+    {
+      "signer": "AQMfy11SAcuwNw4jRThiHKZXPBumfVfRehSw1YQ8ikCA",
+      "signature": "6pg2MjtCDm15DnFyesbnTdN6MuE7Rpud1HGsAqvqGiP5iiVAcwB1JAXmv2XGhPi9ExvsZXk4mHk3GJ2PoLDVXQV",
+      "points": 1420,
+      "seed": "4xJx72jZjk5367dRWbwiB1oSsjkTe1hME43LQ1kQNcn1Adtpmjyw6eAM1hnbQbbAQyTZYe1MnfauoHrYqARXYnyF"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "3gYeRx8Kn8TRKaEP92194owZR8NWfc5GsgxVtUkZCfdXU1jgY916CApwMnYxV4v8JWWY8YtN2qHCZXqxNVyxay9y",
+      "points": 1427,
+      "seed": "4xJx72jZjk5367dRWbwiB1oSsjkTe1hME43LQ1kQNcn1Adtpmjyw6eAM1hnbQbbAQyTZYe1MnfauoHrYqARXYnyF"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "4kypsY8z5rXSyrcS5N7ArFVJh6cwukziq9brMgK8nfFLEQf7UaDmFDNkFNe9NiYGovCpc5DAYbV6SPfyFgP23C83",
+      "points": 1499,
+      "seed": "4xJx72jZjk5367dRWbwiB1oSsjkTe1hME43LQ1kQNcn1Adtpmjyw6eAM1hnbQbbAQyTZYe1MnfauoHrYqARXYnyF"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "3Rtnnf8uPYeaHJJGSdnumfuQLZ2qtrqpFNdv7FWnDEFoiWKpkUwrJwhzTP5YhhcCNSnofUpHYj3ippFTTVYZ4Y4b",
+      "points": 1499,
+      "seed": "4xJx72jZjk5367dRWbwiB1oSsjkTe1hME43LQ1kQNcn1Adtpmjyw6eAM1hnbQbbAQyTZYe1MnfauoHrYqARXYnyF"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "2bBz4TFKVECak1pZTGdHD4WyaBqknhD5MT3JCcRi6WxF3serbNQeZZUmQz8TBgoXBYqWRPnSinC4SqRhUMaHz9JD",
+      "points": 1499,
+      "seed": "4xJx72jZjk5367dRWbwiB1oSsjkTe1hME43LQ1kQNcn1Adtpmjyw6eAM1hnbQbbAQyTZYe1MnfauoHrYqARXYnyF"
+    },
+    {
+      "signer": "AQMfy11SAcuwNw4jRThiHKZXPBumfVfRehSw1YQ8ikCA",
+      "signature": "3rjujdwcFibvQV5QFYozt7gdMbcXPtwz5ApRGkAJmMQFvhGeozZqB3im3RxJsXBZbJjiwXhhk7qNevpP3DQxyVVh",
+      "points": 1418,
+      "seed": "4xJx72jZjk5367dRWbwiB1oSsjkTe1hME43LQ1kQNcn1Adtpmjyw6eAM1hnbQbbAQyTZYe1MnfauoHrYqARXYnyF"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "3aVri4bJhDmXov4SPLkjWiFtvQ3GGhK1kopiKN4GuibFAnyhFHKxU6Gr9uZqKMtf6oqRSkgqjdzkPvmefFWoW4CK",
+      "points": 1489,
+      "seed": "4xJx72jZjk5367dRWbwiB1oSsjkTe1hME43LQ1kQNcn1Adtpmjyw6eAM1hnbQbbAQyTZYe1MnfauoHrYqARXYnyF"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "46H8SdLx8rG2dhUoxcSJrHwrNJBEwxHi3yG6Svb1gd13rRz9xTEAThNq295kennbwzXEpB1NiBrHLq4d9oQ57kTF",
+      "points": 1805,
+      "seed": "4xJx72jZjk5367dRWbwiB1oSsjkTe1hME43LQ1kQNcn1Adtpmjyw6eAM1hnbQbbAQyTZYe1MnfauoHrYqARXYnyF"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "4XuCJBNe35s2WjmgJtt6jgaUUK3oqf3n8y6YUXfN5fBuz6p1BUMYC32aF7dsKaLPcqn2YvLMN6HAShLYYR4H5QbT",
+      "points": 330,
+      "seed": "24oWsTYF5dpwcZBc6aWLBdXFzqsafEmPTdaWj9MSBU5byRS6amuadVphndtkQWAxfuYy1XLcR6dfz5GS9PWxY213"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "5VR25c6Bxym5jV9T4JFS2wfJr78zSxK3NNwQM15BKZnohd9NnAWvnf8kgjzX21KwfzPrRr9q7piy2LgJ7UdKomFM",
+      "points": 1097,
+      "seed": "24oWsTYF5dpwcZBc6aWLBdXFzqsafEmPTdaWj9MSBU5byRS6amuadVphndtkQWAxfuYy1XLcR6dfz5GS9PWxY213"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "5w7sCJnERm4fjvg42mYWxEiLj2PBSX2n8968AuNNVVpTBeSGThJeDMq4sEa4DxXrnxnd61RA3tvJtCXZqXYD7BYD",
+      "points": 1537,
+      "seed": "24oWsTYF5dpwcZBc6aWLBdXFzqsafEmPTdaWj9MSBU5byRS6amuadVphndtkQWAxfuYy1XLcR6dfz5GS9PWxY213"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "4CEZjiAca2aviVwWwo7VPHdUiP3D9hDQpNKxRfFmumWSJxUigL4wThYcofdPc5Ex7vXD1ryQRpSV6xWQvAbxm5vm",
+      "points": 875,
+      "seed": "24oWsTYF5dpwcZBc6aWLBdXFzqsafEmPTdaWj9MSBU5byRS6amuadVphndtkQWAxfuYy1XLcR6dfz5GS9PWxY213"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "5F1sVn5DEMjbAzjezgAaafLdCyqzLMEwxFnb9aqfiUKfZPNXdEjcDGoHsKgnF6zB6ABS5sfdHTFFdEgoa74i3UVi",
+      "points": 1001,
+      "seed": "24oWsTYF5dpwcZBc6aWLBdXFzqsafEmPTdaWj9MSBU5byRS6amuadVphndtkQWAxfuYy1XLcR6dfz5GS9PWxY213"
+    },
+    {
+      "signer": "9qDSqAY7TvoqfEzFTJPX7GduZ7qZ77BdipJcq6uUB5cr",
+      "signature": "4YPqPhnvPnhQiQ3J935vfA5QEPpMhPwvmf9s7BgowTJQNNyNN1MeVoRo3MjKGzZD3d591GiUgpzq8V9AMEwnftcs",
+      "points": 159,
+      "seed": "24oWsTYF5dpwcZBc6aWLBdXFzqsafEmPTdaWj9MSBU5byRS6amuadVphndtkQWAxfuYy1XLcR6dfz5GS9PWxY213"
+    },
+    {
+      "signer": "9qDSqAY7TvoqfEzFTJPX7GduZ7qZ77BdipJcq6uUB5cr",
+      "signature": "4xqVHMSjvUpV2FJiqivPBhcjfVcSRWXU9iSJ94i5mVFVqqQjqSZZq1wh8dyDTL6YQzJZdfJpunS3fZM53GTsNqkZ",
+      "points": 159,
+      "seed": "24oWsTYF5dpwcZBc6aWLBdXFzqsafEmPTdaWj9MSBU5byRS6amuadVphndtkQWAxfuYy1XLcR6dfz5GS9PWxY213"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "4d2wFEzU9Pjb5QLv1qEVnfxqXKD9KyGRR2SzQL6RdyLHahh4Z4RJodVVCXC6EZCVTJEgpyWYZGzsW8kDABecy9fx",
+      "points": 104,
+      "seed": "24oWsTYF5dpwcZBc6aWLBdXFzqsafEmPTdaWj9MSBU5byRS6amuadVphndtkQWAxfuYy1XLcR6dfz5GS9PWxY213"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "3jyrFSn5AyCJ1N7z17SfBd2YAzK4UcJmXudH53XUQ6jnxTPHLsSbSZWiNw1YvXruqwwdv6VyLMvxvyVX5XixheEM",
+      "points": 1731,
+      "seed": "24oWsTYF5dpwcZBc6aWLBdXFzqsafEmPTdaWj9MSBU5byRS6amuadVphndtkQWAxfuYy1XLcR6dfz5GS9PWxY213"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "2q8QHsY8qvCqW4TtnbBxV4tajYo6NHRT4e3xecNorLnAmiQqFGRReLiBoVyk3DmHbxyxxsuGdEJZPnuC67gyxuhw",
+      "points": 599,
+      "seed": "24oWsTYF5dpwcZBc6aWLBdXFzqsafEmPTdaWj9MSBU5byRS6amuadVphndtkQWAxfuYy1XLcR6dfz5GS9PWxY213"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "3zJnMnhEs525cFWVQMs4gfYNtUNhjeWxgRpD7FyqRauiXRstKj8ig1NeSFzPExP8cZK9gnfuL7k4bJCtSXqBQYeD",
+      "points": 735,
+      "seed": "24oWsTYF5dpwcZBc6aWLBdXFzqsafEmPTdaWj9MSBU5byRS6amuadVphndtkQWAxfuYy1XLcR6dfz5GS9PWxY213"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "2YfYVggGrUEdUHCHYNQaJVqXDtpLECcG6d1N8TaJnyUpqBGpXWQtdVYMqzv95riat5fdevyZ3f4FoGHettgbSdwH",
+      "points": 1842,
+      "seed": "5E8bqHs6LbF8dJ9CE7fDFuujcL943Cwd3PAK2gyjSv3x5WDTmqFC232AJz1qwduh2TvsG8yNgxPiJMrywnus7ydm"
+    },
+    {
+      "signer": "3NFjnK6eGzfzFck1uVQqRaZ6GpU15VZeiD2sDGjKz8Bf",
+      "signature": "33PZiGHUbs6FNGgKH6DnP5rydmud1Zq18NHjMjwfNffJjLDYWnGJ7qQfLfQ6VcAfm56L17yaWjwGCSpq1PXf7uEx",
+      "points": 1169,
+      "seed": "5E8bqHs6LbF8dJ9CE7fDFuujcL943Cwd3PAK2gyjSv3x5WDTmqFC232AJz1qwduh2TvsG8yNgxPiJMrywnus7ydm"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "yqj8V9wkP2KVghcTFy7hcXFXU6AZpu1KgGo5GCArCqa83rkVNivsRTgxyhis2dwNCM6U6wHwfYXuHWYqqn7HJxs",
+      "points": 2325,
+      "seed": "5E8bqHs6LbF8dJ9CE7fDFuujcL943Cwd3PAK2gyjSv3x5WDTmqFC232AJz1qwduh2TvsG8yNgxPiJMrywnus7ydm"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "2kC3c8Cq3s95Bhzno39aN26xA1pEQWYkV4WZuXKnxX3Nu5KUdavMfa6RbFCaYy88e1P63kuwBkpHxKCvoHVPGsNE",
+      "points": 1257,
+      "seed": "5E8bqHs6LbF8dJ9CE7fDFuujcL943Cwd3PAK2gyjSv3x5WDTmqFC232AJz1qwduh2TvsG8yNgxPiJMrywnus7ydm"
+    },
+    {
+      "signer": "9pkUjqHzVyakhabz39XUoZ78zmE7ysitUtHGwTbU6QKy",
+      "signature": "4RvT2VtAaYzzitAiq2HtSJyerXvGj7FnaMHUoPBiEk1GBcGdi8P4qxkHTFk39hrRv5QY8PgKG2YYHRjxx9Ktf4Mt",
+      "points": 1415,
+      "seed": "5E8bqHs6LbF8dJ9CE7fDFuujcL943Cwd3PAK2gyjSv3x5WDTmqFC232AJz1qwduh2TvsG8yNgxPiJMrywnus7ydm"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "26m6GeY4V6L2QpLFCbEBdWHpTRr7nXyxPFMTThZfcWUtoM2fmdTjaEnjetThhzZfK7HzskSeAcBgF1sXiymCvS3S",
+      "points": 1393,
+      "seed": "5E8bqHs6LbF8dJ9CE7fDFuujcL943Cwd3PAK2gyjSv3x5WDTmqFC232AJz1qwduh2TvsG8yNgxPiJMrywnus7ydm"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "okqicLJDwQXRDerjdsCLi7Q7wCE47urDQsyksc5KJvcntktU86DNNXqgVJyFCcHvXw9FiJWHzXPb4dgcKEr4Qmp",
+      "points": 1501,
+      "seed": "5E8bqHs6LbF8dJ9CE7fDFuujcL943Cwd3PAK2gyjSv3x5WDTmqFC232AJz1qwduh2TvsG8yNgxPiJMrywnus7ydm"
+    },
+    {
+      "signer": "9pkUjqHzVyakhabz39XUoZ78zmE7ysitUtHGwTbU6QKy",
+      "signature": "2wxkdrDd9mDhzwdkrMqhXCUgZmJuayCds9JiNupbmsrD3JqYc61DeMZJ9owTmYW3qcgYWSGUAkSyTx7GEVexJnuu",
+      "points": 1055,
+      "seed": "5E8bqHs6LbF8dJ9CE7fDFuujcL943Cwd3PAK2gyjSv3x5WDTmqFC232AJz1qwduh2TvsG8yNgxPiJMrywnus7ydm"
+    },
+    {
+      "signer": "9pkUjqHzVyakhabz39XUoZ78zmE7ysitUtHGwTbU6QKy",
+      "signature": "213qG8YJzcmKsEMdyzysamYcwpyCDwbg18RpV5UAnfCpRAhKjPdNg8tR7PbQA95nUrBvY69DGvoq1jVpezBWV2Mf",
+      "points": 1501,
+      "seed": "5E8bqHs6LbF8dJ9CE7fDFuujcL943Cwd3PAK2gyjSv3x5WDTmqFC232AJz1qwduh2TvsG8yNgxPiJMrywnus7ydm"
+    },
+    {
+      "signer": "9pkUjqHzVyakhabz39XUoZ78zmE7ysitUtHGwTbU6QKy",
+      "signature": "5Sf35c9aFS2W9GMvocaBKkkWcV9KCy3upXSZW1CVs4Z54JqJbCYWc2J3nzJ2vEqdjzyUeZwz9B374RTuJh3d9KdY",
+      "points": 936,
+      "seed": "5E8bqHs6LbF8dJ9CE7fDFuujcL943Cwd3PAK2gyjSv3x5WDTmqFC232AJz1qwduh2TvsG8yNgxPiJMrywnus7ydm"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "3pon5ewWZA9xoRooGGef4nuTrmYpD1DYkopPVr2uQscDYBuN4cVvBxt916q1UDEg7nEhjtEcSZXQDUoXgcYLsWQe",
+      "points": 1436,
+      "seed": "5E8bqHs6LbF8dJ9CE7fDFuujcL943Cwd3PAK2gyjSv3x5WDTmqFC232AJz1qwduh2TvsG8yNgxPiJMrywnus7ydm"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "3UsVSiiZ7DnRwu9YjhgeVa6cQf4chZZxWn3GmEtWkpziL9HcL75njf6PrjsCM3Nhrk5s1nzM1TgEwhwFzYCy9qnu",
+      "points": 1436,
+      "seed": "5E8bqHs6LbF8dJ9CE7fDFuujcL943Cwd3PAK2gyjSv3x5WDTmqFC232AJz1qwduh2TvsG8yNgxPiJMrywnus7ydm"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "3kMDZvFrhk1K2SNf8kkHpRvmtJFvHZPPHRKQjk6w5SsaD58KcuixYhXo1whASAcuEriEvSUHMho92rk52i2PrS1S",
+      "points": 1353,
+      "seed": "5E8bqHs6LbF8dJ9CE7fDFuujcL943Cwd3PAK2gyjSv3x5WDTmqFC232AJz1qwduh2TvsG8yNgxPiJMrywnus7ydm"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "5oCVoEGFxuGPyNbCEPWfVrgk5XiRGVkRU516CUWfDJxUymFiekg1BGvFtUWyerZZsrJhPsdbK5z39526YC1T4eaA",
+      "points": 1345,
+      "seed": "5E8bqHs6LbF8dJ9CE7fDFuujcL943Cwd3PAK2gyjSv3x5WDTmqFC232AJz1qwduh2TvsG8yNgxPiJMrywnus7ydm"
+    },
+    {
+      "signer": "9qDSqAY7TvoqfEzFTJPX7GduZ7qZ77BdipJcq6uUB5cr",
+      "signature": "2CbXCy3333vtXWpMdXd7z1hCMtKPvKgokgCh9xsBRLLMk84G6Ua9EzCmyaY9ArCAaZDYJfxBTcHZUj4sQJ7Xohya",
+      "points": 1233,
+      "seed": "5E8bqHs6LbF8dJ9CE7fDFuujcL943Cwd3PAK2gyjSv3x5WDTmqFC232AJz1qwduh2TvsG8yNgxPiJMrywnus7ydm"
+    },
+    {
+      "signer": "DNb2hsMrwcyAS9YeipXRgYS6DEppJQahcNTMM5dcYjJJ",
+      "signature": "3cVLgVwp9wLmkapfaN6o4hYkeTomNLQnyDBE8tkYgTe4jF34Svxfm7R5cXeb6h5DGJERcF79ekkuh1rtSjvAycCk",
+      "points": 1341,
+      "seed": "5E8bqHs6LbF8dJ9CE7fDFuujcL943Cwd3PAK2gyjSv3x5WDTmqFC232AJz1qwduh2TvsG8yNgxPiJMrywnus7ydm"
+    },
+    {
+      "signer": "AQzdjxQbW2i1C5j2udG8aBH8bKv9zYrrjzztdGZBDwFP",
+      "signature": "4CF8Ms6aiE9YLaag4hLzLVzAym6aZH1dJjb9SH1Rb9pTUiieHkkBCHoBMnNqQUxvumHYQuEeqtv6ZwxwBvtDkca9",
+      "points": 1372,
+      "seed": "5E8bqHs6LbF8dJ9CE7fDFuujcL943Cwd3PAK2gyjSv3x5WDTmqFC232AJz1qwduh2TvsG8yNgxPiJMrywnus7ydm"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "zLsR3HW6uCYF1EtQfyscLtMWaVr9QoffKes5N28A7tHQS3nixgoHCYXfwEwWRjhgda6P5FjmwToMK5PJcN9aFP8",
+      "points": 1923,
+      "seed": "n1VGHBTezGg6NWdfUvMTWJ6PReY8oiWiD9ixNVKHfNe9XouJaSeioxEbwrXkew2o6jNRjcNNydi9vw3jJpeSQzE"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "5ZwuZNoHp3h1ciUzQ75k1dXtAuCpjJKH6zddpjYMFFp1EwNheEU78mc5c5Ps8sDQL3DLpNWLNueoGJL1kPBJpcVZ",
+      "points": 447,
+      "seed": "n1VGHBTezGg6NWdfUvMTWJ6PReY8oiWiD9ixNVKHfNe9XouJaSeioxEbwrXkew2o6jNRjcNNydi9vw3jJpeSQzE"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "4mT5P1C5TVbfCeUvMaETAvFSN89JFCYjJufTMwjp2htct3f8tozb2rbo7EDjGnYpC72U9TtwYMnH4bWaMe9zsokz",
+      "points": 1215,
+      "seed": "n1VGHBTezGg6NWdfUvMTWJ6PReY8oiWiD9ixNVKHfNe9XouJaSeioxEbwrXkew2o6jNRjcNNydi9vw3jJpeSQzE"
+    },
+    {
+      "signer": "DNb2hsMrwcyAS9YeipXRgYS6DEppJQahcNTMM5dcYjJJ",
+      "signature": "5UP7mU65eVdVCsCaPxZatq9LNGcjQakbSeoumtXRb6yQQgUZb7m8Xr999XXbdB48QaPATZjCRRK78A9TQAXTsw7j",
+      "points": 801,
+      "seed": "n1VGHBTezGg6NWdfUvMTWJ6PReY8oiWiD9ixNVKHfNe9XouJaSeioxEbwrXkew2o6jNRjcNNydi9vw3jJpeSQzE"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "43dBko7QYYBy416XW4zYpC9F6yXJdomyiFkY127EtjMDRKrj7D4S14xX1uobC1Bz9uWqLJpsm9TEZaP5Faf5qJgF",
+      "points": 654,
+      "seed": "n1VGHBTezGg6NWdfUvMTWJ6PReY8oiWiD9ixNVKHfNe9XouJaSeioxEbwrXkew2o6jNRjcNNydi9vw3jJpeSQzE"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "2E5RxfQHkUHfgG7yLVFrpfE1W63y1LKRn6Yy8dn935DLUpjpFjsU5oUe3cEiwadC4MPtFDHqGTQ92p8Y9umvFTnr",
+      "points": 857,
+      "seed": "n1VGHBTezGg6NWdfUvMTWJ6PReY8oiWiD9ixNVKHfNe9XouJaSeioxEbwrXkew2o6jNRjcNNydi9vw3jJpeSQzE"
+    },
+    {
+      "signer": "9pkUjqHzVyakhabz39XUoZ78zmE7ysitUtHGwTbU6QKy",
+      "signature": "3kGGhiKmMvR9n9qFQy5ob2NVuwHenwVq82Xi3eZDR8VgdiL1Wb4ZUV8PbMmyXXWTRwHfzXdJ3J4sUCLmQbkYk36U",
+      "points": 745,
+      "seed": "n1VGHBTezGg6NWdfUvMTWJ6PReY8oiWiD9ixNVKHfNe9XouJaSeioxEbwrXkew2o6jNRjcNNydi9vw3jJpeSQzE"
+    },
+    {
+      "signer": "9pkUjqHzVyakhabz39XUoZ78zmE7ysitUtHGwTbU6QKy",
+      "signature": "426KCJD1L4JsdpAP84PkaaHRRpXcYRo79vUCh9c8rkNjZeX9vsCAdLqbfdxv7edHxkAaNphxbXrvNoKcbsYj8W74",
+      "points": 745,
+      "seed": "n1VGHBTezGg6NWdfUvMTWJ6PReY8oiWiD9ixNVKHfNe9XouJaSeioxEbwrXkew2o6jNRjcNNydi9vw3jJpeSQzE"
+    },
+    {
+      "signer": "9pkUjqHzVyakhabz39XUoZ78zmE7ysitUtHGwTbU6QKy",
+      "signature": "2qpHMfp2YTivbzAomqTafSHfznX86uLKJFt8ZfV62Ahvi3oTaRcot3R4nbvE1FgfvhFFCjirs5Nb2dBgSJtw2Z6w",
+      "points": 612,
+      "seed": "n1VGHBTezGg6NWdfUvMTWJ6PReY8oiWiD9ixNVKHfNe9XouJaSeioxEbwrXkew2o6jNRjcNNydi9vw3jJpeSQzE"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "28qqRU353qQ7dU77THWpuSFjmcKvZC9njS9K5pPeeLcuWqGET5PJrdLaSvCqWFeDpmdgS6M83Lg74hE99146enpU",
+      "points": 2053,
+      "seed": "5Jkap6QxzQKnj52m3Umn4pQLnYLkyDmUXH5iFBFKoxkqtmWQ1TTMuSheRaABCSzVdZhrM1jUSsLQGJs1R8C6ss2D"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "5VVBWuEjRAFx4Dq7VcRF27t5ZqCStxsQ73pXCj7mDhpUod8zfKqjmzRj9EPKPuht333YeT2at5k6aMHs9BQpB46Y",
+      "points": 2613,
+      "seed": "5Jkap6QxzQKnj52m3Umn4pQLnYLkyDmUXH5iFBFKoxkqtmWQ1TTMuSheRaABCSzVdZhrM1jUSsLQGJs1R8C6ss2D"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "bkLxhunoLfgsHHa3V6VA5FB1p1j1F6kPpngJLtzfHJxgV5gqBtiCZHKeqKFKPEwPocDgczQ68N4xhR6NCfcKUFN",
+      "points": 2714,
+      "seed": "5Jkap6QxzQKnj52m3Umn4pQLnYLkyDmUXH5iFBFKoxkqtmWQ1TTMuSheRaABCSzVdZhrM1jUSsLQGJs1R8C6ss2D"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "61JZVVLHz1nRPRRzUM33pJJT4jjMXP7hSczWGzEY6THFjbtPTcYQh95F8pBWfBRnZV3Z7DLAULX5smWrXAuckxfD",
+      "points": 2938,
+      "seed": "5Jkap6QxzQKnj52m3Umn4pQLnYLkyDmUXH5iFBFKoxkqtmWQ1TTMuSheRaABCSzVdZhrM1jUSsLQGJs1R8C6ss2D"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "4if2h6CCwAd4K3hP6W67uGiYLPbJu5uhYW1MiBL1rPbihLDSCBpmXnhUFDtAssGYrmJsUTCf5sPwwhrayL8intAY",
+      "points": 3026,
+      "seed": "5Jkap6QxzQKnj52m3Umn4pQLnYLkyDmUXH5iFBFKoxkqtmWQ1TTMuSheRaABCSzVdZhrM1jUSsLQGJs1R8C6ss2D"
+    },
+    {
+      "signer": "Fte2zHN1BsCoQ2L9yRNF2prGej4Ssj2hFRp4JMgzPpas",
+      "signature": "63ttQsQfPodDN7oXaxcGLSFkgwTGaLGFF5XhdinNW8CTedn3Bw9StBuQ8ag4h4XJpj5fQLFNiXfu9a72F1hBtRY7",
+      "points": 1601,
+      "seed": "5Jkap6QxzQKnj52m3Umn4pQLnYLkyDmUXH5iFBFKoxkqtmWQ1TTMuSheRaABCSzVdZhrM1jUSsLQGJs1R8C6ss2D"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "3UodnyzaLFoBj7VjrdyzXkCDzvwFnVMViMVdsT1qZAuPmRx8LidXzSugCPJpFgfmn3i2hXh6sqEezmrsehFyULZk",
+      "points": 1822,
+      "seed": "5Jkap6QxzQKnj52m3Umn4pQLnYLkyDmUXH5iFBFKoxkqtmWQ1TTMuSheRaABCSzVdZhrM1jUSsLQGJs1R8C6ss2D"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "4UsHUXeeFmFcaaz6wz99Z18Fbu5bbfnyAgrSDpsKtXty5mUMdkT3UwDraP3jMmanPaTfdhpHnmTE6ERVF6E7jbug",
+      "points": 1730,
+      "seed": "5Jkap6QxzQKnj52m3Umn4pQLnYLkyDmUXH5iFBFKoxkqtmWQ1TTMuSheRaABCSzVdZhrM1jUSsLQGJs1R8C6ss2D"
+    },
+    {
+      "signer": "rung8g9DXJnQb4YMa1TWernW5uyXevFE8oq6JXMbq1t",
+      "signature": "5Ne7dP7Qfpd2qMhwN2UQPyzBUdR5MY4gWUnBzPz3Up7TmkQcArLD5schAMpUeuqLNzuS3oE3TrUjCA3s5J4S4bzp",
+      "points": null,
+      "seed": ""
+    },
+    {
+      "signer": "rung8g9DXJnQb4YMa1TWernW5uyXevFE8oq6JXMbq1t",
+      "signature": "4XixScgUyxQJ2eK3n6Dmp9ZNf4uyropWXNimachbHpEVRZ4dmBjevyWwHnhp5wFeZo88zFe9MfEpdHGzzqyv2Cj1",
+      "points": null,
+      "seed": ""
+    },
+    {
+      "signer": "EZ5LQMzATorMNsc4auJRHGRhy1eNffowUAKRqvFtkfu",
+      "signature": "23MBuv4ioTFGz2NKAVmtYpUjyRKnHGuqPKXwnSCVLyW7UmwETh4FxoFw6zhqBhVdMQRo8u6u7WK4UNGYhr7SWtN2",
+      "points": 97,
+      "seed": "2QquLeWM2c6gkHzkMazQkY8ZBXy5GBH4X2oBHfkrvnpfsB1VzjM6QTfNDbxKN3Q6BfaQUvUzcMBriyDrJdiYEahx"
+    },
+    {
+      "signer": "EZ5LQMzATorMNsc4auJRHGRhy1eNffowUAKRqvFtkfu",
+      "signature": "58dn5YCkj3rSM6xjhbZbo837rMnaDNdW6a7uv8PAg2xF54KpLBG5RiaZHURS5taQobA4USy6YjhfNLoA5y2t8tDx",
+      "points": 88,
+      "seed": "23MBuv4ioTFGz2NKAVmtYpUjyRKnHGuqPKXwnSCVLyW7UmwETh4FxoFw6zhqBhVdMQRo8u6u7WK4UNGYhr7SWtN2"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "MJWzh4Wkou2esr2PXgsEPTmG7wsmGQfZZQFWGH6JnY7uKjZhfDaGYLmERkuobLfXwNqjMZyEPQN5h6DLtmayjxX",
+      "points": 203,
+      "seed": "3cEVdScKk5QKmpjtqcmBkmCvNWemWQSNYNe43U16h6k2tUvAWGGkfjvpffg4ouZ1ijis7SdtpmDDZ7o5nEr863mp"
+    },
+    {
+      "signer": "Fte2zHN1BsCoQ2L9yRNF2prGej4Ssj2hFRp4JMgzPpas",
+      "signature": "LevZC3iJo8rxbJuuzLsEDRNC86qkJBFVUhJzwLk2DJqF6RekvkzmGutdUcu6VgpTRFySvXUM9MgMZYpkjG5Xwzr",
+      "points": 88,
+      "seed": "2toV496rT1wdiJPh4y8DfM1Q5DyM3g2KFBSn3PC8uk7N4mj9Nh2XV3f3EL7rYXDAtJv41qtPW8P17aPtSD2i9MwL"
+    },
+    {
+      "signer": "Fte2zHN1BsCoQ2L9yRNF2prGej4Ssj2hFRp4JMgzPpas",
+      "signature": "5fjfnSqMvpnDNWEtf4xCNfvQevRgpsJYYwkRYhycyxEc5Kad158Lgy3ha1poztfRKABhD4oMFHQCZoHGmucvN17x",
+      "points": 1944,
+      "seed": "5JB32amc3LuzxeXkBZgAfcwMhb4cd761EV3PUEugnuauDC7AZgkgXFNN1apaE5CvK392HVvLY4NQ5SYpFWDJNZG6"
+    },
+    {
+      "signer": "JDUTw5CqZyGN2Xw8uhJZEEiEyESr6syztAwciTGpEHtd",
+      "signature": "4k7n5MsdYFrRdtUN9U6xuEcLxHzQaZ8F2DEKju2UvHHboPcrtFYzbMQ5GBxWvL8uH5Wm1G8NMphDvPneQ5MxDPWD",
+      "points": 52,
+      "seed": "5JB32amc3LuzxeXkBZgAfcwMhb4cd761EV3PUEugnuauDC7AZgkgXFNN1apaE5CvK392HVvLY4NQ5SYpFWDJNZG6"
+    },
+    {
+      "signer": "JDUTw5CqZyGN2Xw8uhJZEEiEyESr6syztAwciTGpEHtd",
+      "signature": "516cqsQobSuGNCiFuGSJPedZntQQt3GHuKojTPVkCfFkcEGpyLD8uym9yAmhQCvA7tCexDni7MTjsEXUzEpv9HEi",
+      "points": 59,
+      "seed": "5JB32amc3LuzxeXkBZgAfcwMhb4cd761EV3PUEugnuauDC7AZgkgXFNN1apaE5CvK392HVvLY4NQ5SYpFWDJNZG6"
+    },
+    {
+      "signer": "JDUTw5CqZyGN2Xw8uhJZEEiEyESr6syztAwciTGpEHtd",
+      "signature": "4PEfWTXiFx29qrPW2TAEGeoAWY8A1P34NqYbSoWxkXyRWrA6kEpC9YbWZiqX3i7w5JZi6XGLcN4Qay8sEd8C4DwJ",
+      "points": 189,
+      "seed": "2hbTTGQNFqxPYuGHF74MKuZik6iDagpjWfBqbjMfsW1gcdhwuKQu6Jg5UMQTgXnYpHzSUd1HeQu2k25cWfbpbJYa"
+    },
+    {
+      "signer": "4xckmPwFBX39kGUeNkawPHj4KHrCaA9LPChAAZsSVXwM",
+      "signature": "4kfNmffcVH9U1LAzXLPPiyBWzaRGjKxib4Mq2UMAGjDxVwwkDSw8G1zTHyGbzFKCKwqoaGL6UP4fGYhK3CoPj5zS",
+      "points": 234,
+      "seed": "439965zAwLzKkh5i2idDBDedisKvW8RiskMs8Htcqn9d69strEnN8aB78Dw38po6u4bw6rrcG9srqsVUgTofHkdw"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "4QxUAs9YbNzauyC7swn25KSPh6WZypWwCrRiomP3usnjT5oUyQxmSkynmaa4GFdn4h95ZiSgdD6C7BY45J9HKNzV",
+      "points": 867,
+      "seed": "439965zAwLzKkh5i2idDBDedisKvW8RiskMs8Htcqn9d69strEnN8aB78Dw38po6u4bw6rrcG9srqsVUgTofHkdw"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "Xcmqqy8RNwgEamuB74K4yfCSR42e78j4SS8zkq5RHVj44fMRd8BkBE5VmpetUadz1WdYf2ZoE8hivg8xanzgZux",
+      "points": 364,
+      "seed": "439965zAwLzKkh5i2idDBDedisKvW8RiskMs8Htcqn9d69strEnN8aB78Dw38po6u4bw6rrcG9srqsVUgTofHkdw"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "3NdTfMrscH9q6tyGLCb8fgkXjutkts9JetGUMhFf3g1shozumu3WDZw3XBeMrqrkLshEbecrWLqypCcC3Y7tspkr",
+      "points": 1161,
+      "seed": "5NZL4LM2i3ye5VojWszW9DnkdVcZaiQxEm3JsZznfYCHRpa9ECtDHm1CNdFoHhmjHQZBE7dTnaTnfEF8zKmyLJH9"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "4mWASLYLrbCbGS3dwVeE7PTdJ9nsy6YFcixVnMjPJNTXgp2MVGBPsxJmFtL1d9iqQhcPdUfFuT43TQTTxs1tidnq",
+      "points": 961,
+      "seed": "5NZL4LM2i3ye5VojWszW9DnkdVcZaiQxEm3JsZznfYCHRpa9ECtDHm1CNdFoHhmjHQZBE7dTnaTnfEF8zKmyLJH9"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "4jF4x4R3f89KkbSySy2rsP7fv2mzYrof2YFeGkrpdih928K4xH92PrzPSKqvHGh2xMaSY2nYk2N3bbmNJUAsL8vH",
+      "points": 1414,
+      "seed": "5NZL4LM2i3ye5VojWszW9DnkdVcZaiQxEm3JsZznfYCHRpa9ECtDHm1CNdFoHhmjHQZBE7dTnaTnfEF8zKmyLJH9"
+    },
+    {
+      "signer": "H7eot4pwpiJVsS2sWGe7ET3mvmzUnk4g1G3tu2xpHJqC",
+      "signature": "4GAXqpUtGBxGuz5fdwPRjjRrijYjHQTrAuoJusGrqXBCheae46ArrmHueNHwZ4WUPdsVucjvuq958TmPrWkFCt3k",
+      "points": 1349,
+      "seed": "5NZL4LM2i3ye5VojWszW9DnkdVcZaiQxEm3JsZznfYCHRpa9ECtDHm1CNdFoHhmjHQZBE7dTnaTnfEF8zKmyLJH9"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "4Erix3UtYX7FrtMYrQCp6dB9CQNf4u2sQbTLrriAwpSfNZgAGrvVwj2dY5ejT2DNdXC5q9tEYpSsakxpDBKQ7KFz",
+      "points": 68,
+      "seed": "5HxqgCh1Q6s8UdpkC26ZA6nzm3r6zScziKYieEp5MKRedUWMEW4ZVe1mj9sVi8msYi8qH5ied6F8J3xXy1JDvXPn"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "5RuNF17UK4L96rbfFHHTExmjan5EZ8pYbG9TBG6B2v7uy9SHi883ishzc855wFTRC4TjDHiDaEgWcNmdCYjzHLN8",
+      "points": 693,
+      "seed": "5HxqgCh1Q6s8UdpkC26ZA6nzm3r6zScziKYieEp5MKRedUWMEW4ZVe1mj9sVi8msYi8qH5ied6F8J3xXy1JDvXPn"
+    },
+    {
+      "signer": "5yU2aPZN5Lgrp5Ci9ygHRZGwdEDmbYARoJJnKLzz2Gxn",
+      "signature": "5fTwp9xG2pSfx9E5wNTq1jRfMtBti9nxxB2bqCQwjfxvspcZ5KuNPFqwyk3rdniNBorRLWp6eNFUifYBD2u3B9eK",
+      "points": 562,
+      "seed": "5HxqgCh1Q6s8UdpkC26ZA6nzm3r6zScziKYieEp5MKRedUWMEW4ZVe1mj9sVi8msYi8qH5ied6F8J3xXy1JDvXPn"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "3Lbu593LipCFWbkMicBGWtAtqSxcvcBhgQ2fHp8cgD9PctdiLp6mKPkLB65RMCy5kNxWo7KTwVo7s8LLjCz4vJbW",
+      "points": 840,
+      "seed": "5HxqgCh1Q6s8UdpkC26ZA6nzm3r6zScziKYieEp5MKRedUWMEW4ZVe1mj9sVi8msYi8qH5ied6F8J3xXy1JDvXPn"
+    },
+    {
+      "signer": "Fte2zHN1BsCoQ2L9yRNF2prGej4Ssj2hFRp4JMgzPpas",
+      "signature": "4D2JXuN2DqQ5DS3YS6oSP2PH54FczzkRczoi6hh4x1LR2kqtvPfh6L6dNLyEEMNivfUQoMtkWN1FR29bA3HkDmUo",
+      "points": 48,
+      "seed": "2RYrzGCWgvbEdxLyqS15hxsXsF92FLmekJrXk9Y6XkzvvLibt2dkApY17Jw1LLZX5A6sSV2yQbVyKFLz3uLLcrxf"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "3nLVjgHChqnuPLNJCwyaRTp3KGxJHxZBqtX7hrVbdG5LYHht6LxmQnfqXQEpEmCX6FWmopejbrzGs3j5oBzarD35",
+      "points": 1627,
+      "seed": "5iQmGDAeGqgtz7oKhBxDiSSLVNYL4Ba335BCQtdC243m8UqqHy1T4cuLUVsS1qJpfnAM4tLBjtA8s7MMQnsTcPuC"
+    },
+    {
+      "signer": "ArSR5L1zaYxzCYihfXT6tqqXWe4EmxnhU71GhPUPEQoj",
+      "signature": "5hp4atN1ZcZKVaFLKGXnweHt5R97wkGWU1qgihVMgdJZsfVvkKnHME9bKjMBzMeGQmidZgUmQWBrrrCCahgkHHWZ",
+      "points": 134,
+      "seed": "3ywVvB4wPFZ6xFsPNoUo8GaFM14NBesh5x3zfnGAiDPhcCn2d8vJT3fsBpfv7LQLxH9ZhS1aSp9uvB7D9CZ3XLDP"
+    },
+    {
+      "signer": "ArSR5L1zaYxzCYihfXT6tqqXWe4EmxnhU71GhPUPEQoj",
+      "signature": "5VHc9m2gTPVk5fJn4pA22kAbTcLFAADrVFuiJ2XGQQwZuvLUJm9hNL21dn6A1ntLooXSgWjAC2kpVouF362vQJkR",
+      "points": 221,
+      "seed": "3ywVvB4wPFZ6xFsPNoUo8GaFM14NBesh5x3zfnGAiDPhcCn2d8vJT3fsBpfv7LQLxH9ZhS1aSp9uvB7D9CZ3XLDP"
+    },
+    {
+      "signer": "ArSR5L1zaYxzCYihfXT6tqqXWe4EmxnhU71GhPUPEQoj",
+      "signature": "2qCbzLp4kgGLWKDHTiZ54k3KbjbDNYNN9XSnYLEgmkWnsxgd7izjEwktzvQchoS1jeHSr7UPEYpNGsJud7u94iZE",
+      "points": 942,
+      "seed": "3ywVvB4wPFZ6xFsPNoUo8GaFM14NBesh5x3zfnGAiDPhcCn2d8vJT3fsBpfv7LQLxH9ZhS1aSp9uvB7D9CZ3XLDP"
+    },
+    {
+      "signer": "ArSR5L1zaYxzCYihfXT6tqqXWe4EmxnhU71GhPUPEQoj",
+      "signature": "5gy5WrGcMddE3qEsoQU2G2CEXV4P4yjr4ecCHFd8ZQsvDwKpnN3xzjnjniSsXMRBtN4s4vSKALRY9MCEvPvZtxUL",
+      "points": 940,
+      "seed": "3ywVvB4wPFZ6xFsPNoUo8GaFM14NBesh5x3zfnGAiDPhcCn2d8vJT3fsBpfv7LQLxH9ZhS1aSp9uvB7D9CZ3XLDP"
+    },
+    {
+      "signer": "ArSR5L1zaYxzCYihfXT6tqqXWe4EmxnhU71GhPUPEQoj",
+      "signature": "4Ab7yMBbMqKfCUSJeW97txxgFMGfEpX3P9bMCjoAkXxdTfio6rUvEhRBeaHsVx6h5QrDdfgUUCkDUMjnVjiHnZiH",
+      "points": 1049,
+      "seed": "3ywVvB4wPFZ6xFsPNoUo8GaFM14NBesh5x3zfnGAiDPhcCn2d8vJT3fsBpfv7LQLxH9ZhS1aSp9uvB7D9CZ3XLDP"
+    },
+    {
+      "signer": "EvvaRmcUoyumhA4wgEtvEF5wfNm5AoHh5QTTfAxe1dkq",
+      "signature": "VETMSxsPX4w4v4MMTcvU5Yo4HFeryL1PTEH6LVE4dkaJBQdsvNoNWkZSVzsAN7g1BT6qrJv3CSuF8eQyh4EcCFn",
+      "points": 812,
+      "seed": "3ywVvB4wPFZ6xFsPNoUo8GaFM14NBesh5x3zfnGAiDPhcCn2d8vJT3fsBpfv7LQLxH9ZhS1aSp9uvB7D9CZ3XLDP"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "5mwien7RyLqjtm5HfhBTVCVWzhZMZAn7dCxDvgDDmYZ6D2kpBsppv24G57bCwGXemW8qQ4Znq36qrTWQjonxDWv9",
+      "points": 1186,
+      "seed": "3ywVvB4wPFZ6xFsPNoUo8GaFM14NBesh5x3zfnGAiDPhcCn2d8vJT3fsBpfv7LQLxH9ZhS1aSp9uvB7D9CZ3XLDP"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "32bdCtqBXPWVXPMhg19BADyRVEeDJRqJvDm92NdYegC4WJgFr9ZpFRARn5ZvuEWtacELniTyDr34hR6E9A9UTHtt",
+      "points": 57,
+      "seed": "3ywVvB4wPFZ6xFsPNoUo8GaFM14NBesh5x3zfnGAiDPhcCn2d8vJT3fsBpfv7LQLxH9ZhS1aSp9uvB7D9CZ3XLDP"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "42cR8WVjCqUcZbh5DnZPAcx8MJbAaRhu7Fkc3a3tEtnwTK5KbQTd1Q1vQRAST79kjR63kbpiXNC6uRwtu6UFDcKb",
+      "points": 57,
+      "seed": "3ywVvB4wPFZ6xFsPNoUo8GaFM14NBesh5x3zfnGAiDPhcCn2d8vJT3fsBpfv7LQLxH9ZhS1aSp9uvB7D9CZ3XLDP"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "38M7XcjtLAN4WjDAB88zwDqNL1Xj5jLUaV5Wp5Q9XtQuKuaGPKtn5nCmvdwN2CpsERonyX79ZQGMacozfafnC3Aj",
+      "points": 878,
+      "seed": "3ywVvB4wPFZ6xFsPNoUo8GaFM14NBesh5x3zfnGAiDPhcCn2d8vJT3fsBpfv7LQLxH9ZhS1aSp9uvB7D9CZ3XLDP"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "5ALJunSs8pxnS22fiM1MB3ddbiPwkLghkSaJ16j22th1AvBdxPTkGkKeEntiDEwLAQ87RyJhif6PgXtZQfvvTHQB",
+      "points": 878,
+      "seed": "3ywVvB4wPFZ6xFsPNoUo8GaFM14NBesh5x3zfnGAiDPhcCn2d8vJT3fsBpfv7LQLxH9ZhS1aSp9uvB7D9CZ3XLDP"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "236tJUgrGbaQPHY5fCPengLoPDR2y2Q4YGHfQhJTUDXMo436nz6FAR3doTDi443Gacw4HGbWPiuXwGTkcQeMVWz5",
+      "points": 1500,
+      "seed": "3ywVvB4wPFZ6xFsPNoUo8GaFM14NBesh5x3zfnGAiDPhcCn2d8vJT3fsBpfv7LQLxH9ZhS1aSp9uvB7D9CZ3XLDP"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "5AVmsDFaHdihYq87FJG2oWFD6XWqymDvfSVUxRnvRFGrx9E7c9sNR1ziq6aLX45Ar2TkagTNSx93JRj3BE2y62js",
+      "points": 1392,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "287Gqfv7Ypn1RuXdqhmUgo2CaWMgjypUrqwzhSCE26gdqqfDrvcJaLFtxZfmKfDaZHEt16jRdvqaQahoETZ1P3BE",
+      "points": 1132,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "5JsTMhYA6Sk6X68x5vJozVU3d1GoXmrPqEfWAgkRSmG5XjByJ1Bifayd4Nf8JrwYggE36JnBWR9AqsehVnPSGSRi",
+      "points": 1322,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "Xn8ATQ9gAhHZLNRzj4GSX1pukMFV5aCYksXQpTsZAP3BLeQqW7uG4wNhU33pf3CMNLahmP7JAafGG9YauUh3LdB",
+      "points": 1501,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "4GHy4P7xnmUZuiUmbSLTHy86EZ83rzRwLWBRMjEhAK91y4tWdg1rj54Rgx55H2tqXTCNQoAqY89vUdi67Umxnf5J",
+      "points": 1489,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "4CBo9jBv85Dv51TK18RhKz17FRuESjfpsw9rm3AFc7tR1tPQZRv1XhkiXUsLj52EzCBFk9tdYkHJuCmmk9TiNp4g",
+      "points": 1418,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "53JoLgGFcU5k95bFWkrfYAxbqVJ3ePgqMFUxiEwbwxV2MCpiFvY5XasUwg48aqa1D9wBrBsR4RbzEt39PZPmZ4mV",
+      "points": 1279,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "57EpmQac9aTRQUHqUTESfFW81RnmQvKTi7c4nhgK7HMA2tpmLganeXa4KV6vJbuFiJyxGtpT2SHncj8AE9JoM8JG",
+      "points": 1548,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "3rdHu444qnUfbFFFGmzTnSMKLhKRAZ6Mx5WxojipaF51Y9PiVGtMTAA919HgTvLvs48iabT8rk1seyDZi2zWrDoM",
+      "points": 1496,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "GqrjhDULUJEs9uYgEBXBjzCgv7SK5JLF8PCVUPG91TPf",
+      "signature": "2F7x4w4utARpzuUkmsxNLTy5Mk7d6vVJcBAUFBBqoVyCawLLLwKqhV93i4SvjqHTFPCNYeRETN4iu3MpWThHceBV",
+      "points": 1245,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "2xu7qwcqbrEypUek4N2efXwnLdwm3pwccnX78ik5Fdb9xu5iQvGaFT6UMBc9AHZrmooPty3L2mCNCDSLTDFQVq8Y",
+      "points": 2299,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "33TBRS4YD4xxgGE3JB7XnMd1WMJVsmE19CR1m5Qv14Jds34EcNGYxuM8ededtWwCbNj1yZokbpdupTrvAn8Q2HJs",
+      "points": 1459,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "2d5NV4XZ8vD7JxSMHCadxPfuMheCuiNUhy3WCuYRwa5ULmCkxHtnd6tpjfwXagx67LFNttue8DKFXe2TTUWdRKxr",
+      "points": 1456,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "ArSR5L1zaYxzCYihfXT6tqqXWe4EmxnhU71GhPUPEQoj",
+      "signature": "5LpeFhYB34qQqeQhYiHs2jwpd3AsvEAWf9jW6rk6Re14uYFZShiErhgTFt1HWoGmTt8mf7LrvFa59zHaGytaEjtQ",
+      "points": 1604,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "3g4XJPNJ2rsHuCsiM6jSuu5aHRWXkLtvqfw7J7tJJqxSv5Ze6668Y4XoFg56PQEF757b4WYBk6X7bVBgmE5WEQAe",
+      "points": 1409,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "w17AbyHCEV3NCUBSTTowaq1PHXN5ZGfDSyJ3wuTMofxSpiTADLhygPEcPrvgd8PczxS3LyFthHv5FnyuKsJcDPS",
+      "points": 1409,
+      "seed": "3G2v4zynKmEk3NA4sZE99w7DauSHwvbpc9v4uZhJx8Kn1oaqyZetr97m7tDVYeV6KepYuGYw4yoMRxEPhV4nE8nb"
+    },
+    {
+      "signer": "47Yaecze9rq9cYyBB3kFXuQuDRBPvjnLcRgCgBny4uep",
+      "signature": "EjWmA6vnVXAdCDHjJP2NxCBiz6YmaowS8bHANW9RtiW2Eown6Vsk2CeGU1GMEGaiajJZUxRiHDrx1uPGDvdvFz2",
+      "points": 886,
+      "seed": "iDiB7uHczx6VcsL2r8nPHooGiw6JUg3vPKogxjbfyzaipjeGUPpbz7BwECFFbX6k2RkwfJ11G6orF5w3Ax6j9Bi"
+    },
+    {
+      "signer": "47Yaecze9rq9cYyBB3kFXuQuDRBPvjnLcRgCgBny4uep",
+      "signature": "4uHKEW7Y6QJYGEXvmuNjzttfUx39XKqskJtURLeub1g83sYrrktLrAaKZdzfzNbkM953Dg6sj5tCbrxcEpBiU6vG",
+      "points": 886,
+      "seed": "iDiB7uHczx6VcsL2r8nPHooGiw6JUg3vPKogxjbfyzaipjeGUPpbz7BwECFFbX6k2RkwfJ11G6orF5w3Ax6j9Bi"
+    },
+    {
+      "signer": "47Yaecze9rq9cYyBB3kFXuQuDRBPvjnLcRgCgBny4uep",
+      "signature": "2bkkLtXkrESajid4J2g5P7TgfxRNCxRHoDEyMv1E9MiXTGtYRJxuGyNy2MFZmLfFSATSRUErcmNXGd8Z8sDsttKr",
+      "points": 869,
+      "seed": "iDiB7uHczx6VcsL2r8nPHooGiw6JUg3vPKogxjbfyzaipjeGUPpbz7BwECFFbX6k2RkwfJ11G6orF5w3Ax6j9Bi"
+    },
+    {
+      "signer": "Fte2zHN1BsCoQ2L9yRNF2prGej4Ssj2hFRp4JMgzPpas",
+      "signature": "J7pwniCadKvMH6J33BHgG79e88eccKWNce1NiDujKALypS81SPwLaacoN4hn4nz46t7MhvvMNNVeHmRuDroUNZa",
+      "points": 1156,
+      "seed": "iDiB7uHczx6VcsL2r8nPHooGiw6JUg3vPKogxjbfyzaipjeGUPpbz7BwECFFbX6k2RkwfJ11G6orF5w3Ax6j9Bi"
+    },
+    {
+      "signer": "47Yaecze9rq9cYyBB3kFXuQuDRBPvjnLcRgCgBny4uep",
+      "signature": "2SVjYYL4rJU6ePcuTNnu4aVgLFReJGgfTMcjUh1FfUVMwYNW7aLPH2TqAU1XpjS8P7EngdxV5utZYmeYwkEyvAhK",
+      "points": 732,
+      "seed": "iDiB7uHczx6VcsL2r8nPHooGiw6JUg3vPKogxjbfyzaipjeGUPpbz7BwECFFbX6k2RkwfJ11G6orF5w3Ax6j9Bi"
+    },
+    {
+      "signer": "47Yaecze9rq9cYyBB3kFXuQuDRBPvjnLcRgCgBny4uep",
+      "signature": "5TasDbyuUTNQVrYoLVvq2h52Gfm4CpEAR53xNFopUMAQ7YrvUZy8b48nq98Fy8kHsfUc7iijerp8SLmyaJPPUQCz",
+      "points": 1187,
+      "seed": "iDiB7uHczx6VcsL2r8nPHooGiw6JUg3vPKogxjbfyzaipjeGUPpbz7BwECFFbX6k2RkwfJ11G6orF5w3Ax6j9Bi"
+    },
+    {
+      "signer": "47Yaecze9rq9cYyBB3kFXuQuDRBPvjnLcRgCgBny4uep",
+      "signature": "2Ln2f7RiHwHkJK8UZZUWG6SmRwDkbk67oVsvuWeiLDEWkK3Ya4udProb3wrVF1c3SKGseMXVnCqbRcCqJKRiFmqt",
+      "points": 1252,
+      "seed": "iDiB7uHczx6VcsL2r8nPHooGiw6JUg3vPKogxjbfyzaipjeGUPpbz7BwECFFbX6k2RkwfJ11G6orF5w3Ax6j9Bi"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "sW3hvYe3hUQx1ECAVibSye4Y2YrhWsBu2tcHbH3hU4vxs3AwGiQ1it46UbBTp6TAemSd1yvx7YDuCdP5XZqDPt7",
+      "points": 611,
+      "seed": "iDiB7uHczx6VcsL2r8nPHooGiw6JUg3vPKogxjbfyzaipjeGUPpbz7BwECFFbX6k2RkwfJ11G6orF5w3Ax6j9Bi"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "nqCo8Gk1vJ2zEXjiUXWXxsdmfEpMc472jWwPkwXWJyQ7e3ybxNyTa2436GUKwLxTzgZK8BhmhfKrhJpPAf5Yuxd",
+      "points": 1236,
+      "seed": "iDiB7uHczx6VcsL2r8nPHooGiw6JUg3vPKogxjbfyzaipjeGUPpbz7BwECFFbX6k2RkwfJ11G6orF5w3Ax6j9Bi"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "5PF8JYtgGeMfdnqsbKUG2rj76UBgf2VsUxF9ucRuj8a4SeBU4mgUSHMa9PMJCMo9ggcJVYDxBaGdJW6gZ1rcxnKt",
+      "points": 1025,
+      "seed": "iDiB7uHczx6VcsL2r8nPHooGiw6JUg3vPKogxjbfyzaipjeGUPpbz7BwECFFbX6k2RkwfJ11G6orF5w3Ax6j9Bi"
+    },
+    {
+      "signer": "EZ5LQMzATorMNsc4auJRHGRhy1eNffowUAKRqvFtkfu",
+      "signature": "eZvtU865c3AyjVsqfqGdv43nskvPLc8KF4EA6Cmy717Zar4LChkzFMKL7LMMG4XEF14pxUpZauSr7jSCXbEmPXr",
+      "points": 1490,
+      "seed": "3UyhtQR16F1iuvt4ZGtbBkM2MxERVKcv71D7mNgx66wgXSNqRJbYjCEGrLN1nGm5movQKBb5V31DhWptErBxDDv2"
+    },
+    {
+      "signer": "47Yaecze9rq9cYyBB3kFXuQuDRBPvjnLcRgCgBny4uep",
+      "signature": "5EmGbzd7UkYkmeLr75JtDFf22N1T6QMdaXnjnkXwGNHZpGw4H7z79wYvr8Ytn4C6U15CbtGE63nAEZZcD5ParEMw",
+      "points": 1523,
+      "seed": "3UyhtQR16F1iuvt4ZGtbBkM2MxERVKcv71D7mNgx66wgXSNqRJbYjCEGrLN1nGm5movQKBb5V31DhWptErBxDDv2"
+    },
+    {
+      "signer": "47Yaecze9rq9cYyBB3kFXuQuDRBPvjnLcRgCgBny4uep",
+      "signature": "4PdPvMC4sV3vSMMCSAo56qUALvrBqyiGEPGJC9MF6w95qZdqFcCoip9dnreBTkm8bChmvtpLJPoENGnYK6BN4Z2C",
+      "points": 1523,
+      "seed": "3UyhtQR16F1iuvt4ZGtbBkM2MxERVKcv71D7mNgx66wgXSNqRJbYjCEGrLN1nGm5movQKBb5V31DhWptErBxDDv2"
+    },
+    {
+      "signer": "47Yaecze9rq9cYyBB3kFXuQuDRBPvjnLcRgCgBny4uep",
+      "signature": "42ikX52s47yNqawLCokHVbmtXVnkyGLohSMoyERmRsvo6c81RP12HmDuYiT6dEVGKcRBdvCcbv9FMPrLFunhE6tc",
+      "points": 1523,
+      "seed": "3UyhtQR16F1iuvt4ZGtbBkM2MxERVKcv71D7mNgx66wgXSNqRJbYjCEGrLN1nGm5movQKBb5V31DhWptErBxDDv2"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "4HzREqF6BTxNagraT5i4QqvVQUFt4aD2q4A97pz3dtefPEjQ1nqFkScEjapXbkKfARZAXNkqZYdaPsUhFzqcQVzi",
+      "points": 1535,
+      "seed": "3UyhtQR16F1iuvt4ZGtbBkM2MxERVKcv71D7mNgx66wgXSNqRJbYjCEGrLN1nGm5movQKBb5V31DhWptErBxDDv2"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "4qWinU6rPHwsCvJBmdvRej8Au19fz6ZpBrQRzZYqhEsXD6JMqFmf7jnEPyDnJz1vJs7xyzU7LVLqnH1wX5hTzWBc",
+      "points": 1688,
+      "seed": "3UyhtQR16F1iuvt4ZGtbBkM2MxERVKcv71D7mNgx66wgXSNqRJbYjCEGrLN1nGm5movQKBb5V31DhWptErBxDDv2"
+    },
+    {
+      "signer": "4Nq2UZWfYKWXnhvfJzMcRbvvFfxGjF2Q3WVkTcuvVRDF",
+      "signature": "M3ThbMYEPMMBGmbFQegzUpJJcCZHba15VYN8PknxVR3wQfoBT5iDbZikAqEHMqkXm8HWYVBWxyVNJdoCZLu3NUC",
+      "points": 617,
+      "seed": "21tSNSngtEqBNVjYjuWsZSzTfWdWH3rHjEXYqj44sBqkdWHByeT83dyNPa8ePY6K3qUFWdLnihaCDEvTBPXQbqwB"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "3yN6oqyALZwbAZcKmFZsShL8uC75JgToaRJ4g8JNX7QeCLAMvwXijQDMrPTSdwsZxUfvpcQDve5ZGZjDBScDgUw7",
+      "points": 1866,
+      "seed": "21tSNSngtEqBNVjYjuWsZSzTfWdWH3rHjEXYqj44sBqkdWHByeT83dyNPa8ePY6K3qUFWdLnihaCDEvTBPXQbqwB"
+    },
+    {
+      "signer": "Fte2zHN1BsCoQ2L9yRNF2prGej4Ssj2hFRp4JMgzPpas",
+      "signature": "4jzyAYyGtLAZRRXGdPEwFLHpNXYymLDVQDquMeNp6ShQQhFrnys2jZ34PebMhk3hz9dvS1242K319KeBvpwuYyYJ",
+      "points": 1454,
+      "seed": "21tSNSngtEqBNVjYjuWsZSzTfWdWH3rHjEXYqj44sBqkdWHByeT83dyNPa8ePY6K3qUFWdLnihaCDEvTBPXQbqwB"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "2LknRjLt55gkpWCyE8LYXKHBfV4oSiNa2ozxyf5B5LQLACpeS7ti7Jgtwc7HrxEZgFW4QAihqdtUcBSTivbnWxz6",
+      "points": 785,
+      "seed": "21tSNSngtEqBNVjYjuWsZSzTfWdWH3rHjEXYqj44sBqkdWHByeT83dyNPa8ePY6K3qUFWdLnihaCDEvTBPXQbqwB"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "2KeLTyagWfa4KyzuHviX9G38DZRAHv2b5kSmh7ErFCaJYx6kPHWumXnoncE1KRLBb3Qi7F6Ho7Xa4FUB4hyiJPPz",
+      "points": 719,
+      "seed": "21tSNSngtEqBNVjYjuWsZSzTfWdWH3rHjEXYqj44sBqkdWHByeT83dyNPa8ePY6K3qUFWdLnihaCDEvTBPXQbqwB"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "2CSEGtRPZqhBJsWajeJJ9pcU2YDqnBAe1JShExu9JLyh4w1JNYgVwHCcHtfs2ze1tfBYGKDKDhsdjGfT9KQ9SzWj",
+      "points": 788,
+      "seed": "21tSNSngtEqBNVjYjuWsZSzTfWdWH3rHjEXYqj44sBqkdWHByeT83dyNPa8ePY6K3qUFWdLnihaCDEvTBPXQbqwB"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "5XzpoW5rFn8VTGwniWmchq41P1isrDWEQNNbasEykFcNdqHGY56QZqMpFDqdWb8hmJYwd1pkz2uXFSGZWc79kYoC",
+      "points": 1252,
+      "seed": "21tSNSngtEqBNVjYjuWsZSzTfWdWH3rHjEXYqj44sBqkdWHByeT83dyNPa8ePY6K3qUFWdLnihaCDEvTBPXQbqwB"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "3Zrda84WqGJSpLhnEsdrWTzikBgULM8DdH5oxoM2BVbPbA61YBfKGiuPwnLa5uJ9i8t1X7iTbb7LbEnhkQZD2g2d",
+      "points": 1183,
+      "seed": "4bhYjrf3E2ZkrRViZrc4EuFisZCipkLfnB6FPjLxjKqFJ5UDnQY1KwPvNzCs2gsdkmJGMmhfAVEE71bFrua69oXP"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "4BwmDAALmjWM7TkRcoPYuhAjCyzxNT7J8SJcNYte1LTgqxhFL9LFXEmMSgCcDXSJSPYYx248zSDZQPRo3oq2ZWBd",
+      "points": 1118,
+      "seed": "4bhYjrf3E2ZkrRViZrc4EuFisZCipkLfnB6FPjLxjKqFJ5UDnQY1KwPvNzCs2gsdkmJGMmhfAVEE71bFrua69oXP"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "wRKW1v3N9YGeWgSkRv67VsCsGkLVBkaANdehu9dqhXnbAgMZx7JQtxwS7X3UwRmY7J8UVG3DfAJ9iJNBfxptu55",
+      "points": 1269,
+      "seed": "4bhYjrf3E2ZkrRViZrc4EuFisZCipkLfnB6FPjLxjKqFJ5UDnQY1KwPvNzCs2gsdkmJGMmhfAVEE71bFrua69oXP"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "NAHybgwNnuf7tM6hftv3WiEAdnGX2nht1VvG7PeaShErUVxKAeqeaJJ65yCa2d1Tzr5RcNZ7m7nFFxBYVcMNHpy",
+      "points": 642,
+      "seed": "4bhYjrf3E2ZkrRViZrc4EuFisZCipkLfnB6FPjLxjKqFJ5UDnQY1KwPvNzCs2gsdkmJGMmhfAVEE71bFrua69oXP"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "4nHg5FuFFyvwWsYuaHBEksKbru8phUiJUAM44N16yirM1XUMiAoDJ5JGJZrWzgTGkGXmpWQCDVtw69dhqDY6D5Nn",
+      "points": 1263,
+      "seed": "4bhYjrf3E2ZkrRViZrc4EuFisZCipkLfnB6FPjLxjKqFJ5UDnQY1KwPvNzCs2gsdkmJGMmhfAVEE71bFrua69oXP"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "43xaoQ8XQi16ZXZdALtBog19eUzUJTNizsMkb4623aY9UzgjrmtLuBSRi8764j81bQGXqFcf3aB5UxxHqm3LiMf",
+      "points": 1355,
+      "seed": "4bhYjrf3E2ZkrRViZrc4EuFisZCipkLfnB6FPjLxjKqFJ5UDnQY1KwPvNzCs2gsdkmJGMmhfAVEE71bFrua69oXP"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "3Mr8btDpqn7WxGp1LFMYqKu6kL6cr6cRhw2RexTpw8ybGfgwfVGGqNhaMwBcNm26aQTFyiXZ4XNxbRcPX1DbjN9N",
+      "points": 1843,
+      "seed": "4bhYjrf3E2ZkrRViZrc4EuFisZCipkLfnB6FPjLxjKqFJ5UDnQY1KwPvNzCs2gsdkmJGMmhfAVEE71bFrua69oXP"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "5GJLXaxHCMETYgwNYtbVd4C34D7nyub4fcjnSbPS8StDYMGYEDFHhdeFgzwwW7qStfpjCASBChBa7j2wx85onDCt",
+      "points": 1919,
+      "seed": "4bhYjrf3E2ZkrRViZrc4EuFisZCipkLfnB6FPjLxjKqFJ5UDnQY1KwPvNzCs2gsdkmJGMmhfAVEE71bFrua69oXP"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "4hHR5Mwwit1NDJeU5fmkMfuMNEDJE3vC1YmrDdsXAJEMN8xKhQSSiD8taiEaCSi6tQzH13GmLUZgj67B6P917mJC",
+      "points": 1919,
+      "seed": "4bhYjrf3E2ZkrRViZrc4EuFisZCipkLfnB6FPjLxjKqFJ5UDnQY1KwPvNzCs2gsdkmJGMmhfAVEE71bFrua69oXP"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "Vf7vWSuhXrZkSdDwiKJKfKpSPMizPjr5D2Gyi3iMUKmEHLB6RXatxfDTDvz4qUHoVDdFNXFRPyPiMBdgCurypuR",
+      "points": 1918,
+      "seed": "4bhYjrf3E2ZkrRViZrc4EuFisZCipkLfnB6FPjLxjKqFJ5UDnQY1KwPvNzCs2gsdkmJGMmhfAVEE71bFrua69oXP"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "26ADPSb1Q9wm7Y7vHF1pjx8HRqj8TqfMbrThrkHquSH3G23aJUG1ADwWhJbpRduX9qVa789mA7veZtkf9ELVga2k",
+      "points": 1356,
+      "seed": "4oCqBfN8VnGCJfyNg9nfDJjdm8p6ECzBkJaJwU46MfqWXNWfzHrVFYwa6RhZikTguiZkEyVJvg8mVoBPMqLifm7Z"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "5ds5Yxit7cXqHMg2YSohSa8UXdAUtTMbnkRsD8E3F66tt4ohLiSLLSmsQgd9cMk5Y1xRtXiWgG8DHYWGidbcmxC1",
+      "points": 1290,
+      "seed": "4oCqBfN8VnGCJfyNg9nfDJjdm8p6ECzBkJaJwU46MfqWXNWfzHrVFYwa6RhZikTguiZkEyVJvg8mVoBPMqLifm7Z"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "5uP35nAG5aKo6CqyFV1BtdBBF1ffhK5FZXx9fdZQM4TEJEicWUU9ms1xrbwSVhjYN9xfhahaBaoYb59uanDTk5uS",
+      "points": 1601,
+      "seed": "2jkkYeNVCUB9T6xLqpwtTzUC6C9Vf2zoJUiEtm19LFNDTkkgEYc8eeF3z1VT3HMvRJF5sRYgHX3VZKwLuJguYaWL"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "3UodnyzaLFoBj7VjrdyzXkCDzvwFnVMViMVdsT1qZAuPmRx8LidXzSugCPJpFgfmn3i2hXh6sqEezmrsehFyULZk",
+      "points": 1822,
+      "seed": "5Jkap6QxzQKnj52m3Umn4pQLnYLkyDmUXH5iFBFKoxkqtmWQ1TTMuSheRaABCSzVdZhrM1jUSsLQGJs1R8C6ss2D"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "4UsHUXeeFmFcaaz6wz99Z18Fbu5bbfnyAgrSDpsKtXty5mUMdkT3UwDraP3jMmanPaTfdhpHnmTE6ERVF6E7jbug",
+      "points": 1730,
+      "seed": "5Jkap6QxzQKnj52m3Umn4pQLnYLkyDmUXH5iFBFKoxkqtmWQ1TTMuSheRaABCSzVdZhrM1jUSsLQGJs1R8C6ss2D"
+    },
+    {
+      "signer": "9pkUjqHzVyakhabz39XUoZ78zmE7ysitUtHGwTbU6QKy",
+      "signature": "PHe3qSfNSZciwGocbD4vPFMsj7rASkNStukg6jJLd4fwWEZqMe644ssZCqWPoUDgSfPU9ETXRxCpBQzE24ZchFk",
+      "points": 852,
+      "seed": "5Jkap6QxzQKnj52m3Umn4pQLnYLkyDmUXH5iFBFKoxkqtmWQ1TTMuSheRaABCSzVdZhrM1jUSsLQGJs1R8C6ss2D"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "34cHjcsjrF758xTjZu6YxJCBYx6uAi6phW1FNqDFDqMD9JxpAhKCsZSagkgxKrCCd5uNasqfTaHBnWpw3wz8AuWv",
+      "points": 867,
+      "seed": "5Jkap6QxzQKnj52m3Umn4pQLnYLkyDmUXH5iFBFKoxkqtmWQ1TTMuSheRaABCSzVdZhrM1jUSsLQGJs1R8C6ss2D"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "3H7dovnMgh94oHnnGsRjdKPCx1B9o5qSkN1k4g43uTLWzH25AE5Xesr1RXGGqRgnUT31ZtuGAqJJK1Sr2JnbaXf7",
+      "points": 947,
+      "seed": "3QGyr5ot93HLv2FypcpPPPioAN9oheTomuAu8QzJJ6FfySNY4szHWywEjBcwqbV4uaU8dncVUhTaCW9zKZHQMozR"
+    },
+    {
+      "signer": "DNb2hsMrwcyAS9YeipXRgYS6DEppJQahcNTMM5dcYjJJ",
+      "signature": "3bWPqsTvjB9CzpTuHhS9zjuptvLG3oeKuNgy31LNhUCabbYzbWGx2F5ApXREusR1JiBZV4QatcmrtzPbvy8sv5mr",
+      "points": 811,
+      "seed": "3QGyr5ot93HLv2FypcpPPPioAN9oheTomuAu8QzJJ6FfySNY4szHWywEjBcwqbV4uaU8dncVUhTaCW9zKZHQMozR"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "5gZSbEiCraARSjYx2rF1BkX1ewEejoe1gxMTAJ3vR6wT7WEJHaY4Seba4ckaZRCzQkgh99WBLXsAJJwRRWYrBdy6",
+      "points": 802,
+      "seed": "3QGyr5ot93HLv2FypcpPPPioAN9oheTomuAu8QzJJ6FfySNY4szHWywEjBcwqbV4uaU8dncVUhTaCW9zKZHQMozR"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "4iUSR8wJDYZnWUmZ737RRSVd3dwPGehnVaDei1EWXn5KXaDuRjQTxnAbFZgDtZaEhEc2r31obKi5RDLHRYYy6nnT",
+      "points": 1789,
+      "seed": "3QGyr5ot93HLv2FypcpPPPioAN9oheTomuAu8QzJJ6FfySNY4szHWywEjBcwqbV4uaU8dncVUhTaCW9zKZHQMozR"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "4mbG3oFvARxyhfGWf5mbUk2us1bdk12HAg1Pm5QbuvhNTxgAFcoECM9BUdqUnsb92jD9yeU1voBXBDKnpFfZNgLo",
+      "points": 1032,
+      "seed": "3QGyr5ot93HLv2FypcpPPPioAN9oheTomuAu8QzJJ6FfySNY4szHWywEjBcwqbV4uaU8dncVUhTaCW9zKZHQMozR"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "5wx1G8MeebA9hEHE1EFVLMPe7rE5Uq5jrCEfAPmem61s8UxLzGYCfbxk1WDd8KiUDjgrQvmnq4nVgq8WpEmo8F9G",
+      "points": 1146,
+      "seed": "3QGyr5ot93HLv2FypcpPPPioAN9oheTomuAu8QzJJ6FfySNY4szHWywEjBcwqbV4uaU8dncVUhTaCW9zKZHQMozR"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "3w8SNzQxNQSMerpxL31UJpq6g6hWs4gScdKnoGH94nps7NovT8NZpSrKfkSyGD54CKoCSEjyg4DxQ8ZHtEiHvuTq",
+      "points": 1362,
+      "seed": "3QGyr5ot93HLv2FypcpPPPioAN9oheTomuAu8QzJJ6FfySNY4szHWywEjBcwqbV4uaU8dncVUhTaCW9zKZHQMozR"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "et2jtAdEbPhSmzukjPXYdVHVbXu5AB5vsvYg85WXeyLJ55ZBSU3GwpvLdrxbAy3n5oLFfNpLZaFS5Tn2f7fLU6A",
+      "points": 1462,
+      "seed": "3TSuhoTqPaUoXK1RXVkcqLTDAQo2LNK6ZNqe7jvnuou37tst6DZXcA7N3qoVb4f1nZQhj8cgbWmH5zrDkJpycm8p"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "9SnSFBfMpdhqjJM6r9bWg2Z4FfWENeBkyiztxy7NFnKth4AP1vXmQfcjspcr1KNQSASKbCiTbDQa7qkrDR6Syic",
+      "points": 2432,
+      "seed": "3TSuhoTqPaUoXK1RXVkcqLTDAQo2LNK6ZNqe7jvnuou37tst6DZXcA7N3qoVb4f1nZQhj8cgbWmH5zrDkJpycm8p"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "5zQBXapp1ivC7PUMTfzJXBvG3CoyjxS8ryNyxXPDVQvQQpBjYbxZXJMjAkNqGFUcVm5rcKbgr57CYc7RXjp5nEmU",
+      "points": 1454,
+      "seed": "3TSuhoTqPaUoXK1RXVkcqLTDAQo2LNK6ZNqe7jvnuou37tst6DZXcA7N3qoVb4f1nZQhj8cgbWmH5zrDkJpycm8p"
+    },
+    {
+      "signer": "DNb2hsMrwcyAS9YeipXRgYS6DEppJQahcNTMM5dcYjJJ",
+      "signature": "2vtV6EvSJH9aNZ9BgXNXKcEYeDLAGR26ddLLM5s9CGyGP87dKsGQRPA8uqNoc423yeDCYK3zoeKkFUBDADhUgpAS",
+      "points": 1437,
+      "seed": "3TSuhoTqPaUoXK1RXVkcqLTDAQo2LNK6ZNqe7jvnuou37tst6DZXcA7N3qoVb4f1nZQhj8cgbWmH5zrDkJpycm8p"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "2xyy3P5AzCss3k8ep8d4zax7uXbu5J37xq7uCXzBzE85LN8crZ48D8SynFLNaVwFhGNRwU2SwXMzeVeUny7KAStk",
+      "points": 2265,
+      "seed": "ARimLqEf8HGGDWt5m6aCN3AWtUZKFukPxN13SGHZ53dbGN2ypzZKxFnFMFofmTWZT6HA8ndHroFbz9Rb1zy63g1"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "FsfNwQ2ShqogQaxnHpdM5FcxxyFCZL6EofTTFXBSxuT5yTj895kz2yXUS9AkWAMEgphQVYf3WsFmfcqqx8RLR1A",
+      "points": 1884,
+      "seed": "ARimLqEf8HGGDWt5m6aCN3AWtUZKFukPxN13SGHZ53dbGN2ypzZKxFnFMFofmTWZT6HA8ndHroFbz9Rb1zy63g1"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "22taNjK7r4GFGVUjZ9jFh9Dn477MUyCEzaTe5GHwVmib2Vxq6UGtuX4VJH45nNsyE4NU7ULTKU4gfVcSuBdeeEPY",
+      "points": 1242,
+      "seed": "ARimLqEf8HGGDWt5m6aCN3AWtUZKFukPxN13SGHZ53dbGN2ypzZKxFnFMFofmTWZT6HA8ndHroFbz9Rb1zy63g1"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "5v2HwuX83bfMBWwpmpkRMbgwrHi5cMgpA3BoRqb5477yJvJK2pxsB1e6ESjsSf16UqPAEamtCkufEwWxhp22FJTT",
+      "points": 1272,
+      "seed": "ARimLqEf8HGGDWt5m6aCN3AWtUZKFukPxN13SGHZ53dbGN2ypzZKxFnFMFofmTWZT6HA8ndHroFbz9Rb1zy63g1"
+    },
+    {
+      "signer": "DNb2hsMrwcyAS9YeipXRgYS6DEppJQahcNTMM5dcYjJJ",
+      "signature": "jmXD9JJRWydTmv4eYEWUGBvMBjZiCsVqrp1BuBU8oaYWLyTrzFg2u58WBNoPGhpDCP1LAEmydq48dxKigNYqjwP",
+      "points": 1342,
+      "seed": "ARimLqEf8HGGDWt5m6aCN3AWtUZKFukPxN13SGHZ53dbGN2ypzZKxFnFMFofmTWZT6HA8ndHroFbz9Rb1zy63g1"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "fZuD9PykKGsRmF66WE2zhYLaN169i55X5uxqRm9v3mh9QobZna5tcW2XvEQ8Z2B6Hnmk6W726eHBvEX9vLZvF8E",
+      "points": 1288,
+      "seed": "ARimLqEf8HGGDWt5m6aCN3AWtUZKFukPxN13SGHZ53dbGN2ypzZKxFnFMFofmTWZT6HA8ndHroFbz9Rb1zy63g1"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "5qxAQSAi18RgB3EhLcGE68z3EHbPTZie2ESeFdwaKADUowY54JsL8SftJRTrrBUTnBBiPqBbDbsNHztno3V9fhqN",
+      "points": 1242,
+      "seed": "ARimLqEf8HGGDWt5m6aCN3AWtUZKFukPxN13SGHZ53dbGN2ypzZKxFnFMFofmTWZT6HA8ndHroFbz9Rb1zy63g1"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "4tQ7j6TVHN1Wgr2UwugubjwjWGFobQCrLi2qSDVUa7naCJKnvFoKw4p1ybA1Fcj85uM9S65u5LWFmu5tvKUDJD1B",
+      "points": 1366,
+      "seed": "ARimLqEf8HGGDWt5m6aCN3AWtUZKFukPxN13SGHZ53dbGN2ypzZKxFnFMFofmTWZT6HA8ndHroFbz9Rb1zy63g1"
+    },
+    {
+      "signer": "DNb2hsMrwcyAS9YeipXRgYS6DEppJQahcNTMM5dcYjJJ",
+      "signature": "yKtf2NiHKgTPZx1y1n85N48yNh1wznxaWQkJp6GibM4LLsrzmm9EsBopgP1S41xEyuiZdfJ4hDWS3eeihFMsS6P",
+      "points": 1340,
+      "seed": "ARimLqEf8HGGDWt5m6aCN3AWtUZKFukPxN13SGHZ53dbGN2ypzZKxFnFMFofmTWZT6HA8ndHroFbz9Rb1zy63g1"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "3AjyH4iLS9BFfH42zfQn46QxHx4s9TAwJNMJaXtbz5rcNVPHVKaKo1swnnuheX4FfxkHFRZhgv27PRpSBxXm3umh",
+      "points": 1888,
+      "seed": "2CFq7ZqGgc1eZwHEDfThtJRJJ1Xm4vX6rAS1VsEAuXYdzAYxDHZM3CBHQEaDvmDWo4d1WSTtACBA2TmfQi42t9dP"
+    },
+    {
+      "signer": "DNb2hsMrwcyAS9YeipXRgYS6DEppJQahcNTMM5dcYjJJ",
+      "signature": "3vmGegf5HAyVqGYY6EMnz8q4kQDiGLgJrcYLCUgRrhw2J1biFXrVxj6XQ72mHMNL8oZzkYBazE6KW4pE4WgGpZ1T",
+      "points": 1350,
+      "seed": "2CFq7ZqGgc1eZwHEDfThtJRJJ1Xm4vX6rAS1VsEAuXYdzAYxDHZM3CBHQEaDvmDWo4d1WSTtACBA2TmfQi42t9dP"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "3zYQrt7VzYTGm42PUrAd1Gh6sq6PqRRqWtwgtUV1NKaGV85UXPiLXAPCT2besdaXLhrA4yo3qCLgCFohL4i6cj7Z",
+      "points": 2412,
+      "seed": "2CFq7ZqGgc1eZwHEDfThtJRJJ1Xm4vX6rAS1VsEAuXYdzAYxDHZM3CBHQEaDvmDWo4d1WSTtACBA2TmfQi42t9dP"
+    },
+    {
+      "signer": "F9ZdfyatAGxVyk65hv5sVLUNucWTwAcUKunCySthgUBs",
+      "signature": "47fkyisbeHvEJ1oHK5VjgJ78uz9UEWdZFuZ9bWyCs8VHrJWjgNzBnpDop1msCQN7wy6LS6G2hpNducuCs4g4yiUF",
+      "points": 40,
+      "seed": "2CFq7ZqGgc1eZwHEDfThtJRJJ1Xm4vX6rAS1VsEAuXYdzAYxDHZM3CBHQEaDvmDWo4d1WSTtACBA2TmfQi42t9dP"
+    },
+    {
+      "signer": "F9ZdfyatAGxVyk65hv5sVLUNucWTwAcUKunCySthgUBs",
+      "signature": "kdYb175wR3Z2qxDsYS9NXe3purXYpadTFS3ybbySrehCzVawWWQWTJumb6mnhYewVtGdFGCNDUo2P6rEp6dUvb1",
+      "points": 824,
+      "seed": "2CFq7ZqGgc1eZwHEDfThtJRJJ1Xm4vX6rAS1VsEAuXYdzAYxDHZM3CBHQEaDvmDWo4d1WSTtACBA2TmfQi42t9dP"
+    },
+    {
+      "signer": "F9ZdfyatAGxVyk65hv5sVLUNucWTwAcUKunCySthgUBs",
+      "signature": "2QQbuPMfdag9UZqM8X3kAAXFD4Lq8THPcq3fz5NZMageHNFpFtwUj3kE2graukRMfgGJxE7STWVn8dmaZnbQPAnz",
+      "points": 570,
+      "seed": "2CFq7ZqGgc1eZwHEDfThtJRJJ1Xm4vX6rAS1VsEAuXYdzAYxDHZM3CBHQEaDvmDWo4d1WSTtACBA2TmfQi42t9dP"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "3KoVzgFZbifrEAgCp5X5As2JRSWeXwtcae6DScLE4ucNn69E6Wp95QMhG3icMJHmpBSP8U7NGcC1MdSjbS1D5LMv",
+      "points": 1437,
+      "seed": "2CFq7ZqGgc1eZwHEDfThtJRJJ1Xm4vX6rAS1VsEAuXYdzAYxDHZM3CBHQEaDvmDWo4d1WSTtACBA2TmfQi42t9dP"
+    },
+    {
+      "signer": "DNb2hsMrwcyAS9YeipXRgYS6DEppJQahcNTMM5dcYjJJ",
+      "signature": "47vc4tNfan8M3Qwf7GntEfDMVCoAUnQfx46pfPz1fVbcdeLrKVcbAyrqwskZHArPYJEQZMcfmbckgzcCo3yHJdfs",
+      "points": 1350,
+      "seed": "2CFq7ZqGgc1eZwHEDfThtJRJJ1Xm4vX6rAS1VsEAuXYdzAYxDHZM3CBHQEaDvmDWo4d1WSTtACBA2TmfQi42t9dP"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "jxqUfxMracD3Rjo9yHycX4oEkrKNJbMtqUmJzLnt6ekefvEn6Qgp4HkaGgF5HdiepakL6igctLFUHeAZMwbj5vA",
+      "points": 1019,
+      "seed": "2CFq7ZqGgc1eZwHEDfThtJRJJ1Xm4vX6rAS1VsEAuXYdzAYxDHZM3CBHQEaDvmDWo4d1WSTtACBA2TmfQi42t9dP"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "2G6PjGUDUqMVcvJ6h9Pdgvt19tAK6LH4jB7men9x7Yoeu5SSxL6zE2mux3fCLu4gsvxPg2Y9j1BUiU9U3SfUcbEf",
+      "points": 1285,
+      "seed": "2CFq7ZqGgc1eZwHEDfThtJRJJ1Xm4vX6rAS1VsEAuXYdzAYxDHZM3CBHQEaDvmDWo4d1WSTtACBA2TmfQi42t9dP"
+    },
+    {
+      "signer": "DNb2hsMrwcyAS9YeipXRgYS6DEppJQahcNTMM5dcYjJJ",
+      "signature": "5FS1pP5MsM5STWJn7UxzNwT8nrVkponSCjGD3Q9eSLtqbnqNfGCUMWB1MgWVFVAAtCiJqRRTeCGoZcLHDgqM9QVu",
+      "points": 1350,
+      "seed": "2CFq7ZqGgc1eZwHEDfThtJRJJ1Xm4vX6rAS1VsEAuXYdzAYxDHZM3CBHQEaDvmDWo4d1WSTtACBA2TmfQi42t9dP"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "665VjR9HQjGJpoJJdTX8D6ZRY3K5UJrDtsjNU9KMHz2hHdiTVcyHFrs9i3ZV1kX7oXVA4dvpa3uw34Tv1qDom3sq",
+      "points": 1337,
+      "seed": "2CFq7ZqGgc1eZwHEDfThtJRJJ1Xm4vX6rAS1VsEAuXYdzAYxDHZM3CBHQEaDvmDWo4d1WSTtACBA2TmfQi42t9dP"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "29wgJMY4kGkrUHWBcfhJhZwng2T7fUDNKurCXyVZc7jo3D6nfuK4jymgKF5rPqdZKjA53b5Negaz8p8rqztkxbfz",
+      "points": 1071,
+      "seed": "2CFq7ZqGgc1eZwHEDfThtJRJJ1Xm4vX6rAS1VsEAuXYdzAYxDHZM3CBHQEaDvmDWo4d1WSTtACBA2TmfQi42t9dP"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "3tdDY1wJpwHryArGzkDNVCVzZD5hK49uzrVWLjqTuSGxuSispJSekcibFAwo4jokD86CUQ3MSAzRdb7KgDXYd1dD",
+      "points": 1269,
+      "seed": "2CFq7ZqGgc1eZwHEDfThtJRJJ1Xm4vX6rAS1VsEAuXYdzAYxDHZM3CBHQEaDvmDWo4d1WSTtACBA2TmfQi42t9dP"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "o5H8egbGb2dc5imiUd8MnyNwiQmU7zeqfBKp3nKK7odUs9pcMY75uRnppvkJGFqupxRDgUTsVuDQx33zGCQt6Sb",
+      "points": 1415,
+      "seed": "2CFq7ZqGgc1eZwHEDfThtJRJJ1Xm4vX6rAS1VsEAuXYdzAYxDHZM3CBHQEaDvmDWo4d1WSTtACBA2TmfQi42t9dP"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "5rrHzS3gxdNnMGV1MVoKVbXguEuSfW2dZo9kUxZ59vLYVqJnE9vy4mU156tGXGjesXi8yZTAArSDwuasA2HiUga",
+      "points": 1334,
+      "seed": "2CFq7ZqGgc1eZwHEDfThtJRJJ1Xm4vX6rAS1VsEAuXYdzAYxDHZM3CBHQEaDvmDWo4d1WSTtACBA2TmfQi42t9dP"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "dvcVriN6MB9U8LoJP6r7Q6rN4cWd2qdnqAac9Sutn1AapSSjCXs4a87QSN7tYDHGhowkr9USLedMogo9vyL7vUN",
+      "points": 1415,
+      "seed": "2CFq7ZqGgc1eZwHEDfThtJRJJ1Xm4vX6rAS1VsEAuXYdzAYxDHZM3CBHQEaDvmDWo4d1WSTtACBA2TmfQi42t9dP"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "5gTti7AbgHKUewvMjx2x5etpDfqWv9Jfu4R6nLPkgrBoNSD7CjS7qbG35SYBGNDSLS57s9SNRuXwB6wMjTeZT8Qm",
+      "points": 1415,
+      "seed": "2CFq7ZqGgc1eZwHEDfThtJRJJ1Xm4vX6rAS1VsEAuXYdzAYxDHZM3CBHQEaDvmDWo4d1WSTtACBA2TmfQi42t9dP"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "2PMxei5uhRznynZR4pi4AZsPfWPzmVFXnXGzgajYjifgP9utrKsHQfPTC6ea2GNq6XDqLmrT2zLoc3zhwRjnkiVa",
+      "points": 1415,
+      "seed": "2CFq7ZqGgc1eZwHEDfThtJRJJ1Xm4vX6rAS1VsEAuXYdzAYxDHZM3CBHQEaDvmDWo4d1WSTtACBA2TmfQi42t9dP"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "2QghhHfHFu25iSXs2kU5LYDVsLFcyMjhTJ67qLnr5o6eAzvHHHMWedfRLLUGA4ojGqYrVLfh48Z8zMMzPRfJwMJP",
+      "points": 1415,
+      "seed": "2CFq7ZqGgc1eZwHEDfThtJRJJ1Xm4vX6rAS1VsEAuXYdzAYxDHZM3CBHQEaDvmDWo4d1WSTtACBA2TmfQi42t9dP"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "4NqDcpycrQXEWkzongcFzeK7PgYSaz9UysLj3iYPX6PjMD4JLGHU1Pade6Q8rv2FyQpFpTqbdCjeiCEXhFDCXj8c",
+      "points": 1415,
+      "seed": "2CFq7ZqGgc1eZwHEDfThtJRJJ1Xm4vX6rAS1VsEAuXYdzAYxDHZM3CBHQEaDvmDWo4d1WSTtACBA2TmfQi42t9dP"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "3YtoK4SHSVZPUdde7sb4AHYQ6TvtVxZo6sYzkjaftoWRHfftgAsmSL1mcAzh1Ckv44ZyBU96EfGbdxLBvBcFCQFk",
+      "points": 1415,
+      "seed": "2CFq7ZqGgc1eZwHEDfThtJRJJ1Xm4vX6rAS1VsEAuXYdzAYxDHZM3CBHQEaDvmDWo4d1WSTtACBA2TmfQi42t9dP"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "bcbrRvyXBmzd61R8cZeCZKsCdTBEhnHq1u1YEdpLh2Rm7PYKnsvaFov9R7esb4FVrqWNcE3SnfkcsHDeUzbW8sm",
+      "points": 1421,
+      "seed": "2CFq7ZqGgc1eZwHEDfThtJRJJ1Xm4vX6rAS1VsEAuXYdzAYxDHZM3CBHQEaDvmDWo4d1WSTtACBA2TmfQi42t9dP"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "4euLvyQLqm8qovA4kN3rLBaAZRBXwZRm41Mf2p898LrXtwFey1v2g28KnkbqgiHuZcKkotW3Uqg9tQdxru1xEsET",
+      "points": 1425,
+      "seed": "2CFq7ZqGgc1eZwHEDfThtJRJJ1Xm4vX6rAS1VsEAuXYdzAYxDHZM3CBHQEaDvmDWo4d1WSTtACBA2TmfQi42t9dP"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "5fo2nyfGeyQnaBh3Tx4dXzGpaSZ8mfYKzcH4i8u7FfvJ16mxi7Y5gQUA6xyoAzqog8yRUQbWomgGc3L5pfW4aYhV",
+      "points": 1425,
+      "seed": "2CFq7ZqGgc1eZwHEDfThtJRJJ1Xm4vX6rAS1VsEAuXYdzAYxDHZM3CBHQEaDvmDWo4d1WSTtACBA2TmfQi42t9dP"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "3DkTcgb8v5CmrDpJE7J5cAeXQPcYHW6yM1dAZ3AgvVNTg8kBm6ejfgeZ3fUey1b3VkYnxgd73HBZtchVNd6e8ujd",
+      "points": 1835,
+      "seed": "42v5Lf85oYoWoQLRhMKcE9AU5SXkonR5zv2tfPy7BrLpmXPsGXiHv8naLnMfMYQKPfuLoZTSCWtrA6Wxp41kNk8r"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "2m4PHVzZ73B8qpw3K1Cr71bvV9GKfjLbVcbLkeaP2ojFFWLSuVhvCW8vwVNiv1RxXBPBh4UrMR1haVu6EtGNkeUJ",
+      "points": 2457,
+      "seed": "42v5Lf85oYoWoQLRhMKcE9AU5SXkonR5zv2tfPy7BrLpmXPsGXiHv8naLnMfMYQKPfuLoZTSCWtrA6Wxp41kNk8r"
+    },
+    {
+      "signer": "DNb2hsMrwcyAS9YeipXRgYS6DEppJQahcNTMM5dcYjJJ",
+      "signature": "4g7iyLAXwLRfi1w7vvbdJwVwTGWbTmLdzYMFBVQpS7DMNbcZLuMV1EYNERjdbj6BjB1cpccNXbJQ8UYSHfXeLPVA",
+      "points": 1189,
+      "seed": "42v5Lf85oYoWoQLRhMKcE9AU5SXkonR5zv2tfPy7BrLpmXPsGXiHv8naLnMfMYQKPfuLoZTSCWtrA6Wxp41kNk8r"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "3KXprzmURc4D8Z7588fXHNnVF8tq88YJ4KuEDD5gG5z2qagXk67fbur4BTdTs8oAzUzcwUXFEVYtQZQQ5aHP7Z9m",
+      "points": 1012,
+      "seed": "42v5Lf85oYoWoQLRhMKcE9AU5SXkonR5zv2tfPy7BrLpmXPsGXiHv8naLnMfMYQKPfuLoZTSCWtrA6Wxp41kNk8r"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "4Rxb7ET7fWiKrQ8qRP4VL6NjoDhaaSrQf4uaeDDJHn9BkmVGuZvsvBEUxXXriubaDvHzPon4WVd32nqctdDPmbTY",
+      "points": 1627,
+      "seed": "42v5Lf85oYoWoQLRhMKcE9AU5SXkonR5zv2tfPy7BrLpmXPsGXiHv8naLnMfMYQKPfuLoZTSCWtrA6Wxp41kNk8r"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "4nLJn3QSz8Asrq8NEHnfSiyTyB2tqcMGAwFMtaGXddnVyUmQuzvfwAVJCxf8MkgmYV9QTv4a5emEBYW7sAVb9ZQp",
+      "points": 43,
+      "seed": "42v5Lf85oYoWoQLRhMKcE9AU5SXkonR5zv2tfPy7BrLpmXPsGXiHv8naLnMfMYQKPfuLoZTSCWtrA6Wxp41kNk8r"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "5kRWbjLt3BG799rMmaoqQz2rfuLJxbSKstseTskuerAdkxtTjtDLBwjBoe8EdhHVfF9kFr9vT2t5kDUbJJTJkVFc",
+      "points": 930,
+      "seed": "42v5Lf85oYoWoQLRhMKcE9AU5SXkonR5zv2tfPy7BrLpmXPsGXiHv8naLnMfMYQKPfuLoZTSCWtrA6Wxp41kNk8r"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "3XnFZhEB5ZS55Nk1azUf9w5opuWyrvsdxcoCK8eh2z9yWESsPfQed8yAXEQ2RfL1SqZzXQXymcpRCAk3pS1pnnm4",
+      "points": 838,
+      "seed": "42v5Lf85oYoWoQLRhMKcE9AU5SXkonR5zv2tfPy7BrLpmXPsGXiHv8naLnMfMYQKPfuLoZTSCWtrA6Wxp41kNk8r"
+    },
+    {
+      "signer": "DNb2hsMrwcyAS9YeipXRgYS6DEppJQahcNTMM5dcYjJJ",
+      "signature": "399LksYLAGCkWzcujzKuLdyjKXCEH4G1xn5seLRd9JwKnkyo16bk23SBzGrKVKSawfBWPxsckXUYq8MHr3jGcwDM",
+      "points": 1112,
+      "seed": "42v5Lf85oYoWoQLRhMKcE9AU5SXkonR5zv2tfPy7BrLpmXPsGXiHv8naLnMfMYQKPfuLoZTSCWtrA6Wxp41kNk8r"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "pcRS426dLZAWbpq7fPhUMmVohL44NZ4Er4eusEs9bYHbzKw12LTnM8KKwuB4LJyti2XRrXj79MtFLNEMtkjoLua",
+      "points": 836,
+      "seed": "42v5Lf85oYoWoQLRhMKcE9AU5SXkonR5zv2tfPy7BrLpmXPsGXiHv8naLnMfMYQKPfuLoZTSCWtrA6Wxp41kNk8r"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "5ZkRchqRMwp63ZjiaS5882pCLMnSS9fqjqDyjdddww9ekSS6rszAE8SVFjJGwV31B8bXPrZYoF1LaZLP9uBtg59g",
+      "points": 804,
+      "seed": "42v5Lf85oYoWoQLRhMKcE9AU5SXkonR5zv2tfPy7BrLpmXPsGXiHv8naLnMfMYQKPfuLoZTSCWtrA6Wxp41kNk8r"
+    },
+    {
+      "signer": "DNb2hsMrwcyAS9YeipXRgYS6DEppJQahcNTMM5dcYjJJ",
+      "signature": "2BhXEiDvVWbptAubcBSxfMRqx3CJ1DJT4wfXrbRqhYHgX1LNyuyjt2EXRW8Mgz3V4ULkXoCFfmTXrp9QPC1oYN86",
+      "points": 1115,
+      "seed": "42v5Lf85oYoWoQLRhMKcE9AU5SXkonR5zv2tfPy7BrLpmXPsGXiHv8naLnMfMYQKPfuLoZTSCWtrA6Wxp41kNk8r"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "W9b1KXjXqs6AuQVrRev1TkVDAaZfncqRDEzgHTzbxzBfhZDz4Zawx3utCTunGjsXho8kE6S6gkJ6BLH7YtjhiSZ",
+      "points": 1112,
+      "seed": "42v5Lf85oYoWoQLRhMKcE9AU5SXkonR5zv2tfPy7BrLpmXPsGXiHv8naLnMfMYQKPfuLoZTSCWtrA6Wxp41kNk8r"
+    },
+    {
+      "signer": "DNb2hsMrwcyAS9YeipXRgYS6DEppJQahcNTMM5dcYjJJ",
+      "signature": "3geXvKgbUxGUykTLwzSrH7hwmcdiKvDet4a81KQ9CtJvU3eUfRpCQKx348DWNKJYFQP5tGe43mzBbEsh5qG6sDbV",
+      "points": 1116,
+      "seed": "42v5Lf85oYoWoQLRhMKcE9AU5SXkonR5zv2tfPy7BrLpmXPsGXiHv8naLnMfMYQKPfuLoZTSCWtrA6Wxp41kNk8r"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "4PmV7QD1PygotfRkY9jQNdhcu6bpgFLQr9x2Qrq9WJeoXxnJDPZ2HPqvhGm37yQBLQuvwLTNBcWWz82GtUUN2QrX",
+      "points": 2257,
+      "seed": "5mVHirF22W7HDx1N35vFPDxD2z4J6oUg36ATfhaecM9bLTBF3WCuCPq9RUA8PFNFTAc2QkMs8pfbATRcL6Jj6zho"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "33RaamLCRtjtjjYtKg4aUHpf2PCjtQWnHzGz92V8HUsirKwowtTsq8piMHXCH1qDvR7PMcSe49nEDePuuSk27ymD",
+      "points": 2643,
+      "seed": "5mVHirF22W7HDx1N35vFPDxD2z4J6oUg36ATfhaecM9bLTBF3WCuCPq9RUA8PFNFTAc2QkMs8pfbATRcL6Jj6zho"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "39McitD3SRKvfYouNYE8eSknAbZko18hrnbaRotrBFkKZ1nEcvK7KdhKVYc5sH6WLutYzLVDCAiVxoZCW3uZLjRx",
+      "points": 2646,
+      "seed": "5mVHirF22W7HDx1N35vFPDxD2z4J6oUg36ATfhaecM9bLTBF3WCuCPq9RUA8PFNFTAc2QkMs8pfbATRcL6Jj6zho"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "bC93SH1Dfbb9sND479AVf6q3zedjw51c21zGmpt8izxcDzW3iDhvN68CwYVPNueAccXjNRt3TcUK8C4WkbSNmsr",
+      "points": 2837,
+      "seed": "5mVHirF22W7HDx1N35vFPDxD2z4J6oUg36ATfhaecM9bLTBF3WCuCPq9RUA8PFNFTAc2QkMs8pfbATRcL6Jj6zho"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "5grme4mPB2Ff8g4m2HkjHwaDv97iDXTtcLfLv5T2A1fc8RXQPy73gkn9JuFTBQRVemw7w6vXPn7hY9tVM8v7EX7i",
+      "points": 3040,
+      "seed": "5mVHirF22W7HDx1N35vFPDxD2z4J6oUg36ATfhaecM9bLTBF3WCuCPq9RUA8PFNFTAc2QkMs8pfbATRcL6Jj6zho"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "3ghybhCNNS3Xxi3HFq4QPZApspzA593P6aQ7wUD5MCo2RhwsRyV9KwDHJ3UWF19N4JSHmB8zgjW8CNASUoHUtbjQ",
+      "points": 3365,
+      "seed": "5mVHirF22W7HDx1N35vFPDxD2z4J6oUg36ATfhaecM9bLTBF3WCuCPq9RUA8PFNFTAc2QkMs8pfbATRcL6Jj6zho"
+    },
+    {
+      "signer": "Fte2zHN1BsCoQ2L9yRNF2prGej4Ssj2hFRp4JMgzPpas",
+      "signature": "5pHr1DZKk4FZNPf9sGDRGPF6L95367v1PmERjvNAhQTz549R1k6YveZr4jjMPRo7Z9c4zGGPpPWfBwwpnAWDPAtn",
+      "points": 1815,
+      "seed": "5mVHirF22W7HDx1N35vFPDxD2z4J6oUg36ATfhaecM9bLTBF3WCuCPq9RUA8PFNFTAc2QkMs8pfbATRcL6Jj6zho"
+    },
+    {
+      "signer": "Fte2zHN1BsCoQ2L9yRNF2prGej4Ssj2hFRp4JMgzPpas",
+      "signature": "5GftMhGukmWxAefEjqKFtErfhXPNAcxJUD49e1jAbnwDggAN4HYPToB3QtGcVuYEUGKoUk9eAR9KAw3GkEduvaMK",
+      "points": 1815,
+      "seed": "5mVHirF22W7HDx1N35vFPDxD2z4J6oUg36ATfhaecM9bLTBF3WCuCPq9RUA8PFNFTAc2QkMs8pfbATRcL6Jj6zho"
+    },
+    {
+      "signer": "F9ZdfyatAGxVyk65hv5sVLUNucWTwAcUKunCySthgUBs",
+      "signature": "b82rAVsr4mexZWekZaa8JGqtNUtZk3AYVsKyAVhFBtcrNe8xCpqduHREpU7YntHh61EdjBNhtaeXDdKEUbX9JXz",
+      "points": 1720,
+      "seed": "5mVHirF22W7HDx1N35vFPDxD2z4J6oUg36ATfhaecM9bLTBF3WCuCPq9RUA8PFNFTAc2QkMs8pfbATRcL6Jj6zho"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "3sy5JTYonf9ozat6ixXEWheSq4kmb87eE3D8F9dE7PcNkMABAqANkppqk2gK476bWYYb4jZtrQPnGz778qCgFXpb",
+      "points": 1567,
+      "seed": "5mVHirF22W7HDx1N35vFPDxD2z4J6oUg36ATfhaecM9bLTBF3WCuCPq9RUA8PFNFTAc2QkMs8pfbATRcL6Jj6zho"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "46LVDdS1yxNZr4VtiJRMBUi2V7vaFoPHNBi54tAgAa1C73JXoLm5wzrr3QNJgB8yCg1mLahFkGWJMuVuDsSZuaPf",
+      "points": 1735,
+      "seed": "5mVHirF22W7HDx1N35vFPDxD2z4J6oUg36ATfhaecM9bLTBF3WCuCPq9RUA8PFNFTAc2QkMs8pfbATRcL6Jj6zho"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "2hzjeZKSbSuYjbuAzdsGoRZ4LJgGUKHAggoAjq9rfBgFMQYUrbJZuLiG6yhSVii55ZSuzCk5CjPgMUD21KYAxD6s",
+      "points": 1889,
+      "seed": "5mVHirF22W7HDx1N35vFPDxD2z4J6oUg36ATfhaecM9bLTBF3WCuCPq9RUA8PFNFTAc2QkMs8pfbATRcL6Jj6zho"
+    },
+    {
+      "signer": "DNb2hsMrwcyAS9YeipXRgYS6DEppJQahcNTMM5dcYjJJ",
+      "signature": "q2kxiYHZj3e2J6FedbaTjKx2dUxz7xjDVd9Gfu9uEdGkfZ6whhw5Mj2zCD2tkLop28UuBoqt2iJuxncCZLUY8Tz",
+      "points": 1548,
+      "seed": "5mVHirF22W7HDx1N35vFPDxD2z4J6oUg36ATfhaecM9bLTBF3WCuCPq9RUA8PFNFTAc2QkMs8pfbATRcL6Jj6zho"
+    },
+    {
+      "signer": "DNb2hsMrwcyAS9YeipXRgYS6DEppJQahcNTMM5dcYjJJ",
+      "signature": "55AD6AzW1PYYCASbVuqrNgC4aUhsLWwQm8UXB4kr8VAdNDcZbqxVrnjt1Lch8VuVsdH1qAzskCjdTzMQHLuYaSn2",
+      "points": 1548,
+      "seed": "5mVHirF22W7HDx1N35vFPDxD2z4J6oUg36ATfhaecM9bLTBF3WCuCPq9RUA8PFNFTAc2QkMs8pfbATRcL6Jj6zho"
+    },
+    {
+      "signer": "DNb2hsMrwcyAS9YeipXRgYS6DEppJQahcNTMM5dcYjJJ",
+      "signature": "44Gdn5uP7671eyJ1f5yxiiBBzSxy1BBffaEWkN7ux7fuVYZBbCo7WTx6xipabS7WozV97VeQJwxSTeg8f7s2ndPc",
+      "points": 1645,
+      "seed": "5mVHirF22W7HDx1N35vFPDxD2z4J6oUg36ATfhaecM9bLTBF3WCuCPq9RUA8PFNFTAc2QkMs8pfbATRcL6Jj6zho"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "5GYP5zajTLZQGiAJ7djiNxV6m9hWHtw28kcnqGy1nZQGA2pa1fVUSaoDFGAQxjyKQb66vZBgSdwYCnRyHHmwL1vt",
+      "points": 1646,
+      "seed": "5mVHirF22W7HDx1N35vFPDxD2z4J6oUg36ATfhaecM9bLTBF3WCuCPq9RUA8PFNFTAc2QkMs8pfbATRcL6Jj6zho"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "57xP1hVApN4ajYBYcoDg8jN1NAQZL7sZUf8KfM4htwT3jUVsxCJKbMmT6eo95wCbC8d9tojitd5f5cc2837a6hHo",
+      "points": 2953,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "2Yg6cUT5NBHTKhZL1HJDhmzqDwvYgPLC83UFe9hyRYKzKWCFthgeyJXLHapUfyrfw2FueVVTKbK7E78xbYASdUy3",
+      "points": 3193,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "XcyWxdHTDueh8MgPVp7ERZEjsZq72G9VS44pmRygzhEs7VYZUfrKRqFSCkbd8Nq7ym37EeWPWdSCzvXAxLyZkFw",
+      "points": 2306,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "BuwRMDn5pap1bDfUDmvnHUe3HteJSq3zBXd5WhgbZXvhrDQQRYbpM68LTa7ebUHE277GxCnv5m5sjEDS8oLt9D1",
+      "points": 2409,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "TwaGjHeM9aPTKocvXVXLqp7HCqRkBBabK76apkd6t5NTW7auTkoeBRSvqrJ9NYYx8PGPqmrrDJWLyRSveEQkQDA",
+      "points": 3347,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "DNb2hsMrwcyAS9YeipXRgYS6DEppJQahcNTMM5dcYjJJ",
+      "signature": "fD47JCZqfVNj5wrFKitnAecEpajY4D3wcrx7g41Tdm7uBEyofznM3TuH1madDiJju1KuDyvdwJuD4ozc1cBZXHq",
+      "points": 1543,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "5Aj8nbmUKXmztDorUwXp4j5LYrykVYqbujGb4ZKog7wwpUvzWhHNcAzXsav1YSgAYnhZdR64bQGD8HToghCoD84w",
+      "points": 1862,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "DNb2hsMrwcyAS9YeipXRgYS6DEppJQahcNTMM5dcYjJJ",
+      "signature": "61DUGzb2R8XCiZXYP1Ytba2SiUNfVeiBBbwyqvSTDWQHs1ptH2iixhASaeSBHtFonazXYxoJ7KvQ4hMLtn4iwAU2",
+      "points": 1341,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "DNb2hsMrwcyAS9YeipXRgYS6DEppJQahcNTMM5dcYjJJ",
+      "signature": "5YjLqNdRn2EPtJhxgmy3zxUqgJQF5HJHpTNy8aUQtHqZzVqywqGHhyxj4FTNTeSxAe5H8k6rCoZPAc71vngh83zY",
+      "points": 1409,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "DNb2hsMrwcyAS9YeipXRgYS6DEppJQahcNTMM5dcYjJJ",
+      "signature": "4KBfdwSMVDDrqigKEhHnjruCynxTCpaP2B2DC1NeZpXe37eKjodcxeQtkoRCnGMXdtFJZCRGSmspSe4VRRbg5maA",
+      "points": 1409,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "3gNeUc5URGvZWtaCNiXXZ1gait8NSLb2VyDgxunECYtbYSwmf3BxuJt8FZhnsg3CtA3wp42XK6Lc8kFxX9a1nGKj",
+      "points": 1937,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "DNb2hsMrwcyAS9YeipXRgYS6DEppJQahcNTMM5dcYjJJ",
+      "signature": "5rcujFm8ye67Vg5yoDTgvnUAxtH1VAsJxW5Wv3eViDbgzef1wpzE58KfHUZN9upXK3B7apU9PDuAsx37onvh4Vjx",
+      "points": 1409,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "3j4vQYRPyqjTqczCL72FM8F2ZPgwW6jxneEv8Z1Vb4Up9NDsfGG6JwFR9T6h1tmPiye9Pc2B1dzLuM6HUa2Kjn8K",
+      "points": 3347,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "2crVNQXJtBRXwdjU6YidxMkGmSJCdqHmuoHVvQQk79SrkGtB9MrehpaYKydA8afakxtrnFmFF5nwYjq3EdCE9gr5",
+      "points": 1779,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "4gpjqxxcEuM2acgxEGi1TZRaB3qYsTckvr4XzD8qwoajPw8vbzDRrFz9owAoLaoPnhQ8vryB4BetVB9msPnuV3Lk",
+      "points": 1865,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "Fte2zHN1BsCoQ2L9yRNF2prGej4Ssj2hFRp4JMgzPpas",
+      "signature": "jqQCanqa6LCKNr1WQGj4kVU3ZLSuSr8En6qRgXmRkzbLAVe6i2WEadpMA1T3nXvAvMwYcHUfYXRen74JFQzfCMS",
+      "points": 2333,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "27ui1YKSCzFuMFUGRuaCauQv4zLnuapdfyngV44RznSUrLXEKn1DPazqNfWkpwLcMTnS3KjZVJj4zjyrGczc9xXq",
+      "points": 2540,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "3aiCQid1mw7cUSEQSmfENrhAq9UmBGiHshgMP8TgnDr7AhWPntqc5ZkZ8jyMRoSArn1QHVHa93X3xWQcNhd1prbJ",
+      "points": 3196,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "9KGVyuMWytj9VfE5kiJfGUMgvjN3z6xVyyH4WBPJFagK",
+      "signature": "nsHcMScmcwtYe6Xchnhgrh9jr3eXUQxCfxD6j8jJ6jyG4caRAWhoNjxJKF66ZmzgJYPwptK2iiCMd2dPakRCYL7",
+      "points": 3347,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "2MiZo9PE57Ro1M5Sq4oeW1A6S7F4RxeX3vp3465tbdJ4mWQx1kSLpM9s352yJizBqVKghY3DRim8EU276ciKSLse",
+      "points": 2309,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "2dTabNhauEfQMLDUaSsshYLjJHJPuTNWPyfzPPWgBJFf74N3TB7LHF5JgJDzQbvCU9nCzguf6K1gCCnCLMFu22Ax",
+      "points": 2389,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "DNb2hsMrwcyAS9YeipXRgYS6DEppJQahcNTMM5dcYjJJ",
+      "signature": "iBPNYgWBXctoWwGYotEZHj8b9cjQuFoqzz12SenEFhaCqBH4n4U2f48ufChPKmsC6Z3AaSXWtm9kmEF8r4RG22y",
+      "points": 1406,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "3opS4z9Mx8GYktwNHbt65dFhQzExAeiz1ZFxn52Jefpq",
+      "signature": "4LCh4HBxf2j3XjQPc3pG2ie6d8xbXGvN9M55gatvGVr2ijSLSYXZLJCaWFJKDeMx9CaFGuC4xgMLQCrQsfgVmKED",
+      "points": 1858,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "3Bjh9yQAobbUUoGdsKQkVPfR96a1F3BqMxJyyk9KYc5jwGoYYXr4dJ4zuVahmXGhJnDtXdGsprkvjxNGG6645K4g",
+      "points": 2002,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "9VgGiAkjMcbhMc94xV9KqBYbHiuJwM4iKJKfXCYubvJb",
+      "signature": "hckcgNEStV8AQCeKm9dkTHjemMDFZXem7bVUdMoqrZ1kWbBxj5Ygjvr8c3s91c5nz37DypPTgEJk35GAZL4Zmhr",
+      "points": 2075,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "DNb2hsMrwcyAS9YeipXRgYS6DEppJQahcNTMM5dcYjJJ",
+      "signature": "4TAb7sffoHZLhHrAXW5EbwcpGxcSmH8J6LT4jV9YRfYz4iok2auD7NZtorCETjik2co9dXhETvUXnuYCss5dW5xw",
+      "points": 1409,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "3Vvr4Dv879xwp2qbsCXbmULtTuEKJu9js7TFigb8FAbmiXFZuXRFzdYtEjw36Hwr3QHRZK552jwf487pYsu46seh",
+      "points": 1280,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "2HpetRcpyVyTyvkrkajydtmaKB44HS38HsVYpwR4TgQTNP6vqpcViB7aJpxWDLfmrXogi9Gz3m8EYNnyq6rYkVM2",
+      "points": 1543,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "DshT5ezVUVbGuiGTzsdhRrU529pWoU4fJCW4dQmzj8HQQkYhHYqwpYQGMPix15UDhyETfYfvxVjA2MCd7x8WD7W",
+      "points": 1546,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "F5eiodihQBWnWVaL61cJUtND52BW65vwF8XbroJMtk5v",
+      "signature": "4E6ZxRZgqxe9JVNo5vpBP4WhNmeCgXEQVvyhYMgEXDWN7hrjKgiDZNgC5GxKnvkL4qizpcSp4Uxk5h1ScJjJJeEo",
+      "points": 1546,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "13K514P9P4amP9myRHocgPeZF8KFfd9XVPsBrvAoiRuF",
+      "signature": "2eEMreYJkUFvjGZtEjGrMeyKCjG3ZqVoZ98jZkryueRMRY9nL4v6bUhGRxwc55nDNMCNeJc4CWDvpejgkx1nYi75",
+      "points": 1708,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "Gqs7Bxt5gBrH7RUygsbFLVybEQxUbdMkHZUbUCkF4ngV",
+      "signature": "2UWMssYPBS9T6ky6xmN9yMQqjwsgvVfRmNYWnxeD2ChasjUGU6o5RzWxFs259wtP6Y3yKW2pBEawk5e4EcuJwiY5",
+      "points": 704,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "Gqs7Bxt5gBrH7RUygsbFLVybEQxUbdMkHZUbUCkF4ngV",
+      "signature": "2crevF1J7SMzNVfG2HhNqkrun9QHfjhtqT1fqFVTpJeBHQPSXZ9DTZS4A9vYj6gkDw3idxnfJQyJ44HnNzEKBcC9",
+      "points": 1632,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "3p1BsyL6CRCyHrn7zzZcwrDkYLXLYUVhbitMC7GkPuXd",
+      "signature": "5qjBGznfzuAFwZZoA7Lw1zrdoMpfzvKqFpTNNVrJLyMtTLQjgWXPNeumPBGbFaLXdbybFLh51PRn5JLZqr2nFgfC",
+      "points": 1546,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    },
+    {
+      "signer": "7B7JMrC6ztkZ7HpsDZ6kbbaZiaiZoikzngXoMz9DZbRn",
+      "signature": "5vSJu8Ste2GvdnGUTWnjz8XzawVW3BzhrYZyjuHe1ya8TQpL8BYRbVfLcAUb6fzjcbeHFPpkX75T7T6SLKxbVmut",
+      "points": 2386,
+      "seed": "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL"
+    }
+  ]
+}
