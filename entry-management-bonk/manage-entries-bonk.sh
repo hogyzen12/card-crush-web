@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #We will also save the most recent transaction ID
-previous_transaction="5vSJu8Ste2GvdnGUTWnjz8XzawVW3BzhrYZyjuHe1ya8TQpL8BYRbVfLcAUb6fzjcbeHFPpkX75T7T6SLKxbVmut"
+previous_transaction="3eLWm6JqJdFdbVUPRiSKNJKjAKaLKfTcSsnN2e7WbM98uyn3a6S3jZfTYHSCsMV3UNiudrsvj6gL4KDbmFSaGuUQ"
 
 #Loop to check if balance has changed
 while true; do

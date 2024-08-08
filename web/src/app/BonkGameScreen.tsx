@@ -13,8 +13,6 @@ const deepCopyBoard = (originalBoard: number[][]): number[][] => {
   return originalBoard.map(row => [...row]);
 };
 
-const gridRows = 7;
-const gridCols = 7;
 const matchGifIndex = 42;
 const initialTurnLimit = 24;
 
@@ -59,13 +57,15 @@ const muteIcon = "assets/mute.png"
 const unmuteIcon = "assets/unmute.png"
 
 let currentSeed = "3oLQ3tFiwrD1w1FXU6j7hmHLyYv5suye5Ek9cCKYomNZHxhiDKprMSb3rU3UKRq9v3HMTmzjMVUg79Y5ygHtffkL";
+let gridRows = 6;
+let gridCols = gridRows;
+const initialGridSize = 6; // Define an initial grid size
 
-const generateBoardFromSeed = (currentSeed: string): number[][] => {
-  let board = Array.from({ length: gridRows }, () => Array(gridCols).fill(0));
-  for (let i = 0; i < gridRows; i++) {
-    for (let j = 0; j < gridCols; j++) {
-      //const seedChar = currentSeed[i * gridRows + j];
-      const seedChar = currentSeed[(i * gridRows + j) % currentSeed.length];
+const generateBoardFromSeed = (currentSeed: string, gridSize: number): number[][] => {
+  let board = Array.from({ length: gridSize }, () => Array(gridSize).fill(0));
+  for (let i = 0; i < gridSize; i++) {
+    for (let j = 0; j < gridSize; j++) {
+      const seedChar = currentSeed[(i * gridSize + j) % currentSeed.length];
       board[i][j] = seedChar.charCodeAt(0) % candyImages.length;
     }
   }
@@ -89,7 +89,7 @@ const showNotificationState = atom({
 
 const boardState = atom({
   key: 'boardState',
-  default: generateBoardFromSeed(currentSeed),
+  default: generateBoardFromSeed(currentSeed, initialGridSize),
 });
 
 const matchCountState = atom({
@@ -129,12 +129,17 @@ const currentSeedState = atom({
 
 const animationBoardState = atom({
   key: 'animationBoardState',
-  default: generateBoardFromSeed(currentSeed),
+  default: generateBoardFromSeed(currentSeed, initialGridSize),
 });
 
 const turnLimitState = atom({
   key: 'turnLimitState',
   default: initialTurnLimit,
+});
+
+const gridSizeState = atom({
+  key: 'gridSizeState',
+  default: 6,
 });
 
 export function BonkGameScreen() {
@@ -157,6 +162,7 @@ export function BonkGameScreen() {
   const [volume, setVolume] = useState(0.5);
   const [animateTurn, setAnimateTurn] = useState(false);
   const [animatePoints, setAnimatePoints] = useState(false);
+  const [gridSize, setGridSize] = useRecoilState(gridSizeState);
 
   useEffect(() => {
     if (animateTurn) {
@@ -207,6 +213,14 @@ export function BonkGameScreen() {
     }
   };
 
+  const calculateGridSize = (seed: string): number => {
+    let sum = 0;
+    for (let i = 0; i < seed.length; i++) {
+      sum += seed.charCodeAt(i);
+    }
+    return (sum % 6) + 6; // This will give a number between 6 and 11 (inclusive)
+  };
+
   useEffect(() => {
     if (turnCount >= turnLimit) {
       setShowNotification(true);
@@ -227,10 +241,14 @@ export function BonkGameScreen() {
         const data = await response.json();
         
         if (data && data.current_seed) {
-          setCurrentSeed(data.current_seed);
-          const newBoard = generateBoardFromSeed(data.current_seed);
+          //const newSeed = data.current_seed;
+          const newSeed = "2BKUoa91Q34SvoWLCYbs6HR9QpgsubD9ZWfJqJJhysHGTQjqaeLvtWSwFs7uGv7eGUek64YeHLMN7QFZjpGA7DSM";
+          setCurrentSeed(newSeed);
+          const newGridSize = calculateGridSize(newSeed);
+          setGridSize(newGridSize);
+          const newBoard = generateBoardFromSeed(newSeed, newGridSize);
           setBoard(newBoard);
-          setAnimationBoard(newBoard); // Initialize animation board
+          setAnimationBoard(newBoard);
         }
       } catch (error) {
         console.error('Error fetching current seed:', error);
@@ -238,17 +256,19 @@ export function BonkGameScreen() {
     };
 
     fetchCurrentSeed();
-  }, [setCurrentSeed, setBoard, setAnimationBoard]);
+  }, [setCurrentSeed, setBoard, setAnimationBoard, setGridSize]);
 
   const generateSeedBoard = () => {
-    const newBoard = generateBoardFromSeed(currentSeed);
+    const newGridSize = calculateGridSize(currentSeed);
+    setGridSize(newGridSize);
+    const newBoard = generateBoardFromSeed(currentSeed, newGridSize);
     setTransactionStatus('Idle')
     setBoard(newBoard);
     setAnimationBoard(newBoard);
     setMatchCount(0);
     setTurnCount(0);
     setMoves([]);
-    setTurnLimit(initialTurnLimit); // Reset turn limit to initial value
+    setTurnLimit(initialTurnLimit);
   };
 
   const getReplacementIndices = (matchedIndex: number): number[] => {
@@ -268,15 +288,12 @@ export function BonkGameScreen() {
 
     //bonk card - update row/column
     if (matchedType === 2) {
-      // Special rule for bonk.png (index 1)
       if (rowInc === 0) {
-        // Match in a row
-        for (let i = 0; i < gridCols; i++) {
+        for (let i = 0; i < gridSize; i++) {
           mutableBoard[row][i] = i;
         }
       } else {
-        // Match in a column
-        for (let i = 0; i < gridRows; i++) {
+        for (let i = 0; i < gridSize; i++) {
           mutableBoard[i][col] = i;
         }
       }
@@ -418,11 +435,11 @@ export function BonkGameScreen() {
       return replace;
     };
   
-    for (let row = 0; row < gridRows; row++) {
-      for (let col = 0; col < gridCols; col++) {
-        for (let len = gridCols; len >= 3; len--) {
-          if (col + len <= gridCols && matchAndReplace(row, col, 0, 1, len)) break;
-          if (row + len <= gridRows && matchAndReplace(row, col, 1, 0, len)) break;
+    for (let row = 0; row < gridSize; row++) {
+      for (let col = 0; col < gridSize; col++) {
+        for (let len = gridSize; len >= 3; len--) {
+          if (col + len <= gridSize && matchAndReplace(row, col, 0, 1, len)) break;
+          if (row + len <= gridSize && matchAndReplace(row, col, 1, 0, len)) break;
         }
       }
     }
